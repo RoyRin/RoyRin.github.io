@@ -6,12 +6,12 @@
 <title>Roy Rinberg</title>
 <style type="text/css">
 h4 {
-  text-indent: 50px;
+	text-indent: 50px;
 }
 .employment {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: small;
-  font-style: italic;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-style: italic;
 }
 </style>
 <link href="https://RoyRin.github.io/main-3.css" rel="stylesheet" type="text/css" />
@@ -31,11 +31,11 @@ Email: royrinberg (at)nyu.edu </em> </p>
     <p><br />
 </p></td>
   <td class="content" width="766"><h2>Education &amp; Employment:</h2>
-  <!--
+	<!--
   <h4>Academic Positions</h4>
     <blockquote>
       <blockquote>
-  
+	
         <p>      NSF Postdoc at Columbia University, 2015 - present.</p>
               </blockquote>
     </blockquote>
@@ -48,15 +48,15 @@ Email: royrinberg (at)nyu.edu </em> </p>
               </blockquote>
     </blockquote>
     <br />
-  
+	
       <h4>Other Employment</h4>
       <blockquote>
         <blockquote>
           
           <p class="employment"> </p>
           <blockquote>
-    <p> Physics Tutor for General Physics, Fall, 2017.</p>
-     <p> Computational Linguistics Research with Professor Bud Mishra. Under funds and housing from :Research+ and Dean's Undergraduate Research Fund (DURF) January 2017 - Present</p>
+		<p> Physics Tutor for General Physics, Fall, 2017.</p>
+		 <p> Computational Linguistics Research with Professor Bud Mishra. Under funds and housing from :Research+ and Dean's Undergraduate Research Fund (DURF) January 2017 - Present</p>
             <p> RIPS-HK:Research in Industrial Projects - Hong Kong
               Worked at ePropulsion and Hong Kong University for Science and Technology June–August 2016.</p>
             <p> HHMI, Janelia Farm, Scientific Computing June-August 2015 </p>
