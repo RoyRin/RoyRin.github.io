@@ -1,0 +1,226 @@
+/* ---------------------------------------------- */
+/* ---     LSE Econ PhD students template     --- */
+/* --- 	            First Draft               --- */
+/* ---         Alexander C. Lembcke           --- */
+/* ---------------------------------------------- */
+ 
+ html{
+	overflow-y: scroll;
+	overflow-x: auto;
+	height: 100%;
+}
+ 
+ 
+/* Body */
+body{
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	background-color: rgb(168,0,0); 
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+#outerwrapper{
+	width: 100%;
+	float: left;
+	border-bottom:7px white solid;
+	margin: 0px; padding: 0px 0px 10px 0px;
+	background-color: rgb(255,255,255);
+
+}
+
+#headwrapper{
+	background-color: rgb(168,0,0);
+	border-bottom:7px white solid;
+	float: left;
+	width: 100%;
+	height: 180px;
+	margin: 0px; padding: 0px;
+}
+
+/* Header */
+#header {
+	margin: 0px auto; padding: 0px;
+	height: 180px;
+	width: 740px;
+	background-color: rgb(168,0,0);
+}
+
+/* Header styles */
+
+#header #logo{
+	margin: 16px 35px 12px 0px; padding: 0px;
+	width: 80px;
+	height: 90px;
+	float: right;
+	
+}
+#header #logo #LSE {
+	text-align: center;
+	background-color: white;
+	color: black;
+	font: 3.3em/1.6em 'Lucida Sans Unicode', 'Lucida Grande', Verdana, sans-serif;
+	border: 5px black solid;
+	letter-spacing: -1.2px;
+	height: 70%;
+}
+#header #logo #econ {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font: 1.4em/1.7em 'Lucida Sans Unicode', 'Lucida Grande', Verdana, sans-serif;
+	letter-spacing: -1px;
+	height: 35%;
+}
+
+#header #affiliation {
+	margin: 0px 0px 19px 35px;
+	width: 79%;
+	clear: left;
+	float: left;
+	color: white;
+	font: 1.7em/1.5em bold Verdana, sans-serif;
+	text-align: left;
+}
+
+#header #name {
+	margin: 25px 0px 0px 35px;
+	clear: left;
+	float: left;
+	color: white;
+	letter-spacing: 1.3px;
+	font: bold 3em Verdana, sans-serif;
+}
+
+#header #navi {
+	text-align: center;
+	margin: 0px 0px 0px 15px;
+	clear: both;
+	width: 100%;
+	font: bold 1.5em/2.1em Helvetica, sans-serif;
+}
+
+#header #navi a {
+	text-decoration: none;
+}
+
+#header #navi a  #off{
+	color: white;
+	text-decoration: none;
+	background: rgb(168,0,0) url(../images/naviwhiteblack.gif) no-repeat center;
+	margin: 9px 16px 0px 16px;
+	padding: 0px 0px 0px 0px;
+	width: 110px;
+	height: 30px;
+	float: left;
+}
+
+#header #navi a  #on{
+	color: black;
+	text-decoration: none;
+	background: white url(../images/naviallwhite.gif) no-repeat center;
+	margin: 10px 16px 0px 16px;
+	padding: 0px 0px 0px 0px;
+	width: 110px;
+	height: 30px;
+	float: left;
+}
+
+/* Content */
+#maincontent{
+	margin: 0px auto; padding: 0px;
+	width: 740px;
+	letter-spacing: .7px;
+	font: 1.3em Verdana, Arial, Helvetica, sans-serif;
+}
+
+#maincontent a{
+	color: rgb(168,0,0);
+	text-decoration: underline;
+	background: none;
+}
+
+#maincontent #onecol{
+	float: left;
+	margin: 25px 25px 25px 25px;
+	text-align: left;
+}
+
+#maincontent #twocolleft{
+	float: left;
+	text-align: left;
+	margin: 25px 25px 25px 25px;
+}
+
+#maincontent #twocolright{
+	width: 54%;
+	float: right;
+	text-align: left;
+	margin: 25px 25px 25px 25px;
+}
+
+#maincontent #contact{
+	margin: 5px 0px 0px 0px;
+}
+
+#maincontent #subheader{
+	color: black;
+	font: 1.5em Georgia, serif;
+	letter-spacing: 1px;
+	border-bottom: 2px solid grey;
+	padding: 18px 0px 3px 0px;
+	margin: 5px 0px 4px -7px;
+}
+#maincontent #subsubheader{
+	color: black;
+	font: 1.1em Georgia, serif;	
+	padding: 0px 0px 3px 0px;
+	margin: 17px 0px 1px -4px;
+}
+
+#maincontent #twocolright #subsubheader{
+	border-bottom: 1px solid grey;
+}
+
+#maincontent #twocolleft #portrait{
+	max-width:240px;
+	width: expression(this.width > 240px ? 240px: true);
+	margin: 0px auto;
+}
+
+#maincontent #onecol #pubTitle {
+	font-style: oblique;
+}
+#maincontent #onecol #pubAuthor {
+	margin: 10px 0px 0px 0px;
+	font-weight: 700;
+}
+
+#maincontent #onecol img{
+	display: block;
+	max-width:680px;
+	width: expression(this.width > 680 ? 680: true);
+}
+
+#maincontent #paperlink{
+	border-bottom: 1px solid rgb(255,200,200);
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;	
+}
+
+#maincontent #respform{
+	padding: 7px 0px;
+}
+
+/* Foot */
+#fooder {	
+	height: 48px;
+	padding: 0px;
+	margin: 0px auto;
+	width: 740px;
+	background-color: rgb(168,0,0);
+	font: 1.3em/1.6em 'Trebuchet MS', Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: white;
+}
