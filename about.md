@@ -7,8 +7,10 @@ permalink: /about/
 <!-- For figuring out captions may be worth looking into this link
 https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
 -->
-### **High-level outline**
-I am a computer-scientist/software-engineer/curious-person. I graduated from NYU with a degree in Physics and Computer Science and a minor in Math in 2018. I worked at [Ouster] as a software engineer, first as an intern and then as a full-time employee, until July 2021. I'm now attending Columbia University where I'll be trying to study the intersection of computer science and society, from a highly technical perspective. While it's a somewhat hard pivot, I'm interested in moving into privacy, decentralization, and computer-science mechanisms that embed human values like recourse, fairness, and (possibly) interpretability.
+### **Who am I? (at a high-level)**
+I'm a computer-scientist/software-engineer/generally-curious-person. I generally associate with effective altruism ideas, but lately I've been trying to actually make them into effective altruism actions. 
+
+I graduated from NYU with a degree in Physics and Computer Science and a minor in Math in 2018. I worked at [Ouster] as a software engineer, first as an intern and then as a full-time employee, until July 2021. I'm now attending Columbia University where I'll be trying to study the intersection of computer science and society, from a highly technical perspective. While it's a somewhat hard pivot, I'm interested in moving into privacy, decentralization, and computer-science mechanisms that embed human values like recourse, fairness, and (possibly) interpretability.
 
 
 I'm a big proponent of [learning in public] and I intend to use this website as a platform for fleshing out my own ideas, while also giving you an idea of what it's like inside my brain. 
@@ -23,22 +25,23 @@ In my time at Columbia I aim to explore a key hypothesis that I've been developi
 there are very few technical problems in the world. I intend to blog about this more regularly, so if you find this underwhelming, stay tuned, I'll be blogging and expressing my thoughts more regularly.
 
 I intend to use my time at Columbia to do 3 things:
-1. become a better (software) engineer, specifically taking a few more systems engineering courses, and then also learning more data-science and machine learning (oooo jazz hands ooo).
-2. explore research specifically in privacy 
-3. Perhaps most orthogonal to what a CS masters is traditionally supposed to get you... I aim to explore working on tech policy. I aim to work with professors and students at the Columbia Policy school, the Columbia Law School, and orgs like the Knight First Amendment Institute. I want to build connections and learn how I can leverage my highly technical background to work on tech policy.
+1. Become a better (software) engineer, specifically taking a few more systems engineering courses, and then also learning more data-science and machine learning (*oOoOo jazz hands oOOooO*).
+2. Explore academic research, specifically in privacy and potentially also law. If not that, then looking at transparency tools for algorithmic decision making systems, measuring things like recourse, interpretability, and robustness.
+3. (Perhaps most orthogonal to what a CS masters is traditionally supposed to get you...) Explore working on tech policy. I aim to work with professors and students at the Columbia Policy school, the Columbia Law School, and orgs like the Knight First Amendment Institute. I want to build connections and learn how I can leverage my highly technical background to work on tech policy.
 
-*Potential outcomes:*
+*Potential outcomes I forsee at the end of my experiment:*
 
 1. software engineer: ideally in a role related to privacy, fairness, or possibly even security
 2. doing a PhD. In particular at a place that focuses either on the intersection of CS and the law, or econ and CS. I have a pretty in-depth list, so if this interests you, feel free to reach out.
 3. a tech policy adviser: possibly in a think tank like RAND, Open Phil Tech Fellow, or Aspen Fellowship.
 
+Note to myself (and to you): I intend to further write out potential plans that could be fleshed out here.
+
 ### **My hobbies:**
 1. Climbing
-2. reading (or honestly, listening)
-3. hanging out with my friends
-4. I'd like to write more, so... an aspirational hobby is writing
-5. Frisbee
+2. reading (or honestly, listening to audiobooks). Here's my [goodreads](https://www.goodreads.com/user/show/68424670-roy).
+3. I'd like to write more, so... an aspirational hobby is writing
+4. Frisbee
 
 
 
