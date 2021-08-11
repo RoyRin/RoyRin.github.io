@@ -18,12 +18,12 @@ I wanted to applied to academic programs, but didn't know a lot about what diffe
 ## **2018** 
 ### Raspberry PI IOT : smart home project
 
-To truly embrace living in NYC, I rented an apartment where my room did not have a window. I quickly realized that I hated this (obviously), and in order to cope, I made my Raspberry Pi control my sound and lights system to mimic the sun. Here is a [Write-up]({{ site.url }}/assets/rpi/RaspberryPiLights.pdf) of my project! 
+To truly embrace living in NYC, I rented an apartment where my room did not have a window. I quickly realized that I hated this (obviously), and in order to cope, I made my Raspberry Pi control my sound and lights system to mimic the sun. Here is a [Write-up](/assets/rpi/RaspberryPiLights.pdf) of my project! 
 
 ## **2017** 
 ### Linguistics: Semantics Review paper on Natural Logic in Natural Language Inference (NLI)
 
-For a graduate course Semantics course (with professor Anna Szabolsci) I wrote a review paper of the use of Natural Logic in Natural Language Inference (NLI). Here's [my review paper]({{ site.url }}/assets/projects/Rinberg_Natural_Logic_in_Natural_Language_Inferences.pdf) and [my presentation]({{ site.url }}/assets/projects/Natural_Logic_present2.pdf).
+For a graduate course Semantics course (with professor Anna Szabolsci) I wrote a review paper of the use of Natural Logic in Natural Language Inference (NLI). Here's [my review paper](/assets/projects/Rinberg_Natural_Logic_in_Natural_Language_Inferences.pdf) and [my presentation](/assets/projects/Natural_Logic_present2.pdf).
 
 ### Physics Simulations:
 
@@ -38,28 +38,28 @@ Here's a brief sampling of some art I've made in my life:
 
 <table>
   <tr>
-    <td><img src='{{ site.url }}/assets/ART/Colors3.jpg' width=270 >
+    <td><img src='/assets/ART/Colors3.jpg' width=270 >
         <figcaption>Crayons, a heat gun, and a lazy afternoon.</figcaption>
     </td>
-          <td><img src='{{ site.url }}/assets/ART/geometerscrayon2.jpg' width=270 >
+          <td><img src='/assets/ART/geometerscrayon2.jpg' width=270 >
         <figcaption>another day, another crayon.</figcaption>        
         </td>
   </tr>
 
    <tr>
-    <td><img src='{{ site.url }}/assets/ART/AllMetalSmithing1.jpg'  width=270 >
+    <td><img src='/assets/ART/AllMetalSmithing1.jpg'  width=270 >
       <figcaption>A highlight of my favorite metalsmithing.</figcaption>
     </td>
-    <td><img src='{{ site.url }}/assets/ART/candlesnuffer2.jpg' width=270 >
+    <td><img src='/assets/ART/candlesnuffer2.jpg' width=270 >
     <figcaption>A zoom into my favorite piece of art I've made : the ever practical Candle-Snuffer.</figcaption>
     </td>
   </tr>
 
   <tr>
-    <td><img src='{{ site.url }}/assets/ART/Conversation3.jpg'  width=270>
+    <td><img src='/assets/ART/Conversation3.jpg'  width=270>
         <figcaption>This was once featured in a gallery, but only because I snuck it into the gallery.</figcaption>
     </td>
-    <td><img src='{{ site.url }}/assets/ART/NYC.jpg' width=270 >
+    <td><img src='/assets/ART/NYC.jpg' width=270 >
       <figcaption> The first piece of art I made, actually. </figcaption>
     </td>
 
@@ -78,7 +78,7 @@ this style found in https://stackoverflow.com/questions/17677094/jekyll-for-loop
 
 
 Or I could just put the images side by side, without the table
-![metalsmithing]({{ site.url }}/assets/ART/AllMetalSmithing1.jpg){: width="250" }![metalsmithing]({{ site.url }}/assets/ART/AllMetalSmithing1.jpg){: width="250" }![metalsmithing]({{ site.url }}/assets/ART/AllMetalSmithing1.jpg){: width="250" }
+![metalsmithing](/assets/ART/AllMetalSmithing1.jpg){: width="250" }![metalsmithing](/assets/ART/AllMetalSmithing1.jpg){: width="250" }![metalsmithing](/assets/ART/AllMetalSmithing1.jpg){: width="250" }
 
 
 There's also some promise here :
