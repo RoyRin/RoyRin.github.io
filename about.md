@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-![Me_circa_2019]({{ site.url }}/assets/profile_pic.jpg){: width="250" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
+![Me_circa_2019](/assets/profile_pic.jpg){: width="250" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
 <!-- For figuring out captions may be worth looking into this link
 https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
 -->
