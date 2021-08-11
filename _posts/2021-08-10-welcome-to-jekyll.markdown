@@ -1,29 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to my Blog!"
 date:   2021-08-10 22:55:31 -0700
-categories: jekyll update
+categories: meta blogging
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+This is my first post on this personal site. I'm a big proponent of [learning in public] and I intend to use this website as a platform for fleshing out my own ideas, while also giving you an idea of what it's like inside my brain. 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Goals for this week
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+1. Have a fully functioning Jekyll blog, with some images in it, and have it hosted on www.royrinberg.com
+2. Write a short post on 1. a summary of my time at Ouster 2. what am I trying to get out from Columbia
+3. set up a joint medium + personal blog structure using Jekyll - following this structure : https://jonbake.com/blog/2019/08/02/creating-a-hybrid-jekyll-medium-blog.html
+4. link my CV + SWE resume 
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[learning in public]:  https://www.swyx.io/learn-in-public/ 
