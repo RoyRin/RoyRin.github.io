@@ -18,21 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: What's the matter with Roy
+title: What's the Matter with Roy?
 email: royrinberg+pw@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Roy Rinberg's personal website. Updated somewhat regulalry.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "www.royrin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: RoyRinberg
 github_username:  RoyRin
+linkedin_username: roy-rinberg-56a78b123
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: "assets/ART"
+    values:
+      image: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
