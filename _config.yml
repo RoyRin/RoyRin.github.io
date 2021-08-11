@@ -29,10 +29,15 @@ twitter_username: RoyRinberg
 github_username:  RoyRin
 linkedin_username: roy-rinberg-56a78b123
 
-# Build settings
-theme: minima
+# Build settings 
+# using different themes https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+theme: Minima  # remote_theme: 
+#theme: minimal-mistakes-jekyll
+
+
 plugins:
   - jekyll-feed
+#  - jekyll-include-cache # testing this theme out
 
 defaults:
   - scope:

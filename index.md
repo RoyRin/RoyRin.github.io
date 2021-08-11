@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
 ---
 
 Welcome to my site. I'm Roy Rinberg. 
