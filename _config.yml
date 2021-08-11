@@ -33,7 +33,11 @@ linkedin_username: roy-rinberg-56a78b123
 # using different themes https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 theme: Minima  # remote_theme: 
 #theme: minimal-mistakes-jekyll
-
+# links to figuring out themes:
+# how to add :https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+# supported themes: https://pages.github.com/themes/
+# https://github.com/mmistakes/minimal-mistakes
+# https://jekyllrb.com/docs/themes/
 
 plugins:
   - jekyll-feed
