@@ -31,7 +31,7 @@ linkedin_username: roy-rinberg-56a78b123
 
 # Build settings 
 # using different themes https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-theme: Minima  # remote_theme: 
+theme: minima 
 #theme: minimal-mistakes-jekyll
 # links to figuring out themes:
 # how to add :https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
