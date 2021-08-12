@@ -3,14 +3,36 @@ layout: default
 title: Blog
 ---
 <h1>Latest Posts</h1>
+<!--
+  Medium styling was taken from : https://jonbake.com/blog/2019/08/02/creating-a-hybrid-jekyll-medium-blog.html 
+  and also his website : https://github.com/jonmbake/jonbake.com
+-->
 
-<ul>
+<div class="posts">
+  {% for post in site.posts %}
+    <div class="post {% if post.layout == 'medium' %}medium{% endif %}">
+        <h3><a href="{% if post.layout == 'medium' %}{{ post.medium_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}">{{ post.title }}</a></h3>
+        <div>
+          <time>{{ post.date | date_to_string | upcase }} </time>{% include post-tags.html %}
+          <small>{{ post.excerpt }}</small>
+        </div>
+      </div>
+  {% endfor %}
+</div>
+
+
+
+<!--
+
+
+  <ul>
   {% for post in site.posts %}
     {% if post.layout == 'medium' %}
     <li>
       <h3> <a href="{{ post.medium_url }}"> {{ post.title }}</a> </h3>
       <em>{{ post.date | date_to_string }}</em>
       {{ post.excerpt }}
+      
     </li>
     {% else %}
     <li>
@@ -25,3 +47,4 @@ title: Blog
 
 
 
+-->

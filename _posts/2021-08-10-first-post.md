@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My first post and my plans for this blog"
+title:  "Learning in public + goals for this website"
 date:   2021-08-10 22:55:31 -0700
 categories: meta blogging
 author: Roy Rinberg
