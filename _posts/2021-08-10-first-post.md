@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning in public + goals for this website"
+title:  "Goals for this Website & Learning in Public  "
 date:   2021-08-10 22:55:31 -0700
 categories: meta blogging
 author: Roy Rinberg
