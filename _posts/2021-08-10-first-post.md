@@ -18,7 +18,6 @@ This is my first post on this personal site. I'm a big proponent of [learning in
 
 ## accomplished goals:
 1. Have a fully functioning Jekyll blog, with some images in it, and
-
 4. link my CV + SWE resume 
  
 [learning in public]:  https://www.swyx.io/learn-in-public/ 

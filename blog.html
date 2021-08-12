@@ -6,9 +6,22 @@ title: Blog
 
 <ul>
   {% for post in site.posts %}
+    {% if post.layout == 'medium' %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h3> <a href="{{ post.medium_url }}"> {{ post.title }}</a> </h3>
+      <em>{{ post.date | date_to_string }}</em>
       {{ post.excerpt }}
     </li>
-  {% endfor %}
+    {% else %}
+    <li>
+      <h3> <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a> </h3>
+     <em>{{ post.date | date_to_string }}</em>
+     {{ post.excerpt }}
+    </li>
+  {% endif %}
+{% endfor %}
+
 </ul>
+
+
+
