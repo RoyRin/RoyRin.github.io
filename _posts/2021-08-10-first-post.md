@@ -10,11 +10,15 @@ This is my first post on this personal site. I'm a big proponent of [learning in
 
 ## Goals for this week
 
-1. Have a fully functioning Jekyll blog, with some images in it, and have it hosted on www.royrinberg.com
+2. have it hosted on www.royrinberg.com
 2. Write a short post on 1. a summary of my time at Ouster 2. what am I trying to get out from Columbia
 3. set up a joint medium + personal blog structure using Jekyll - following this structure : https://jonbake.com/blog/2019/08/02/creating-a-hybrid-jekyll-medium-blog.html
-4. link my CV + SWE resume 
 5. add gooodreads widget: https://www.goodreads.com/user/edit?tab=widgets
 
 
+## accomplished goals:
+1. Have a fully functioning Jekyll blog, with some images in it, and
+
+4. link my CV + SWE resume 
+ 
 [learning in public]:  https://www.swyx.io/learn-in-public/ 

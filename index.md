@@ -5,6 +5,8 @@
 layout: default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
 ---
 
+![Me_circa_2019]({{site.url}}/assets/profile_pic.jpg){: width="150" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
 Welcome to my site. I'm Roy Rinberg. 
 
 I'm a software engineer and computer scientist interested in ways to use technology for positive social change - most recently, I'm interested in privacy technology.
