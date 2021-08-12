@@ -7,6 +7,7 @@ author: Roy Rinberg
 ---
 
 This is my first post on this personal site. I'm a big proponent of [learning in public] and I intend to use this site as a platform for fleshing out my own ideas. At the same time, it might give you an idea of what it's like inside my brain (if you happen to be curious).
+
 ## Goals for this week
 
 2. have it hosted on www.royrinberg.com
