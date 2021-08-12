@@ -5,7 +5,7 @@ permalink: /personal/
 ---
 # **Personal Projects!**
 ## **2020**
-### Arxiv Crawler
+### [Arxiv Crawler](https://github.com/RoyRin/arxiv_connections)
 
 I wanted to applied to academic programs, but didn't know a lot about what different academics do, and who is related to whom. So I wrote a basic crawler to scrape arxiv and interactively visualize related authors. Here is the [github link](https://github.com/RoyRin/arxiv_connections).
 
@@ -29,7 +29,7 @@ For a graduate course Semantics course (with professor Anna Szabolsci) I wrote a
 
 As part of my physics education, I would regularly make CS simulations of physics problems, some of which can be found on my [github](https://github.com/RoyRin/Computational_Physics_2016).
 
-{% include image.html img="assets/projects/simulations/planets5_center_adjusted.gif" title="" caption="note: energy is in fact conserved"  width = "500" %}
+{% include image.html img="assets/projects/simulations/planets5_center_adjusted.gif" title="" caption="note: energy is, in fact, conserved"  width = "500" %}
 
 # **Art!**
 
@@ -37,6 +37,15 @@ Here's a brief sampling of some art I've made in my life:
 
 
 <table>
+  <tr>
+    <td><img src='{{site.url}}/assets/ART/Conversation3.jpg'  width=270>
+        <figcaption>This was once featured in a gallery, but only because I snuck it into the gallery.</figcaption>
+    </td>
+    <td><img src='{{site.url}}/assets/ART/NYC.jpg' width=270 >
+      <figcaption> The first piece of art I made, actually. </figcaption>
+    </td>
+  </tr>
+  
   <tr>
     <td><img src='{{site.url}}/assets/ART/Colors3.jpg' width=270 >
         <figcaption>Crayons, a heat gun, and a sunday afternoon.</figcaption>
@@ -55,15 +64,7 @@ Here's a brief sampling of some art I've made in my life:
     </td>
   </tr>
 
-  <tr>
-    <td><img src='{{site.url}}/assets/ART/Conversation3.jpg'  width=270>
-        <figcaption>This was once featured in a gallery, but only because I snuck it into the gallery.</figcaption>
-    </td>
-    <td><img src='{{site.url}}/assets/ART/NYC.jpg' width=270 >
-      <figcaption> The first piece of art I made, actually. </figcaption>
-    </td>
 
-  </tr>
 </table>
 
 
