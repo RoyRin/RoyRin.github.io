@@ -8,9 +8,9 @@ permalink: /about/
 https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
 -->
 ### **Who am I? (at a high-level)**
-I'm a computer-scientist/software-engineer/generally-curious-person. I generally associate with effective altruism ideas, but lately I've been trying to actually make them into effective altruism actions. 
+I'm a computer-scientist/software-engineer/generally-curious-person. I generally align with [effective-altruism](https://www.effectivealtruism.org/) ideas, but lately I've been trying to actually make them into effective altruism actions. 
 
-I graduated from NYU with a degree in Physics and Computer Science and a minor in Math in 2018. I worked at [Ouster] as a software engineer, first as an intern and then as a full-time employee, until July 2021. I'm now attending Columbia University where I'll be trying to study the intersection of computer science and society, from a highly technical perspective. While it's a somewhat hard pivot, I'm interested in moving into privacy, decentralization, and computer-science mechanisms that embed human values like recourse, fairness, and (possibly) interpretability.
+I graduated from NYU with a degree in Physics and Computer Science and a minor in Math in 2018. I worked at [Ouster] as a software engineer, first as an intern and then as a full-time employee, until July 2021. I'm now attending Columbia University where I'll be trying to study the intersection of computer science and society, from a highly technical perspective. While it's somewhat of a hard-pivot, I'm interested in moving into privacy, decentralization, and computer-science mechanisms that embed human values like recourse, fairness, and (possibly) interpretability.
 
 
 I'm a big proponent of [learning in public] and I intend to use this website as a platform for fleshing out my own ideas, while also giving you an idea of what it's like inside my brain. 

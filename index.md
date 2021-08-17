@@ -14,6 +14,6 @@ I'm a software engineer and computer scientist interested in ways to use technol
 
 *My current thoughts mostly revolve around:*
 
-1. The intersection of technology and tech-policy. In particular, 1. how can make better ways for people to "hedge" doing something good for the world in the space of civic-tech, while also building general career capital. And 2. what are problems in the world which require truly technical solutions (are there any?).
+1. The intersection of technology and tech-policy. In particular, 1. how can we make better ways for people to "hedge" doing something good for the world (in the space of civic-tech), while also building general [career capital](https://80000hours.org/career-guide/career-capital/). 2. What are problems in the world which require truly technical solutions (*are there any?*).
 2. How to *effectively* engage with the Effective Altruism community
 3. Climbing
