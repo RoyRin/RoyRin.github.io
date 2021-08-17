@@ -18,12 +18,12 @@ I wanted to applied to academic programs, but didn't know a lot about what diffe
 ## **2018** 
 ### Raspberry PI IOT : smart home project
 
-To truly embrace living in NYC, I rented an apartment where my room did not have a window. I quickly realized that I hated this (obviously), and in order to cope, I made my Raspberry Pi control my sound and lights system to mimic the sun. Here is a [Write-up]({{site.url}}/assets/rpi/RaspberryPiLights.pdf) of my project.
+To truly embrace living in NYC, I rented an apartment where my room did not have a window. I quickly realized that I hated this (obviously), and in order to cope, I made my Raspberry Pi control my sound and lights system to mimic the sun. Here is a [Write-up]({{site.url}}/assets/projects/rpi/RaspberryPiLights.pdf) of my project.
 
 ## **2017** 
 ### Semantics Review paper
 
-For a graduate course Semantics course (with professor Anna Szabolsci) I wrote a review paper of the use of Natural Logic in Natural Language Inference (NLI). Here's [my review paper]({{site.url}}/assets/projects/Rinberg_Natural_Logic_in_Natural_Language_Inferences.pdf) and [my presentation]({{site.url}}/assets/projects/Natural_Logic_present2.pdf).
+For a graduate course Semantics course (with professor Anna Szabolsci) I wrote a review paper of the use of Natural Logic in Natural Language Inference (NLI). Here's [my review paper]({{site.url}}/assets/projects/semantics_2017/Rinberg_Natural_Logic_in_Natural_Language_Inferences.pdf) and [my presentation]({{site.url}}/assets/projects/semantics_2017/Natural_Logic_present2.pdf).
 
 ### Physics Simulations:
 
