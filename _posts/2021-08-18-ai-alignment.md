@@ -7,6 +7,7 @@ author: Roy Rinberg
 ---
 
 While I'm not personally working on AI-alignment, I think it's likely pretty important, and want to help increase the knowledge-base around it and access-to-information about it. This post is largely a resource list based on conversations I've had with friends interestd in AI alignment or from personal readsings on AI alignment.
+
 ## What is AI-alignment:
 
 One day we will transfer control of important applications. If you can imagine that these AI could be  as intelligent as human beings, but with none of the cultural, ethical, moral, or biological constraints that other humans have, it's fairly easy to imagine that these AI's goals may be drastically different from our own. AI-alignment is challenge of trying to align the goals of AI agents with the goals of humans, while (or before) we still have a moderate understanding of how they work, and good control over what they work on. 
