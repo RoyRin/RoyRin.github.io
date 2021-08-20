@@ -1,21 +1,5 @@
 <!-- Taken from https://github.com/allejo/jekyll-toc (HEAD) on Aug 19, 2021 -->
-<!--
 
-    Sidebar work is being done in 2 places:
-    1. here +  referenced in post.html
-        <nav class="toc" markdown="1">
-        <b>Table of Contents</b>
-        {% include table_of_contents.html html=content %}
-        </nav> 
-    3. alternatively this is done through CSS following htis style :https://github.com/jwrr/minima-sidebar
-        and this is in main.scss, and on the actual post (in markdown)
-            <nav class="toc" style = "margin-bottom: 0;" markdown="1">
-            **Table of Contents**
-
-            * TOC
-            {:toc}
-            </nav>
-    -->
 {% capture tocWorkspace %}
     {% comment %}
         Copyright (c) 2017 Vladimir "allejo" Jimenez
@@ -97,7 +81,7 @@
     {% assign currLevel = 0 %}
     {% assign lastLevel = 0 %}
 
-    {% capture listModifier %}{% if orderedList %}ol{% else %}ul{% endif %}{% endcapture %}
+    {% capture listModifier %}{% if orderedList %}ol{% else %}ol{% endif %}{% endcapture %}
 
     {% for node in nodes %}
         {% if node == "" %}
