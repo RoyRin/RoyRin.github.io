@@ -6,6 +6,14 @@ categories: AI alignment EA effective-altruism
 author: Roy Rinberg
 ---
 
+<nav class="toc" style = "margin-bottom: 0;" markdown="1">
+**Table of Contents**
+
+* TOC
+{:toc}
+</nav>
+
+
 While I'm not personally working on AI-alignment, I think it's likely pretty important, and want to help increase the knowledge-base around it and access-to-information about it. This post is a short resource list based on personal readings and conversations I've had with friends interested in AI alignment.
 
 ## At a high-level, what is AI-alignment:
