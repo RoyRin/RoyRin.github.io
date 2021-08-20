@@ -11,7 +11,7 @@ permalink: /professional/
 
 
 ## Academic Papers
-* [Creolizing the Web](https://arxiv.org/abs/2102.12382)
+* A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra: “Creolizing the Web”, 2021; [http://arxiv.org/abs/2102.12382 arXiv:2102.12382](https://arxiv.org/abs/2102.12382).
 
 ## Articles
 * [Jell-O Brains and DNA: High School Students Launch Innovative STEM Program](https://blogs.scientificamerican.com/budding-scientist/jell-o-brains-and-dna-high-school-students-launch-innovative-stem-program/)
