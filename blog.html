@@ -2,7 +2,7 @@
 layout: index
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h1><b>Latest Posts</b></h1>
 <!--
   Medium styling was taken from : https://jonbake.com/blog/2019/08/02/creating-a-hybrid-jekyll-medium-blog.html 
   and also his website : https://github.com/jonmbake/jonbake.com
@@ -19,31 +19,3 @@ title: Blog
   {% endfor %}
 </div>
 
-
-
-<!--
-
-
-  <ul>
-  {% for post in site.posts %}
-    {% if post.layout == 'medium' %}
-    <li>
-      <h3> <a href="{{ post.medium_url }}"> {{ post.title }}</a> </h3>
-      <em>{{ post.date | date_to_string }}</em>
-      {{ post.excerpt }}
-      
-    </li>
-    {% else %}
-    <li>
-      <h3> <a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a> </h3>
-     <em>{{ post.date | date_to_string }}</em>
-     {{ post.excerpt }}
-    </li>
-  {% endif %}
-{% endfor %}
-
-</ul>
-
-
-
--->

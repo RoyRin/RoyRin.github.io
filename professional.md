@@ -3,6 +3,7 @@ layout: index
 title: Professional Information
 permalink: /professional/
 ---
+# **Professional Information**
 ## Interviewing and Recruiting
 
 * Here is my [CV]({{site.url}}/assets/resume/CV_grad_v1_5.pdf) 

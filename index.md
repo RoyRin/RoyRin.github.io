@@ -1,16 +1,18 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Home
-layout: index # default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
+layout: default #index # default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
+permalink: /
 ---
 
 ![Me_circa_2019]({{site.url}}/assets/profile_pic.jpg){: width="150" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 Welcome to my site. I'm Roy Rinberg. 
 
-I'm a software engineer and computer scientist interested in ways to use technology for positive social change - most recently, I'm interested in privacy technology.
 
+
+
+I'm a software engineer and computer scientist interested in ways to use technology for positive social change - most recently, I'm interested in <span class="spoiler"> privacy technology </span>.
 
 *My current thoughts mostly revolve around:*
 
