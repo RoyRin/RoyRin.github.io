@@ -17,7 +17,7 @@ This is my first post on this personal site. I'm a big proponent of [learning in
 - [x] Add ability for [comments](https://utteranc.es/).
 - [x] Add a sidebar on each post that will show the table of contents, like this [site](https://os.phil-opp.com/freestanding-rust-binary/)
 - [ ] Potentially add goodreads widget: [link](https://www.goodreads.com/user/edit?tab=widgets)
-
+- [ ] Consider making this app a [PWA](https://fredrickb.com/2019/07/25/turning-jekyll-site-into-a-progressive-web-app/).
  
 [learning in public]:  https://www.swyx.io/learn-in-public/ 
 
