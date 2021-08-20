@@ -1,8 +1,8 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
+title: Home
+layout: index # default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
 ---
 
 ![Me_circa_2019]({{site.url}}/assets/profile_pic.jpg){: width="150" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}

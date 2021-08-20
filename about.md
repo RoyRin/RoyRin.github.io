@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: index # point to the ###.html format
 title: About
-permalink: /about/
 ---
 ![Me_circa_2019]({{site.url}}/assets/profile_pic.jpg){: width="250" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
 <!-- For figuring out captions may be worth looking into this link

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Professional Information
 permalink: /professional/
 ---
