@@ -6,14 +6,6 @@ categories: meta blogging learning
 author: Roy Rinberg
 ---
 
-<nav class="toc" style = "margin-bottom: 0;" markdown="1">
-**Table of Contents**
-
-* TOC
-{:toc}
-</nav>
-
-
 This is my first post on this personal site. I'm a big proponent of [learning in public] and I intend to use this site as a platform for fleshing out my own ideas. At the same time, it might give you an idea of what it's like inside my brain (if you happen to be curious).
 
 

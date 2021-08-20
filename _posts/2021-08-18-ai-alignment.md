@@ -6,21 +6,13 @@ categories: AI alignment EA effective-altruism
 author: Roy Rinberg
 ---
 
-<nav class="toc" style = "margin-bottom: 0;" markdown="1">
-**Table of Contents**
-
-* TOC
-{:toc}
-</nav>
-
-
 While I'm not personally working on AI-alignment, I think it's likely pretty important, and want to help increase the knowledge-base around it and access-to-information about it. This post is a short resource list based on personal readings and conversations I've had with friends interested in AI alignment.
 
-## At a high-level, what is AI-alignment:
+## At a high-level, what is AI-alignment
 
 One day we will likely transfer control of important applications. If you can imagine that these AI could be  as intelligent as human beings, but lack the cultural, ethical, moral, or biological constraints that other humans have, it's fairly easy to imagine that these AI's goals may be drastically different from our own. AI-alignment is the challenge of trying to align the goals of AI agents with the goals of humans. In particular, this challenge focuses on doing so while we still have a moderate understanding of how they work, and good control over what they work on. 
 
-## A quick example of an AI-alignment challenge:
+## A quick example of an AI-alignment challenge
 
 The most common introduction to problems in AI alignment is the [paperclip maximizer](https://www.lesswrong.com/tag/paperclip-maximizer). This relates to [Instrumental Convergence](https://en.wikipedia.org/wiki/Instrumental_convergence), where an intelligent actor is given a straightforward goal, but may act in surprising or harmful ways. 
 
