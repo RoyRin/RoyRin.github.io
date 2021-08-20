@@ -4,11 +4,15 @@
 layout: default #index # default # home <- I don't love the home layout, but I'm leaving it here in case I change my mind
 permalink: /
 ---
+<title> Roy Rinberg </title>
+<meta name="description" content="Roy Rinberg's Blog and personal website. 
+    Contains personal writings, 
+    personal projects, 
+    and professional information">
 
 ![Me_circa_2019]({{site.url}}/assets/profile_pic.jpg){: width="150" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 Welcome to my site. I'm Roy Rinberg. 
-
 
 
 
