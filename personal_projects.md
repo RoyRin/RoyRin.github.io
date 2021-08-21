@@ -4,6 +4,14 @@ title: Personal Projects
 permalink: /personal/
 ---
 # **Personal Projects!**
+
+<nav class="toc" style = "margin-bottom: 0;" markdown="1">
+**Table of Contents**
+* TOC
+{:toc}
+
+</nav>
+
 ## **2020**
 ### Arxiv Crawler
 
