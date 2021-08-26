@@ -26,7 +26,7 @@ I wanted to applied to academic programs, but didn't know a lot about what diffe
 ## **2018** 
 ### Raspberry PI IOT : smart home project
 
-To truly embrace living in NYC, I rented an apartment where my room did not have a window. I quickly realized that I hated this (obviously), and in order to cope, I made my Raspberry Pi control my sound and lights system to mimic the sun. Here is a [Write-up]({{site.url}}/assets/projects/rpi/RaspberryPiLights.pdf) of my project.
+To truly embrace living in NYC, I rented an apartment where my room did not have a window. I quickly realized that I hated this (obviously), and in order to cope, I made my Raspberry Pi control my sound and lights system to mimic the sun. Here is the [github link](https://github.com/RoyRin/rpi_home_lights).
 
 ## **2017** 
 ### Semantics Review paper
