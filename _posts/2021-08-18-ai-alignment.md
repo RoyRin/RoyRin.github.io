@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What I know about getting started with AI-alignment"
+title:  "What I Know about Getting Started with AI-Alignment"
 date:   2021-08-18 22:55:31 -0700
 categories: AI alignment EA effective-altruism
 author: Roy Rinberg

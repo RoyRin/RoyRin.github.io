@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Post + Goals for the website"
+title:  "First Post + Goals for this Website"
 date:   2021-08-10 22:55:31 -0700
 categories: meta blogging learning
 author: Roy Rinberg

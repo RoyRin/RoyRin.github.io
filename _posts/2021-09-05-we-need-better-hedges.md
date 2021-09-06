@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "We need Better Hedges"
+date:   2021-09-05 6:19:00 -0700
+categories: public-interest-technology better-hedges 
+author: Roy Rinberg
+---
+
 <img src="{{site.url}}/assets/post_assets/green_hedge.jpg" alt="https://www.hortzone.com/blog/fast-growing-hedges/" width="500">
 
 > It might seem an improbable choice for someone aspiring to help people. But it was not at all an unusual one in her circles. Cohen was hardly the first person to be impressed by an oft-heard view, espoused by firms like Goldman, that the skills they teach are vital preparation for change-making of any sort. Management consulting firms and Wall Street financial houses have persuaded many young people in recent years that they provide a superior version of what the liberal arts are said to offer: highly portable training for doing whatever you wish down the road. They also say, according to Cohen, “To be a leader in the world, you need this skill set.
@@ -16,7 +24,8 @@ I think that one of the biggest meta-issues in society right now is figuring out
 
 It’s hard to develop good thoughts about how to align social interest with career development interests; and it makes sense that it should be hard - at its core, nearly any entrepreneur is thinking about this exact issue: how to align the mechanisms that capitalism empowers to your individual goals. The difficulty of this challenge is self-assembling; if it was easy, everyone would do it, and then it would be hard again. Luckily, it is clearly not impossible; as a first-order existence proof: if you think that electric vehicles or space travel are important social issues, Elon Musk has certainly been able to leverage the market to make rapid changes on these social issues. 
 
-I am particularly interested in [public-interest technology](https://blog.usejournal.com/resources-for-working-in-public-interest-technology-78a74e7fd712), and while many of the arguments I make are general statements, this post is centered around developing the talent and resource pipelines for public-interest tech. This is my first public post on this issue - while I’m confident I may write naive things, I don’t want to be so afraid of saying something that I miss this opportunity to [hone my thoughts](https://www.swyx.io/learn-in-public/) on what I consider one of the world’s biggest issues.
+I am particularly interested in [public-interest technology](https://blog.usejournal.com/resources-for-working-in-public-interest-technology-78a74e7fd712), and while many of the arguments I make are general statements, this post is centered around developing the talent and resource pipelines for public-interest tech. I seek to (begin to) address: `Do we need to, and if so, how do we, develop better hedges in public-interest technology.` This is my first public post on this issue - while I’m confident I may write naive things, I don’t want to be so afraid of saying something that I miss this opportunity to [hone my thoughts](https://www.swyx.io/learn-in-public/) on what I consider one of the world’s biggest issues.
+
 
 Note 1: “As a first-order approximation, I consider something public-interest if it helps a group of people and is likely not to be addressed by the for-profit market (without government or NGO funding). Ads might help the internet be free, but if you don’t go work on them, someone else will — the same is not true for building a homeless shelter.” - [Resources for Working in Public-Interest Technology \| by Roy Rinberg](https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712).
 
