@@ -16,7 +16,7 @@ Welcome to my site. I'm Roy Rinberg.
 
 
 
-I'm a software engineer and computer scientist interested in ways to use technology for positive social change - most recently, I'm interested in <span class="spoiler"> privacy technology </span>.
+I'm a software engineer and computer scientist interested in ways to use technology for positive social change - most recently, I'm interested in <span class="spoiler"> privacy</span> technology.
 
 *My current thoughts mostly revolve around:*
 
