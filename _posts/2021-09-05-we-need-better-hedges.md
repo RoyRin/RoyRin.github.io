@@ -1,4 +1,4 @@
-[https://www.hortzone.com/blog/fast-growing-hedges/]({{site.url}}/assets/post_assets/green_hedge.png).
+<img src="{{site.url}}/assets/post_assets/green_hedge.jpg" alt="https://www.hortzone.com/blog/fast-growing-hedges/" width="500">
 
 > It might seem an improbable choice for someone aspiring to help people. But it was not at all an unusual one in her circles. Cohen was hardly the first person to be impressed by an oft-heard view, espoused by firms like Goldman, that the skills they teach are vital preparation for change-making of any sort. Management consulting firms and Wall Street financial houses have persuaded many young people in recent years that they provide a superior version of what the liberal arts are said to offer: highly portable training for doing whatever you wish down the road. They also say, according to Cohen, “To be a leader in the world, you need this skill set.
 > 
@@ -18,7 +18,7 @@ It’s hard to develop good thoughts about how to align social interest with car
 
 I am particularly interested in [public-interest technology](https://blog.usejournal.com/resources-for-working-in-public-interest-technology-78a74e7fd712), and while many of the arguments I make are general statements, this post is centered around developing the talent and resource pipelines for public-interest tech. This is my first public post on this issue - while I’m confident I may write naive things, I don’t want to be so afraid of saying something that I miss this opportunity to [hone my thoughts](https://www.swyx.io/learn-in-public/) on what I consider one of the world’s biggest issues.
 
-Note 1: “As a first-order approximation, I consider something public-interest if it helps a group of people and is likely not to be addressed by the for-profit market (without government or NGO funding). Ads might help the internet be free, but if you don’t go work on them, someone else will — the same is not true for building a homeless shelter.” - [Resources for Working in Public-Interest Technology | by Roy Rinberg](https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712).
+Note 1: “As a first-order approximation, I consider something public-interest if it helps a group of people and is likely not to be addressed by the for-profit market (without government or NGO funding). Ads might help the internet be free, but if you don’t go work on them, someone else will — the same is not true for building a homeless shelter.” - [Resources for Working in Public-Interest Technology \| by Roy Rinberg](https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712).
 
 ## Theory of Change - as an individual and a community member
 
@@ -112,7 +112,8 @@ We are lucky, we have a fantastic case-study of what something like TFA would lo
 
 - A common criticism I’ve heard of TFA is that you pay for young (white) people to try something out, experiment, and then leave after 2 years; and the problem is that teaching is something that benefits a lot from individuals remaining in a community, and leaving means that the students themselves are not being benefitted. 
 - See this chart - the first few years of teaching are dramatically worse for the students than later years. Without encouraging individuals to stay long enough to amortize out the negative effects they have in the first years, we may be doing net harms to communities, for the benefit of young elites. And we should seek to avoid a TFA-like model in situations where leaving the community does not have a strong negative impact (like it does in teaching)
-[https://www.nea.org/advocating-for-change/new-from-nea/does-teaching-experience-matter-lets-count-ways]({{site.url}}/assets/post_assets/teaching_experience.png).
+<img src="{{site.url}}/assets/post_assets/teaching_experience.png" alt="https://www.nea.org/advocating-for-change/new-from-nea/does-teaching-experience-matter-lets-count-ways" width="600">
+
 - Negative impressions from ex-TFA-ers (How Teach For America became powerful):
     - > Another corps member recalled her experience teaching in Los Angeles: “Sometimes my inexperience was relatively harmless, resulting in botched lessons or an inability to get everything done that I needed to do. Other times my newness had more dangerous consequences–I bungled home visits, didn’t contact Child Protective Services when I should have, and sometimes even failed to keep my students safe….
     - > This disappointment caused the principal to lament: “you invest in them, get them to a level of skill, and then they leave. I have to look for stability at school. Last year I hired all TFAers for my vacancies. This year, I’m going to be looking for a significant number of non-TFA teachers.”
@@ -170,12 +171,12 @@ Yes, programs like this already exist; like [Venture for America](https://ventur
 - We can emphasize the creation of early career capital organizations and fellowships, through grant-giving.
 
 **Donors, Philanthropists, Think Tanks, and Government organizations can:**
+
 (Much of this is taken from [Here to There: Lessons Learned from public-interest Law](https://www.fordfoundation.org/media/4176/ford_here-to-there_new-format_20181107.pdf))
 
 - **Work on the development of more fellowships and TFA-like organizations.**
 - **Study planning of Public-Interest Law development:** Philanthropy should consider continuing substantive research and strategic planning into the development of public-interest programs, similar to how public-interest law developed. Further research into these analogous situations is recommended.
 - **Develop diverse funding mechanisms:** public-interest tech should seek to draw its funding from multiple sources (foundations, government, and private industry). People who are experts (or even just interested) in fundraising should consider developing robust funding mechanisms for public-interest tech fellowships.
 - **Target education:** organizations we should focus our energies on developing ways for people to get involved with public-interest technology during their studies.
-- **Leverage Corporate Allies:** The American Bar Association (ABA) is aware of the power of prominent allies. ABA remarked in the "it is large law firms which have the expertise and resources" to conduct "major impact" public-interest work, and by involving big-firms ABA not only gets better training for young lawyers, but also gained financial support from firms for the public-interest law program. 
-- We should look to building pro bono-like pathways for technologists to be involved with projects on a limited or part-time basis, and using the financial resources and visibility of major technology firms to build the field. 
+- **Leverage Corporate Allies:** The American Bar Association (ABA) is aware of the power of prominent allies. ABA remarked in the "it is large law firms which have the expertise and resources" to conduct "major impact" public-interest work, and by involving big-firms ABA not only gets better training for young lawyers, but also gained financial support from firms for the public-interest law program. We should look to building pro bono-like pathways for technologists to be involved with projects on a limited or part-time basis, and using the financial resources and visibility of major technology firms to build the field. 
 - **Look Internationally:** One crucial outcome from the growth of the public-interest law field in the United States has been the international spread of the field. International knowledge-sharing could be useful for developing the public-interest technology field, particularly given that the Internet and technology generally connect people across the world, and that other countries are asking similar critical questions.
