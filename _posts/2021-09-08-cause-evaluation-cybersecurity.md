@@ -64,3 +64,6 @@ I will focus on security because the effects of security are more quantifiable a
     - And this is a dramatically larger number than is really needed ([180 employees work at the USDS](https://fcw.com/blogs/lectern/2020/11/kelman-digital-service-growth.aspx?m=1), which has quickly garnered respect in the tech industry and had a positive impact on the US government).
     - I’d guess that a moderate systemic change can be created with only 2 employees per state and 10 at the federal level (~22 million dollars per year).
 
+
+## Related Articles
+- [Ransomware Statistics](https://www.varonis.com/blog/ransomware-statistics-2021/)
