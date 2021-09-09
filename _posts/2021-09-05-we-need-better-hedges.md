@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "We need Better Hedges (in public-interest technology)"
+title:  "We need Better Hedges (in Public-Interest Technology)"
 date:   2021-09-05 6:19:00 -0700
 categories: public-interest-technology better-hedges 
 author: Roy Rinberg
@@ -8,9 +8,9 @@ author: Roy Rinberg
 
 <img src="{{site.url}}/assets/post_assets/green_hedge.jpg" alt="https://www.hortzone.com/blog/fast-growing-hedges/" width="500">
 
-> It might seem an improbable choice for someone aspiring to help people. But it was not at all an unusual one in her circles. Cohen was hardly the first person to be impressed by an oft-heard view, espoused by firms like Goldman, that the skills they teach are vital preparation for change-making of any sort. Management consulting firms and Wall Street financial houses have persuaded many young people in recent years that they provide a superior version of what the liberal arts are said to offer: highly portable training for doing whatever you wish down the road. They also say, according to Cohen, “To be a leader in the world, you need this skill set.
+> It might seem an improbable choice for someone aspiring to help people. But it was not at all an unusual one in her circles. Cohen was hardly the first person to be impressed by an oft-heard view, espoused by firms like Goldman, that the skills they teach are vital preparation for change-making of any sort. Management consulting firms and Wall Street financial houses have persuaded many young people in recent years that they provide a superior version of what the liberal arts are said to offer: highly portable training for doing whatever you wish down the road. They also say, according to Cohen, “To be a leader in the world, you need this skill set."
 > 
-> She didn’t capitulate to these notions all at once. She considered jobs in the nonprofit sector that had been advertised on campus or online. Somehow, though, they felt risky to her. Sure she would be cutting to the chase of making a difference, but wouldn’t she be forgoing the skill-building and self-cultivation offered by the private-sector firms? Some of the NGOs she looked at seemed to have no career plan for a young person, no promise of a trajectory of growing responsibility and impact. A lot of these places hired only one or two graduates per year and expected them to find their way with little structure, whereas big firms recruited entire cohorts of them for entry-level analyst positions, referring to them as ‘classes’”, subtly playing into their nostalgia for dorm-room days.
+> She didn’t capitulate to these notions all at once. She considered jobs in the nonprofit sector that had been advertised on campus or online. Somehow, though, they felt risky to her. Sure she would be cutting to the chase of making a difference, but wouldn’t she be forgoing the skill-building and self-cultivation offered by the private-sector firms? Some of the NGOs she looked at seemed to have no career plan for a young person, no promise of a trajectory of growing responsibility and impact. A lot of these places hired only one or two graduates per year and expected them to find their way with little structure, whereas big firms recruited entire cohorts of them for entry-level analyst positions, referring to them as 'classes', subtly playing into their nostalgia for dorm-room days.
 
 -- [Winner’s Take All](https://www.penguinrandomhouse.com/books/539747/winners-take-all-by-anand-giridharadas/) - Anand Giridharadas.
 
