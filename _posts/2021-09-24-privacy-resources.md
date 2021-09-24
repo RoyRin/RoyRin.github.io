@@ -27,12 +27,13 @@ I've been spinning up on privacy for a little while now, here are some resources
 
 ## Course Materials
 
+- [Joe Near - Programming Differential Privacy](https://jnear.github.io/cs211-data-privacy/) (I really like this one. It's a quick start for programmers)
+- [Gautam Kamath](http://www.gautamkamath.com/CS860-fa2020.html)
+- [Aaron Roth](https://www.cis.upenn.edu/~aaroth/courses/privacyF11.html)
 - [Jonathan Ullman & Adam Smith](https://dpcourse.github.io/)
 - [James Honaker & Salil Vadhan](http://people.seas.harvard.edu/~salil/cs208/spring19/)
 - [Marco Gaboardi](http://cs-people.bu.edu/gaboardi/teaching/CSE660-fall17.html)
-- [Gautam Kamath](http://www.gautamkamath.com/CS860-fa2020.html)
-- [Aaron Roth](https://www.cis.upenn.edu/~aaroth/courses/privacyF11.html)
-- [Joe Near](https://jnear.github.io/cs211-data-privacy/)
+- [Moni Naor](https://www.wisdom.weizmann.ac.il/~naor/COURSE/foundations_of_privacy.html)
 
 ## Code
 
