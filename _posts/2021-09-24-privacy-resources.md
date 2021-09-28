@@ -25,9 +25,7 @@ I've been spinning up on privacy for a little while now, here are some resources
 - [DifferentialPrivacy.org](https://differentialprivacy.org/)
 - [NIST](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog)
 
-## Informal educational materials
-- [What is Differential Privacy Basics - Medium](https://becominghuman.ai/what-is-differential-privacy-1fd7bf507049)
-## "Formal" Course Materials
+## Course Materials
 
 - [Joe Near - Programming Differential Privacy](https://jnear.github.io/cs211-data-privacy/) (I really like this one. It's a quick start for programmers)
 - [Gautam Kamath](http://www.gautamkamath.com/CS860-fa2020.html)
@@ -37,6 +35,8 @@ I've been spinning up on privacy for a little while now, here are some resources
 - [Marco Gaboardi](http://cs-people.bu.edu/gaboardi/teaching/CSE660-fall17.html)
 - [Moni Naor](https://www.wisdom.weizmann.ac.il/~naor/COURSE/foundations_of_privacy.html)
 
+## Informal educational materials
+- [What is Differential Privacy Basics - Medium](https://becominghuman.ai/what-is-differential-privacy-1fd7bf507049)
 
 ## Non-technical (or less technical) Primers
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027)
