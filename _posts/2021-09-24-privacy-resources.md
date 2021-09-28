@@ -35,10 +35,10 @@ I've been spinning up on privacy for a little while now, here are some resources
 - [Marco Gaboardi](http://cs-people.bu.edu/gaboardi/teaching/CSE660-fall17.html)
 - [Moni Naor](https://www.wisdom.weizmann.ac.il/~naor/COURSE/foundations_of_privacy.html)
 
-## Informal educational materials
+## Informal Educational Materials
 - [What is Differential Privacy Basics - Medium](https://becominghuman.ai/what-is-differential-privacy-1fd7bf507049)
 
-## Non-technical (or less technical) Primers
+## Less Technical Primers
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027)
 - [Joe Near - Programming Differential Privacy](https://jnear.github.io/cs211-data-privacy/) (This is linked above, it's semi-technical, but it really only requires computer science background, not a mathematical one.)
 
