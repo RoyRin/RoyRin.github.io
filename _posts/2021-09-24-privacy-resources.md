@@ -45,6 +45,7 @@ I've been spinning up on privacy for a little while now, here are some resources
 ## Code
 
 - [OpenDP github](https://github.com/opendp)
+- [Opacus (pytorch opensoure DP library for Deep Learning)](https://opacus.ai/tutorials/)
 
 ## Community
 - [OpenDP](https://opendp.org/)
