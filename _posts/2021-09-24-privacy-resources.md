@@ -21,7 +21,7 @@ I've been spinning up on privacy for a little while now, here are some resources
 
 ## Blog Series
 
-- [Damien Desfontaine](https://desfontain.es/privacy/differential-privacy-reading-list.html)
+- [Damien Desfontaines](https://desfontain.es/privacy/differential-privacy-reading-list.html)
 - [DifferentialPrivacy.org](https://differentialprivacy.org/)
 - [NIST](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog)
 
