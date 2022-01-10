@@ -38,7 +38,7 @@ Note to myself (and to you): I intend to further write out potential plans that 
 
 ### **My hobbies:**
 1. Climbing
-2. reading (or honestly, listening to audiobooks). Here's my [goodreads](https://www.goodreads.com/user/show/68424670-roy).
+2. Reading (or honestly, listening to audiobooks). Here's my [goodreads](https://www.goodreads.com/user/show/68424670-roy).
 3. I'd like to write more, so... an aspirational hobby is writing
 4. Frisbee
 
