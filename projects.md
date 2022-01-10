@@ -15,14 +15,11 @@ permalink: /Projects/
 ## **2021**
 
 ### [Foundations of Blockchain](https://timroughgarden.github.io/fob21/)
-* Course by Professor Tim Roughgarden.
-* [Handwritten Course Notes](https://drive.google.com/drive/folders/1YmF_3DCrV50MY2pPnB5QPjDwtZOQ4J4N?usp=sharing) 
-    * Note: Notes may contain errata. 
-* [Final Project]({{site.url}}/assets/projects/courses/blockchains_course_2021/FOB_Project_Report.pdf) - Privacy when Everyone is Watching: Privacy on the Blockchain. Co-authored with Nilaksh Agarwal.
+* [Handwritten Course Notes](https://drive.google.com/drive/folders/1YmF_3DCrV50MY2pPnB5QPjDwtZOQ4J4N?usp=sharing) for course by Professor Tim Roughgarden
+* [Final Project - Privacy when Everyone is Watching: Privacy on the Blockchain]({{site.url}}/assets/projects/courses/blockchains_course_2021/FOB_Project_Report.pdf). Co-authored with Nilaksh Agarwal.
     * A medium-depth dive into zk-SNARKs and into privacy coins. 
 
-### [Neural Networks](https://www.cs.columbia.edu/~zemel/Class/Nndl/)
-* Course by Professor Richard Zemel
+### [Neural Networks Course](https://www.cs.columbia.edu/~zemel/Class/Nndl/)
 * [Final Project]({{site.url}}/assets/projects/courses/neural_nets_course_2021/NNDL_privacy_project_final.pdf) - Improvements and Analysis of Private
 Ensemble-Based Federated Learning.
     * An analysis of ensemble-based federated learning like [PATE](http://www.cleverhans.io/privacy/2018/04/29/privacy-and-machine-learning.html) and [CaPC](http://www.cleverhans.io/2021/05/01/capc.html). I studied the use of reputation-based weighting for improved robustness, and conducted a security analysis of the trust assumptions in ensemble-based federated learning.
