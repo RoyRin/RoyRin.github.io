@@ -12,6 +12,8 @@ While I'm not personally working on AI-alignment, I think it's likely pretty imp
 
 One day we will likely transfer control of important applications. If you can imagine that these AI could be  as intelligent as human beings, but lack the cultural, ethical, moral, or biological constraints that other humans have, it's fairly easy to imagine that these AI's goals may be drastically different from our own. AI-alignment is the challenge of trying to align the goals of AI agents with the goals of humans. In particular, this challenge focuses on doing so while we still have a moderate understanding of how they work, and good control over what they work on. 
 
+A good place to learn more about AI alignment is Stuart's book Human Compatible. [Rohin Shah](https://rohinshah.com/) summarized it in the [Alignment Newsletter #69](https://mailchi.mp/59ddebcb3b9a/an-69-stuart-russells-new-book-on-why-we-need-to-replace-the-standard-model-of-ai).
+
 ## A quick example of an AI-alignment challenge
 
 The most common introduction to problems in AI alignment is the [paperclip maximizer](https://www.lesswrong.com/tag/paperclip-maximizer). This relates to [Instrumental Convergence](https://en.wikipedia.org/wiki/Instrumental_convergence), where an intelligent actor is given a straightforward goal, but may act in surprising or harmful ways. 
@@ -22,15 +24,23 @@ Hopefully this simple example of a challenge in AI alignment sparks your interes
 
 ## Educational Resources
 
+The most accessible resource:
 * [Robert Miles' Youtube Channel](https://www.youtube.com/c/RobertMilesAI/playlists)
+
+The biggest collection of other resources:
+* [Vika's AI safety resources](https://vkrakovna.wordpress.com/ai-safety-resources/)
+
+Resources if you are starting from scratch:
 * [AI alignment, why it's hard and where to start (by MIRI)](https://intelligence.org/2016/12/28/ai-alignment-why-its-hard-and-where-to-start/), and the corresponding [youtube link](https://www.youtube.com/watch?v=EUjc1WuyPT8).
+* [Concrete Problems in AI Safety](https://arxiv.org/pdf/1606.06565v1.pdf). (This is an academic paper circa 2016, so it may not be a good place to start, and is likely out-of-date).
+
+Forums:
 * [AI-Alignment Forum](https://www.alignmentforum.org/)
 * [AI-Alignment Review google doc](https://docs.google.com/document/d/1Fng1J_QPb7GEeLBMmWWfZOguw7yUTZot0egrCbKpVwk/edit#)
-* [Effective Altruism AGI Educational Fellowship](https://www.eacambridge.org/agi-safety-fundamentals). (AGI is Artificial General Intelligence).
 
+Links to Dr. Paul Christiano (an important person in the field):
 * [Interview with Dr. Paul Christiano about AI alignment work at OpenAI](https://80000hours.org/podcast/episodes/paul-christiano-ai-alignment-solutions/) (circa 2018). Interview on 80,000 hours podcast.
 * [Dr. Paul Christiano's website](https://sideways-view.com/)
-* [Concrete Problems in AI Safety](https://arxiv.org/pdf/1606.06565v1.pdf). (This is an academic paper circa 2016, so it may not be a good place to start, and is likely out-of-date).
 
 ## Some organizations working on this
 
@@ -39,3 +49,7 @@ Hopefully this simple example of a challenge in AI alignment sparks your interes
 * [Machine Intelligence Research Institute (MIRI)](https://intelligence.org/)
 * [Center for Human-Compatible Artificial Intelligence (CHAI)](https://humancompatible.ai/)
 * [AI Objectives](https://ai.objectives.institute/people)
+* [Effective Altruism AGI Educational Fellowship](https://www.eacambridge.org/agi-safety-fundamentals). (AGI is Artificial General Intelligence).
+* [CHAI internship](https://humancompatible.ai/jobs#internship)
+
+
