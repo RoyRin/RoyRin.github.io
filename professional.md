@@ -6,7 +6,7 @@ permalink: /professional/
 # **Professional Information**
 ## Interviewing and Recruiting
 
-* Here is my [CV]({{site.url}}/assets/resume/CV_grad_v2_0.pdf) 
+* Here is my [CV]({{site.url}}/assets/resume/CV_grad_v2_1.pdf) 
 * Here is my [Software Engineering Resume]({{site.url}}/assets/resume/SWE_resume_11_10_2020.pdf) 
 * Here is my [LinkedIn](https://www.linkedin.com/in/roy-rinberg) 
 
