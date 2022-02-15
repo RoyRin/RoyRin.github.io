@@ -7,10 +7,10 @@ title: About
 https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
 -->
 ### **Who am I? (at a high-level)**
-I'm a computer-scientist/software-engineer/generally-curious-person. I generally align with [effective-altruism](https://www.effectivealtruism.org/) ideas, but lately I've been trying to actually make them into effective altruism actions. 
+I'm a computer-scientist/software-engineer/generally-curious-person. I care a lot about public-interest technology, and lately this has been centered on technical forms of privacy. I write about public-interest tech and privacy on this website, but I'm moving my writing over to a substack - You can find my substack newsletter here : [https://technicallyprivate.substack.com/](https://technicallyprivate.substack.com/)!
 
-I graduated from NYU with a degree in Physics and Computer Science and a minor in Math in 2018. I worked at [Ouster] as a software engineer, first as an intern and then as a full-time employee, until July 2021. I'm now attending Columbia University where I'll be trying to study the intersection of computer science and society, from a highly technical perspective. While it's somewhat of a hard-pivot, I'm interested in moving into privacy, decentralization, and computer-science mechanisms that embed human values like recourse, fairness, and (possibly) interpretability.
 
+I graduated from NYU with a degree in Physics and Computer Science and a minor in Math in 2018. I worked at [Ouster] as a software engineer, first as an intern and then as a full-time employee. After Ouster went public, I left in July 2021, and I'm now attending Columbia University where I'll be trying to study the intersection of computer science and society, from a highly technical perspective. While it's somewhat of a hard-pivot, I'm interested in moving into privacy, decentralization, and computer-science mechanisms. I also generally align with [effective-altruism](https://www.effectivealtruism.org/) ideas, and lately I've been trying to actually make them into effective altruism actions. 
 
 I'm a big proponent of [learning in public] and I intend to use this website as a platform for fleshing out my own ideas, while also giving you an idea of what it's like inside my brain. 
 
@@ -38,9 +38,10 @@ Note to myself (and to you): I intend to further write out potential plans that 
 
 ### **My hobbies:**
 1. Climbing
-2. Reading (or honestly, listening to audiobooks). Here's my [goodreads](https://www.goodreads.com/user/show/68424670-roy).
-3. I'd like to write more, so... an aspirational hobby is writing
-4. Frisbee
+2. Triathloning
+3. Reading (or honestly, listening to audiobooks). Here's my [goodreads](https://www.goodreads.com/user/show/68424670-roy).
+4. I'd like to write more, so... writing!
+5. Frisbee
 
 
 
