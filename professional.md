@@ -12,6 +12,8 @@ permalink: /professional/
 
 
 ## Academic Papers
+* NL-Augmenter: A Framework for Task-Sensitive Natural Language Augmentation, 2022; [https://arxiv.org/abs/2112.02721](https://arxiv.org/abs/2112.02721)
+  * *I was fortunate to be part of this work by 127 contributors across 91 institutions.*
 * A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra: “Creolizing the Web”, 2021; [http://arxiv.org/abs/2102.12382 arXiv:2102.12382](https://arxiv.org/abs/2102.12382).
 
 ## Articles
