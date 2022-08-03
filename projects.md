@@ -16,7 +16,8 @@ permalink: /Projects/
 
 ### [Foundations of Blockchain](https://timroughgarden.github.io/fob21/)
 * [Handwritten Course Notes](https://drive.google.com/drive/folders/1YmF_3DCrV50MY2pPnB5QPjDwtZOQ4J4N?usp=sharing) for course by Professor Tim Roughgarden
-* [Final Project - Privacy when Everyone is Watching: Privacy on the Blockchain]({{site.url}}/assets/projects/courses/blockchains_course_2021/FOB_Project_Report.pdf). Co-authored with Nilaksh Agarwal.
+
+* [Final Project - Privacy when Everyone is Watching: Privacy on the Blockchain](https://eprint.iacr.org/2022/985). Co-authored with Nilaksh Agarwal.
     * A medium-depth dive into zk-SNARKs and into privacy coins. 
 
 ### [Neural Networks Course](https://www.cs.columbia.edu/~zemel/Class/Nndl/)

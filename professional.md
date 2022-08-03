@@ -12,11 +12,14 @@ permalink: /professional/
 
 
 ## Academic Papers
+* **R. Rinberg**, N. Agarwal: "Privacy when Everyone is Watching: An SOK on Anonymity on the Blockchain", 2022; [https://eprint.iacr.org/2022/985](https://eprint.iacr.org/2022/985)
 * NL-Augmenter: A Framework for Task-Sensitive Natural Language Augmentation, 2022; [https://arxiv.org/abs/2112.02721](https://arxiv.org/abs/2112.02721)
-  * *I was fortunate to be part of this work by 127 contributors across 91 institutions.*
-* A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra: “Creolizing the Web”, 2021; [http://arxiv.org/abs/2102.12382 arXiv:2102.12382](https://arxiv.org/abs/2102.12382).
+  * *I was one 127 contributors across 91 institutions.*
+* A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra: "Creolizing the Web", 2021; [http://arxiv.org/abs/2102.12382 arXiv:2102.12382](https://arxiv.org/abs/2102.12382).
 
 ## Articles
+* [Technically Private Substack](https://technicallyprivate.substack.com/)
+* [Medium](https://royrinberg.medium.com/)
 * [Jell-O Brains and DNA: High School Students Launch Innovative STEM Program](https://blogs.scientificamerican.com/budding-scientist/jell-o-brains-and-dna-high-school-students-launch-innovative-stem-program/)
 
 ## The Silver Screen
