@@ -21,8 +21,7 @@ permalink: /Projects/
     * A medium-depth dive into zk-SNARKs and into privacy coins. 
 
 ### [Neural Networks Course](https://www.cs.columbia.edu/~zemel/Class/Nndl/)
-* [Final Project]({{site.url}}/assets/projects/courses/neural_nets_course_2021/NNDL_privacy_project_final.pdf) - Improvements and Analysis of Private
-Ensemble-Based Federated Learning.
+* [Final Project]({{site.url}}/assets/projects/courses/neural_nets_course_2021/NNDL_privacy_project_final.pdf) - Improvements and Analysis of Private Ensemble-Based Federated Learning.
     * An analysis of ensemble-based federated learning like [PATE](http://www.cleverhans.io/privacy/2018/04/29/privacy-and-machine-learning.html) and [CaPC](http://www.cleverhans.io/2021/05/01/capc.html). I studied the use of reputation-based weighting for improved robustness, and conducted a security analysis of the trust assumptions in ensemble-based federated learning.
 
 ### Policy for Privacy Technology
