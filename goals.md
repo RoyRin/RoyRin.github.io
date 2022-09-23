@@ -36,7 +36,6 @@ there are very few technical problems in the world. I intend to blog about this 
 - [ ] Advise for a privacy company.
 - [ ] Collaborate with lawyers and write a law review paper relating to a technical topic, in order to identify if this is the path that I want to take.
 - [x] Create a academic community of graduate students with similar interests to mine
-  - I created and organize the group [Technically Private](https://groups.google.com/g/technically-private).
-  - It's a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
+  - I created and organize the group [Technically Private](https://groups.google.com/g/technically-private). It's a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
 
 
