@@ -28,7 +28,7 @@ permalink: /Projects/
   * Course by Professor Rachel Cummings
   * [Final Project]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_final.pdf)
     * An investigation of the interplay of Know-Your-Customer (KYC) laws, and privacy-coins on the blockchain. 
-  * [MPC explainer]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_hw3.pdf)
+  * [MPC explainer]({{site.url}}/assets/projects/courses/privacy_policy_2021/MPC_explainer_share.pdf)
     * An explainer document on a form of "Secure Multi-Party Computation" (MPC); what it is, why it's useful, and how it can be used. Co-written with Sofia Calatrava.
 
 ## **2020**
