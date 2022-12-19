@@ -18,9 +18,9 @@ Welcome to my site. I'm Roy Rinberg. You can find my substack newsletter here : 
 ### **Who am I? (at a high-level)**
 I'm a computer scientist and software engineer interested in ways to use technology for positive social change - most recently, I'm interested in <span class="spoiler"> privacy</span> technology.
 
-I'm currently a Master's student at Columbia, conducting research with [Professor Rachel Cummings](https://www.rachelcummings.com) and [Professor Steven Bellovin](https://www.cs.columbia.edu/~smb/) on Private Machine Learning. This past summer I worked at [www.papernot.fr](Professor Nicolas Papernot's) lab. I am partially supported by the Advanced Master's Research Specialization award at Columbia. I am applying to PhDs this year!
+I'm currently a Master's student at Columbia, conducting research with [Professor Rachel Cummings](https://www.rachelcummings.com) and [Professor Steven Bellovin](https://www.cs.columbia.edu/~smb/) on Private Machine Learning. I am partially supported by the Advanced Master's Research Specialization award at Columbia. I am applying to PhDs this year!
 
-I created and organize the group [https://groups.google.com/g/technically-private](Technically Private); a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
+I created and organize the group [Technically Private](https://groups.google.com/g/technically-private); a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
 
 I'm a big proponent of [learning in public] and I intend to use this website as a platform for fleshing out my own ideas, while also giving you an idea of what it's like inside my brain.  I write about public-interest tech and privacy on this website and [substack](https://technicallyprivate.substack.com/)! I sometimes write on Medium too : [https://royrinberg.medium.com/](https://royrinberg.medium.com/).
 
