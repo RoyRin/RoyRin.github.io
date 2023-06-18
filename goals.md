@@ -22,7 +22,7 @@ there are very few technical problems in the world. I intend to blog about this 
 - [x] Decide if I want a PhD 
   - I do.
 - [x] Publish a paper as any author
-- [ ] Publish a paper as first author at a top venue. [incoming]
+- [ ] Publish a paper as first author at a top venue. [in review]
 - [x] Give a formal talk on my research 
   - Given at [Workshop on Differential Privacy and Statistical Data Analysis](http://www.fields.utoronto.ca/activities/22-23/privacy) on my work on Individualized PATE.
 - [x] Improve my understanding of machine learning from a theory and practice perspective.
@@ -34,7 +34,7 @@ there are very few technical problems in the world. I intend to blog about this 
 - [x] Advise as a technical engineer for a company or startup
   - Served as lead engineer for [Shelton.AI](https://www.sheltonai.com/) for the first 6 months of its starting up.
 - [ ] Advise for a privacy company.
-- [ ] Collaborate with lawyers and write a law review paper relating to a technical topic, in order to identify if this is the path that I want to take.
+- [x] Collaborate with lawyers and write a law review paper relating to a technical topic, in order to identify if this is the path that I want to take. [in review]
 - [x] Create a academic community of graduate students with similar interests to mine
   - I created and organize the group [Technically Private](https://groups.google.com/g/technically-private). It's a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
 

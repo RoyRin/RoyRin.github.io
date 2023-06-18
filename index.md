@@ -37,8 +37,7 @@ I'm a big proponent of [learning in public] and I intend to use this website as 
 1. The intersection of technology and tech-policy. In particular: 
     1. How can we make better ways for people to "hedge" in the tech industry. Or in other words, how can people (like me) effectively do something *good* for the world, while also building general [career capital](https://80000hours.org/career-guide/career-capital/). 
     2. What are problems in the world which require truly technical solutions (*are there any?*).  
-2. How to *effectively* engage with the Effective Altruism community.
-3. ~~Climbing.~~ ~~Triathloning!~~  ~~Climbing again! ~~ Triathloning (I never doubted you)
+2. ~~Climbing.~~ ~~Triathloning!~~  ~~Climbing again! ~~ Triathloning (I never doubted you)
 
 
 ### **My hobbies:**
