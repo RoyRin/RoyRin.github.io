@@ -26,7 +26,7 @@ Welcome to my site. I'm Roy Rinberg. I'm interested in ways to use technology fo
 ### **The rest of my thoughts mostly revolve around:**
 
 1. The intersection of technology and tech-policy. In particular: how can we make better ways for people to "hedge" in the tech industry. Or in other words, how can people (like me) do something *good* for the world, while also building general [career capital](https://technicallyprivate.substack.com/p/we-need-better-hedgeshtml). 
-2. ~~Climbing.~~ ~~Triathloning!~~  ~~Climbing again! ~~ Triathloning (I never doubted you)
+2. ~~Climbing.~~ ~~Triathloning!~~  ~~Climbing again!~~ Triathloning (I never doubted you)
 
 ### **Communities I am/have-been a part of**
 
@@ -42,8 +42,8 @@ I'm a big proponent of [learning in public] and I intend to use this website as 
 2. Reading (or honestly, listening to audiobooks).
 3. I'd like to write more, so... writing!
 4. Drone Photography
-5. ~~Climbing ~~
-6. ~~Frisbee ~~
+5. ~~Climbing~~
+6. ~~Frisbee~~
 
 
 
