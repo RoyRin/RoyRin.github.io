@@ -16,6 +16,9 @@ Welcome to my site. I'm Roy Rinberg. I'm interested in ways to use technology fo
 
 
 
+### **Helping others**
+
+I enjoy communicating my work and talking with individuals who want to learn more about computer science research and academia. As someone who pivoted from industry to academia, I'm particularly sympathetic to the difficulties in such a transition; so especially if you're in industry and trying to enter academia, please don't hesitate to reach out. 
 
 
 ###  **My current technical thoughts revolve around:**
@@ -35,15 +38,15 @@ I created and organize the group Technically Private ([www.technicallyprivate.co
 Previously, I was a Master's student at Columbia, conducting research with [Professor Rachel Cummings](https://www.rachelcummings.com) and [Professor Steven Bellovin](https://www.cs.columbia.edu/~smb/) on Private Machine Learning. And before that I worked at [Ouster](www.ouster.com), a lidar company, as a software engineer. 
 
 ### **Writing:**
-I'm a big proponent of [learning in public] and I intend to use this website as a platform for fleshing out my own ideas, while also giving you an idea of what it's like inside my brain.  I write about public-interest tech and privacy on this website and [substack](https://technicallyprivate.substack.com/)! I sometimes write on Medium too : [https://royrinberg.medium.com/](https://royrinberg.medium.com/).
+I'm a big proponent of [learning in public].  I sometimes write about public-interest tech and privacy on [substack](https://technicallyprivate.substack.com/) or [Medium](https://royrinberg.medium.com/).
 
 ### **My hobbies:**
-1. Triathloning
 2. Reading (or honestly, listening to audiobooks).
 3. I'd like to write more, so... writing!
 4. Drone Photography
-5. ~~Climbing~~
-6. ~~Frisbee~~
+5. Triathloning
+6. ~~Climbing~~
+7. ~~Frisbee~~
 
 
 
