@@ -23,7 +23,6 @@ permalink: /professional/
 
 
 ## Projects 
-* Pre-Print: Improvements and Analysis of Private Ensemble-Based Federated Learning (available upon request)
 * [Privacy When Everyone is Watching : Privacy on the Blockchain in the Presence of KYC laws]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_final.pdf)
 * [Multi-party Computation (MPC) and Trustless Wage Sharing explainer ]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_hw3.pdf)
 
