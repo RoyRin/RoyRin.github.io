@@ -51,6 +51,7 @@ I'm a big proponent of [learning in public].  I sometimes write about public-int
 5. Triathloning
 6. ~~Climbing~~
 7. ~~Frisbee~~
+8. Collecting a [list of how organizations advertise privacy](https://docs.google.com/presentation/d/1wArCxGAAvkJcy0inWeKua3Ra7LkJDhApcso8cJ1Aon8/edit#slide=id.g1223166de6e_0_7) (if you have more, please send them to me!)
 
 
 
