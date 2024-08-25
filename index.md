@@ -16,9 +16,13 @@ Welcome to my site. I'm Roy Rinberg. I'm interested in ways to use technology fo
 
 
 
-### **Helping others**
+### **Being helpful**
 
 I enjoy communicating my work and talking with individuals who want to learn more about computer science research and academia. As someone who pivoted from industry to academia, I'm particularly sympathetic to the difficulties in such a transition; so especially if you're in industry and trying to enter academia, please don't hesitate to reach out. 
+
+I maintain:
+* [This google sheet of Academic Privacy researchers in North America](https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0)
+* [This Resource List for Working in Public-Interest Technology](https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712)
 
 
 ###  **My current technical thoughts revolve around:**
@@ -42,8 +46,8 @@ I'm a big proponent of [learning in public].  I sometimes write about public-int
 
 ### **My hobbies:**
 2. Reading (or honestly, listening to audiobooks).
-3. I'd like to write more, so... writing!
-4. Drone Photography
+3. I'd like to write more, so... [writing](https://technicallyprivate.substack.com/)!
+4. [Drone Photography](https://royrinberg.com/Hobbies/)
 5. Triathloning
 6. ~~Climbing~~
 7. ~~Frisbee~~
