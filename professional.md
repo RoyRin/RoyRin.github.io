@@ -18,7 +18,7 @@ permalink: /professional/
 * A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra: ["Creolizing the Web"](https://arxiv.org/abs/2102.12382). 2021.
 
 ## Preprints
-* [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) (Co- First Author ) Accepted to GenLaw Workshop, full paper coming.
+* [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) (Co- First Author ) Accepted to GenLaw Workshop.
 * [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning](https://openreview.net/pdf?id=JG9PoF8o07) (First Author )
 
 
