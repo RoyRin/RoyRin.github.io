@@ -37,7 +37,7 @@ I maintain:
 
 ### **Communities I am/have-been a part of**
 
-I created and organize the group [Technically Private](www.technicallyprivate.com); a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
+I created and organize the group [Technically Private](https://www.technicallyprivate.com); a group of *mostly* graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link.
 
 Previously, I was a Master's student at Columbia, conducting research with [Professor Rachel Cummings](https://www.rachelcummings.com) and [Professor Steven Bellovin](https://www.cs.columbia.edu/~smb/) on Private Machine Learning. And before that I worked at [Ouster](www.ouster.com), a lidar company, as a software engineer. 
 
