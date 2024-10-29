@@ -1,8 +1,10 @@
+<!---
 ---
 layout: index
 title: Projects
+permalink: /Projects/
 ---
-<!-- permalink: /Projects/-->
+-->
 
 # **Projects!**
 
