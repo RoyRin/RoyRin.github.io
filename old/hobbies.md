@@ -1,8 +1,8 @@
 ---
 layout: index
 title: Hobbies
-permalink: /Hobbies/
 ---
+<!-- permalink: /Hobbies/-->
 # **Hobbies!**
 
 <nav class="toc" style = "margin-bottom: 0;" markdown="1">

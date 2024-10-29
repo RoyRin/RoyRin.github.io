@@ -1,8 +1,9 @@
 ---
 layout: index
 title: Projects
-permalink: /Projects/
 ---
+<!-- permalink: /Projects/-->
+
 # **Projects!**
 
 <nav class="toc" style = "margin-bottom: 0;" markdown="1">
