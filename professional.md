@@ -11,6 +11,7 @@ permalink: /professional/
 
 
 ## Academic Papers
+[Google Scholar Link](https://scholar.google.com/citations?hl=en&user=D_d_d8wAAAAJ)
 
 * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) (Co- First Author ) Workshop version accepted to GenLaw. 
 * **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning]({{site.url}}/assets/projects/papers/generalized_gaussians__10_24.pdf) [Pre-print]
