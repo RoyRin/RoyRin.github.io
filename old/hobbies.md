@@ -1,10 +1,3 @@
-<!---
----
-layout: index
-title: Hobbies
-permalink: /Hobbies/
----
--->
 
 # **Hobbies!**
 
