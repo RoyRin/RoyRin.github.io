@@ -13,12 +13,17 @@ permalink: /professional/
 ## Academic Papers
 [Google Scholar Link](https://scholar.google.com/citations?hl=en&user=D_d_d8wAAAAJ)
 
-* [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry.  Workshop version accepted to GenLaw. 
-* [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning]({{site.url}}/assets/projects/papers/generalized_gaussians__10_24.pdf) **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Pre-print]
-* [Individualized PATE: Differentially Private Machine Learning with Individual Privacy Guarantees](https://arxiv.org/abs/2202.10517). F. Boenisch, C Mühl, **R. Rinberg**, J. Ihrig, A. Dziedzic. Accepted to [PoPETs 2023](https://petsymposium.org/cfp23.php).
-* ["Privacy when Everyone is Watching: An SOK on Anonymity on the Blockchain".](https://eprint.iacr.org/2022/985). **R. Rinberg**, N. Agarwal. 2022.
+* [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) 
+    * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry.  Workshop version accepted to GenLaw. 
+* [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning]({{site.url}}/assets/projects/papers/generalized_gaussians__10_24.pdf) 
+    * **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Pre-print]
+* [Individualized PATE: Differentially Private Machine Learning with Individual Privacy Guarantees](https://arxiv.org/abs/2202.10517). 
+    * F. Boenisch, C Mühl, **R. Rinberg**, J. Ihrig, A. Dziedzic. Accepted to [PoPETs 2023](https://petsymposium.org/cfp23.php).
+* ["Privacy when Everyone is Watching: An SOK on Anonymity on the Blockchain".](https://eprint.iacr.org/2022/985).
+    * **R. Rinberg**, N. Agarwal. 2022.
 * [NL-Augmenter: A Framework for Task-Sensitive Natural Language Augmentation, 2022.](https://arxiv.org/abs/2112.02721)
-* ["Creolizing the Web"](https://arxiv.org/abs/2102.12382). A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra. 2021.
+* ["Creolizing the Web"](https://arxiv.org/abs/2102.12382). 
+    * A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra. 2021.
 
 
 ## Projects 
