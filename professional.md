@@ -12,14 +12,12 @@ permalink: /professional/
 
 ## Academic Papers
 
-* [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) (Co- First Author ) Accepted to GenLaw Workshop. [Pre-print available]
+* **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) (Co- First Author ) Workshop version accepted to GenLaw. 
+* **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning]({{site.url}}/assets/projects/papers/generalized_gaussians__10_24.pdf)[ Pre-print]
 * F. Boenisch, C Mühl, **R. Rinberg**, J. Ihrig, A. Dziedzic. [Individualized PATE: Differentially Private Machine Learning with Individual Privacy Guarantees](https://arxiv.org/abs/2202.10517). Accepted to [PoPETs 2023](https://petsymposium.org/cfp23.php).
 * **R. Rinberg**, N. Agarwal: ["Privacy when Everyone is Watching: An SOK on Anonymity on the Blockchain".](https://eprint.iacr.org/2022/985), 2022
 * [NL-Augmenter: A Framework for Task-Sensitive Natural Language Augmentation, 2022.](https://arxiv.org/abs/2112.02721)
 * A. Tamaskar, **R. Rinberg**, S. Chakraborty, B. Mishra: ["Creolizing the Web"](https://arxiv.org/abs/2102.12382). 2021.
-
-## Preprints
-* [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning](https://openreview.net/pdf?id=JG9PoF8o07) (First Author )
 
 
 ## Projects 
