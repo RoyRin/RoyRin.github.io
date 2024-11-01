@@ -15,7 +15,7 @@ permalink: /professional/
 
 * [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) 
     * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Workshop version accepted to GenLaw. Pre-print]
-* [Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning]({{site.url}}/assets/projects/papers/generalized_gaussians__10_24.pdf) 
+* Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning. [Preprint](https://openreview.net/pdf?id=JG9PoF8o07). Updated working draft available upon request. 
     * **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Pre-print]
 * [Have it your way: Individualized Privacy Assignment for DP-SGD](https://arxiv.org/abs/2303.17046)
     * F. Boenisch, C. Mühl, A. Dziedzic, **R. Rinberg**, N. Papernot. [Accepted to Neurips 2023]
