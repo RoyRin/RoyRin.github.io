@@ -72,3 +72,11 @@ defaults:
 
 # Google Analytics
 google_analytics: G-9XBXWTP2F4
+
+
+social_links:
+  - { platform: github,         user_url: "https://github.com/RoyRin" }
+  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=D_d_d8wAAAAJ" }
+  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/roy-rinberg" }
+  - { platform: twitter,        user_url: "https://twitter.com/RoyRinberg" }
+  
