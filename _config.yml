@@ -28,6 +28,8 @@ url: "https://royrin.github.io/" # the base hostname & protocol for your site, e
 twitter_username: RoyRinberg
 github_username:  RoyRin
 linkedin_username: roy-rinberg
+google_scholar_username: D_d_d8wAAAAJ
+#google_scholar: https://scholar.google.com/citations?hl=en&user=D_d_d8wAAAAJ
 
 # Build settings 
 # using different themes https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
