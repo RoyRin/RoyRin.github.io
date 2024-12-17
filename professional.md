@@ -13,8 +13,12 @@ permalink: /professional/
 ## Academic Papers
 [Google Scholar Link](https://scholar.google.com/citations?hl=en&user=D_d_d8wAAAAJ)
 
-* [Data Attribution-Guided Machine Unlearning]({{site.url}}/assets/projects/papers/Unlearning_through_Data_Attribution.pdf) 
-    * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Workshop version accepted to GenLaw. Pre-print]
+
+
+* [Attribute-to-Delete: Machine Unlearning via Datamodel Matching](https://arxiv.org/abs/2410.23232)
+    * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Full paper on Arxiv. Workshop accepted to GenLaw 2024.]
+    * [Blog](http://bit.ly/unlearning-via-datamodels)
+    * [Twitter](https://x.com/RoyRinberg/status/1856437062876180759)
 * Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning. [Preprint](https://openreview.net/pdf?id=JG9PoF8o07). Updated working draft available upon request. 
     * **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Pre-print]
 * [Have it your way: Individualized Privacy Assignment for DP-SGD](https://arxiv.org/abs/2303.17046)
