@@ -1,0 +1,14 @@
+---
+title: "Your Publication Title"
+authors: "Author 1, Author 2, Author 3"
+journal: "Journal Name"
+date: YYYY-MM-DD
+volume: "X"
+number: "Y"
+pages: "Z-ZZ"
+abstract: "Your abstract here"
+pdf: "path/to/pdf"
+doi: "DOI number"
+arxiv: "arXiv link"
+code: "GitHub link"
+---

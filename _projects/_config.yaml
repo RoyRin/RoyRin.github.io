@@ -1,0 +1,13 @@
+---
+title: "Project Title"
+description: "Brief project description"
+date: YYYY-MM-DD
+image: "path/to/image.jpg"
+technologies: ["Tech 1", "Tech 2", "Tech 3"]
+github: "GitHub link"
+demo: "Demo link"
+featured: true/false
+---"
+arxiv: "arXiv link"
+code: "GitHub link"
+---
