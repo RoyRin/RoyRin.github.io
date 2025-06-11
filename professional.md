@@ -13,7 +13,9 @@ permalink: /professional/
 ## Academic Papers
 [Google Scholar Link](https://scholar.google.com/citations?hl=en&user=D_d_d8wAAAAJ)
 
-
+* (Workshop) [Easy Data Unlearning Bench]({{site.url}}/assets/projects/papers/data_unlearning_bench.pdf)
+    * [Github](https://github.com/RoyRin/data-unlearning-bench/)
+    * [Hugging Face](https://huggingface.co/datasets/royrin/KLOM-models/tree/main)
 
 * [Attribute-to-Delete: Machine Unlearning via Datamodel Matching](https://arxiv.org/abs/2410.23232)
     * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Full paper on Arxiv. Workshop accepted to GenLaw 2024.]
@@ -37,6 +39,7 @@ permalink: /professional/
 
 
 ## Projects 
+* [WikiRAG](https://github.com/RoyRin/wiki-rag/tree/main). An open-source RAG system built on Wikipedia for fast lookup.
 * [Privacy When Everyone is Watching : Privacy on the Blockchain in the Presence of KYC laws]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_final.pdf)
 * [Multi-party Computation (MPC) and Trustless Wage Sharing explainer ]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_hw3.pdf)
 * [Arxiv Crawler](https://github.com/RoyRin/arxiv_connections). A basic crawler to scrape arxiv and interactively visualize related authors.
