@@ -21,12 +21,12 @@ permalink: /professional/
     * **R. Rinberg**, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry. [Full paper on Arxiv. Workshop accepted to GenLaw 2024.]
     * [Blog](http://bit.ly/unlearning-via-datamodels)
     * [Twitter](https://x.com/RoyRinberg/status/1856437062876180759)
+* Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning. [Arxiv](https://arxiv.org/abs/2506.12553).
+    * **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot.
 * (Workshop) [When is Differentially Private Finetuning Actually Private?]({{site.url}}/assets/projects/papers/when_is_dp_dp.pdf)
     * **R. Rinberg**, M. Pawelczyk. [Accepted to Neurips [SFLLM](https://sites.google.com/berkeley.edu/bb-stat/home) 2024 workshop.]
     * [Blog](https://technicallyprivate.substack.com/p/when-is-differentially-private-finetuning)
     * [Twitter](https://x.com/RoyRinberg/status/1844733168802271248)
-* Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning. [Preprint](https://openreview.net/pdf?id=JG9PoF8o07). Updated working draft available upon request. 
-    * **R. Rinberg**, I. Shumailov, R. Cummings, N. Papernot. [Pre-print]
 * [Have it your way: Individualized Privacy Assignment for DP-SGD](https://arxiv.org/abs/2303.17046)
     * F. Boenisch, C. Mühl, A. Dziedzic, **R. Rinberg**, N. Papernot. [Accepted to Neurips 2023]
 * [Individualized PATE: Differentially Private Machine Learning with Individual Privacy Guarantees](https://arxiv.org/abs/2202.10517). 
