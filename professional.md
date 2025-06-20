@@ -40,6 +40,7 @@ permalink: /professional/
 
 ## Projects 
 * [WikiRAG](https://github.com/RoyRin/wiki-rag/tree/main). An open-source RAG system built on Wikipedia for fast lookup.
+* [Implementing Private RAG through a Trusted Execution Environment and Dafny-verified PathORAM system]({{site.url}}/assets/projects/papers/class_private_RAG.pdf)
 * [Privacy When Everyone is Watching : Privacy on the Blockchain in the Presence of KYC laws]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_final.pdf)
 * [Multi-party Computation (MPC) and Trustless Wage Sharing explainer ]({{site.url}}/assets/projects/courses/privacy_policy_2021/privacy_policy_hw3.pdf)
 * [Arxiv Crawler](https://github.com/RoyRin/arxiv_connections). A basic crawler to scrape arxiv and interactively visualize related authors.
