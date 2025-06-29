@@ -53,10 +53,25 @@ const Home = () => {
                 Hi, I'm Roy Rinberg
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                CS PhD student at Harvard, passionate about{' '}
-                <span className="text-primary-600 font-semibold">privacy technology</span> and{' '}
-                <span className="text-primary-600 font-semibold">Trustworthy Machine Learning</span>.
-                Advised by Professor Salil Vadhan and Seth Neel.
+                I'm a CS PhD student at Harvard, and I'm largely interested in{' '}
+                <span className="spoiler">privacy</span> technology and "Trustworthy" Machine Learning.
+                I'm advised by Professor{' '}
+                <a 
+                  href="https://salil.seas.harvard.edu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Salil Vadhan
+                </a> and Seth Neel. And I'm broadly interested in{' '}
+                <a 
+                  href="https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  public-interest technology
+                </a>.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -66,12 +81,6 @@ const Home = () => {
                   View My Work
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-                <a
-                  href="mailto:royrin@gmail.com"
-                  className="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"
-                >
-                  Get in Touch
-                </a>
               </div>
             </div>
             <div className="md:w-1/3">
@@ -88,8 +97,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Maintained Resources */}
-      <section className="py-20 bg-white">
+      {/* Who Am I Section */}
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0 }}
@@ -98,83 +107,50 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-              Resources I Maintain
+              Who Am I?
             </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              {maintainedResources.map((resource, index) => {
-                const Icon = resource.icon;
-                return (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
-                  >
-                    <div className="flex items-start space-x-4">
-                      <div className="flex-shrink-0">
-                        <Icon className="w-8 h-8 text-primary-600" />
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                          {resource.title}
-                        </h3>
-                        <p className="text-gray-600 mb-4">{resource.description}</p>
-                        <div className="flex flex-wrap gap-3">
-                          <a
-                            href={resource.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary-600 hover:text-primary-700 font-medium inline-flex items-center"
-                          >
-                            View Resource
-                            <ArrowRight className="ml-1 w-4 h-4" />
-                          </a>
-                          {resource.video && (
-                            <a
-                              href={resource.video}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-primary-600 hover:text-primary-700 font-medium inline-flex items-center"
-                            >
-                              Watch Video
-                              <ArrowRight className="ml-1 w-4 h-4" />
-                            </a>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
-          </motion.div>
-        </div>
-      </section>
+            
+            <div className="bg-gray-50 rounded-xl p-8 mb-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Writing:</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                I'm a big proponent of{' '}
+                <a 
+                  href="https://www.swyx.io/learn-in-public/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  learning in public
+                </a>
+                . Writing helps me clarify my thoughts and share knowledge with the community.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                I sometimes write about public-interest tech and privacy on{' '}
+                <a 
+                  href="https://technicallyprivate.substack.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  substack
+                </a> or{' '}
+                <a 
+                  href="https://royrinberg.medium.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Medium
+                </a>.
+              </p>
 
-      {/* About Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Being Helpful */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Being Helpful</h2>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Being helpful</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I enjoy communicating my work and talking with individuals who want to learn more about 
-                computer science research and academia. As someone who pivoted from industry to academia, 
-                I'm particularly sympathetic to the difficulties in such a transition.
+                I enjoy communicating my work and talking with individuals who want to learn more about computer science research and academia. As someone who pivoted from industry to academia, I'm particularly sympathetic to the difficulties in such a transition; so especially if you're in industry and trying to enter academia, please don't hesitate to reach out.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                If you're in industry and trying to enter academia, please don't hesitate to reach out.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                I used to help young Ukrainian students applying to universities with{' '}
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                I used to help young Ukrainian students applying to universities, with{' '}
                 <a 
                   href="https://mentorukraine.bravegeneration.org"
                   target="_blank"
@@ -185,98 +161,143 @@ const Home = () => {
                 </a>
                 . I strongly recommend this organization.
               </p>
-            </motion.div>
 
-            {/* Communities */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Communities</h2>
-              <div className="space-y-4">
-                <div className="bg-white p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900">Technically Private</h3>
-                  <p className="text-gray-700">
-                    Creator and organizer of a group of mostly graduate students across many universities 
-                    discussing Privacy and Security.
-                  </p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900">Columbia CS Research</h3>
-                  <p className="text-gray-700">
-                    Conducted research with Professor Rachel Cummings and Professor Steven Bellovin on Private ML.
-                  </p>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <h3 className="font-semibold text-gray-900">Ouster</h3>
-                  <p className="text-gray-700">
-                    Early-stage software engineer for 3 years at a lidar company.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Communities/groups I have been a part of</h3>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                I created and organize the group{' '}
+                <a 
+                  href="https://www.technicallyprivate.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Technically Private
+                </a>
+                : a group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link. CS Research Master's at Columbia: I conducted research with{' '}
+                <a 
+                  href="https://www.rachelcummings.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Professor Rachel Cummings
+                </a> and{' '}
+                <a 
+                  href="https://www.cs.columbia.edu/~smb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Professor Steven Bellovin
+                </a> on Private ML. I was an early-stage software engineer for 3 years at{' '}
+                <a 
+                  href="https://www.ouster.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Ouster
+                </a>, a lidar company.
+              </p>
 
-      {/* Hobbies Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-12">My Hobbies</h2>
-            <div className="flex flex-wrap justify-center gap-8">
-              {hobbies.map((hobby, index) => {
-                const Icon = hobby.icon;
-                return (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="flex flex-col items-center"
+              <p className="text-gray-700 leading-relaxed mb-2">
+                <strong>Resources I Maintain:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a 
+                    href="https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
                   >
-                    <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-3">
-                      <Icon className="w-8 h-8 text-primary-600" />
-                    </div>
-                    {hobby.link ? (
-                      <a
-                        href={hobby.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-lg font-medium text-gray-900 hover:text-primary-600 transition-colors"
-                      >
-                        {hobby.name}
-                      </a>
-                    ) : (
-                      <span className="text-lg font-medium text-gray-900">{hobby.name}</span>
-                    )}
-                  </motion.div>
-                );
-              })}
+                    Google sheet of Academic Privacy researchers in North America
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Resource List for Working in Public-Interest Technology
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://fascinated-zircon-5bc.notion.site/FASRC-Computing-1c14c3845c4c8046bbd6f2bac85fc067"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Guide on using Slurm
+                  </a> with an associated{' '}
+                  <a 
+                    href="https://www.youtube.com/watch?v=Pak8OOLDNkQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    YouTube video
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    (Aggressive) steps I've taken to be less addicted to the internet
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://docs.google.com/presentation/d/1wArCxGAAvkJcy0inWeKua3Ra7LkJDhApcso8cJ1Aon8/edit#slide=id.g1223166de6e_0_7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    List of how organizations advertise privacy
+                  </a> (if you have more, please send them to me!)
+                </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-6">
+                <strong>My hobbies:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a 
+                    href="https://technicallyprivate.substack.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Writing, ideally
+                  </a>!
+                </li>
+                <li>
+                  Drone Photography, but uploading the photos is such a pain
+                </li>
+                <li>
+                  <span className="line-through text-gray-500">Frisbee</span> <span className="line-through text-gray-500">Climbing</span> <span className="line-through text-gray-500">Triathloning</span>{' '}
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Hardcourt_Bike_Polo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Bike Polo
+                  </a>
+                </li>
+              </ul>
             </div>
-            <p className="mt-8 text-gray-600">
-              Also collecting a{' '}
-              <a
-                href="https://docs.google.com/presentation/d/1wArCxGAAvkJcy0inWeKua3Ra7LkJDhApcso8cJ1Aon8/edit#slide=id.g1223166de6e_0_7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700 font-medium"
-              >
-                list of how organizations advertise privacy
-              </a>
-              {' '}(please send me more!)
-            </p>
           </motion.div>
         </div>
       </section>
+
     </div>
   );
 };

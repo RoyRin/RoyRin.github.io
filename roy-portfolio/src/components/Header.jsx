@@ -9,12 +9,10 @@ const Header = () => {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/professional', label: 'Professional' },
-    { path: '/blog', label: 'Blog' },
+    { href: 'https://technicallyprivate.substack.com/', label: 'Blog', external: true },
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/RoyRin', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/royrin/', label: 'LinkedIn' },
     { icon: Twitter, href: 'https://twitter.com/RoyRinberg', label: 'Twitter' },
   ];
 
@@ -29,17 +27,29 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`text-gray-700 hover:text-primary-600 transition-colors font-medium ${
-                  location.pathname === link.path ? 'text-primary-600' : ''
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => 
+              link.external ? (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className={`text-gray-700 hover:text-primary-600 transition-colors font-medium ${
+                    location.pathname === link.path ? 'text-primary-600' : ''
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
             
             <div className="flex items-center space-x-4 ml-4 pl-4 border-l border-gray-200">
               {socialLinks.map((link) => {
@@ -73,18 +83,31 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-100">
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                onClick={() => setIsMenuOpen(false)}
-                className={`block py-2 px-4 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded transition ${
-                  location.pathname === link.path ? 'text-primary-600 bg-gray-50' : ''
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => 
+              link.external ? (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block py-2 px-4 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded transition"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`block py-2 px-4 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded transition ${
+                    location.pathname === link.path ? 'text-primary-600 bg-gray-50' : ''
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
             
             <div className="flex items-center space-x-4 mt-4 pt-4 px-4 border-t border-gray-100">
               {socialLinks.map((link) => {

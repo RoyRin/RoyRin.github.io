@@ -61,25 +61,6 @@ const Blog = () => {
             </motion.div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-12 p-6 bg-primary-50 rounded-lg"
-          >
-            <p className="text-gray-700">
-              I'm a big proponent of{' '}
-              <a
-                href="https://www.swyx.io/learn-in-public/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary-600 hover:text-primary-700 font-medium"
-              >
-                learning in public
-              </a>
-              . Writing helps me clarify my thoughts and share knowledge with the community.
-            </p>
-          </motion.div>
         </motion.div>
       </div>
     </div>
