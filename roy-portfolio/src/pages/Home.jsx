@@ -54,7 +54,7 @@ const Home = () => {
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 I'm a CS PhD student at Harvard, and I'm largely interested in{' '}
-                <span className="spoiler">privacy</span> technology and "Trustworthy" Machine Learning.
+                <span className="spoiler">privacy</span> technology and <em>trustworthy</em> machine learning.
                 I'm advised by Professor{' '}
                 <a 
                   href="https://salil.seas.harvard.edu"
