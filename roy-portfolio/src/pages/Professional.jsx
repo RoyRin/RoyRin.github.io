@@ -245,7 +245,7 @@ const Professional = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-8"
+            className="flex flex-col lg:flex-row lg:items-start gap-8"
           >
             <div className="flex-1">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">Professional Work</h1>

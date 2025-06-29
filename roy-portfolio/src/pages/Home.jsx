@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, FileText, Users, Camera, Bike, PenTool, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Home = () => {
+  const [isHovered, setIsHovered] = useState(false);
+  
   const maintainedResources = [
     {
       title: "Academic Privacy Researchers in North America",
@@ -53,7 +56,7 @@ const Home = () => {
                 Hi, I'm Roy Rinberg
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                I'm a CS PhD student at Harvard, and I'm largely interested in{' '}
+                I'm a CS PhD student at Harvard, and I work on{' '}
                 <span className="spoiler">privacy</span> technology and <em>trustworthy</em> machine learning.
                 I'm advised by Professor{' '}
                 <a 
@@ -88,9 +91,11 @@ const Home = () => {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                src="/assets/profile_pic.jpg"
+                src={isHovered ? "/assets/basketball.jpg" : "/assets/profile_pic.jpg"}
                 alt="Roy Rinberg"
-                className="rounded-2xl shadow-xl w-full max-w-sm mx-auto"
+                className="rounded-2xl shadow-xl w-full max-w-sm mx-auto transition-all duration-300 cursor-pointer"
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
               />
             </div>
           </motion.div>
