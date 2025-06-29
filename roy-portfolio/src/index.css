@@ -558,6 +558,14 @@ button:hover, .btn:hover {
   color: #b91c1c;
 }
 
+.text-red-800 {
+  color: #991b1b;
+}
+
+.bg-red-600 {
+  background-color: #dc2626;
+}
+
 .hover\:bg-red-200:hover {
   background-color: #fecaca;
 }

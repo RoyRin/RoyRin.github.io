@@ -172,15 +172,6 @@ const Professional = () => {
 
   const allProjects = [
     {
-      title: "ArXiv Scraper & Visualization",
-      description: "Interactive graph visualization of academic paper relationships",
-      type: "software",
-      links: [
-        { label: "GitHub", url: "#" },
-        { label: "Demo", url: "#" }
-      ]
-    },
-    {
       title: "WikiRAG",
       description: "An open-source RAG system built on Wikipedia for fast lookup",
       type: "software",
@@ -189,6 +180,30 @@ const Professional = () => {
         { label: "Hugging Face", url: "https://huggingface.co/royrin/wiki-rag" },
         { label: "Twitter", url: "https://x.com/RoyRinsberg/status/1932163645703942342" }
       ]
+    },
+    {
+      title: "ArXiv Scraper & Visualization",
+      description: "Interactive graph visualization of academic paper relationships",
+      type: "software",
+      links: [
+        { label: "GitHub", url: "#" }
+      ]
+    },
+    {
+      title: "Under the Tree",
+      year: "2019",
+      description: "2nd Assistant Camera",
+      type: "silverscreen",
+      links: [
+        { label: "Website", url: "https://underthetreeshort.com/" },
+        { label: "IMDB", url: "https://www.imdb.com/name/nm10516715/" }
+      ]
+    },
+    {
+      title: "Implementing Private RAG through a Trusted Execution Environment and Dafny-verified PathORAM system",
+      description: "Private RAG implementation using TEE and formally verified PathORAM",
+      type: "report",
+      pdf: "/assets/projects/papers/class_private_RAG.pdf"
     },
     {
       title: "Blockchain Course Project",
@@ -211,6 +226,12 @@ const Professional = () => {
 
   const filteredProjects = selectedProjectFilter === 'all' 
     ? allProjects 
+    : selectedProjectFilter === 'report'
+    ? allProjects.filter(project => project.type === 'report')
+    : selectedProjectFilter === 'software'
+    ? allProjects.filter(project => project.type === 'software')
+    : selectedProjectFilter === 'silverscreen'
+    ? allProjects.filter(project => project.type === 'silverscreen')
     : allProjects.filter(project => project.type === selectedProjectFilter);
 
   return (
@@ -539,6 +560,16 @@ const Professional = () => {
                 >
                   Reports
                 </button>
+                <button
+                  onClick={() => setSelectedProjectFilter('silverscreen')}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                    selectedProjectFilter === 'silverscreen'
+                      ? 'bg-red-600 text-white'
+                      : 'bg-red-100 text-red-700 hover:bg-red-200'
+                  }`}
+                >
+                  Silver Screen (Movies)
+                </button>
               </div>
             </div>
 
@@ -559,9 +590,11 @@ const Professional = () => {
                         <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold ${
                           project.type === 'software' 
                             ? 'bg-purple-100 text-purple-800' 
+                            : project.type === 'silverscreen'
+                            ? 'bg-red-100 text-red-800'
                             : 'bg-green-100 text-green-800'
                         }`}>
-                          {project.type === 'software' ? 'Software' : 'Report'}
+                          {project.type === 'software' ? 'Software' : project.type === 'silverscreen' ? 'Silver Screen' : 'Report'}
                         </span>
                         {project.year && (
                           <span className="text-gray-500 text-sm">({project.year})</span>
@@ -606,6 +639,10 @@ const Professional = () => {
                             return 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200';
                           case 'demo':
                             return 'bg-pink-100 text-pink-700 hover:bg-pink-200';
+                          case 'imdb':
+                            return 'bg-yellow-900 text-white hover:bg-yellow-800';
+                          case 'website':
+                            return 'bg-blue-100 text-blue-700 hover:bg-blue-200';
                           default:
                             return 'bg-gray-100 text-gray-700 hover:bg-gray-200';
                         }
