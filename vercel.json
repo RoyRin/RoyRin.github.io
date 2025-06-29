@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd roy-portfolio && npm install && npm run build",
+  "outputDirectory": "roy-portfolio/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
