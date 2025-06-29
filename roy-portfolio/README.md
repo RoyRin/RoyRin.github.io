@@ -1,42 +1,38 @@
-# Roy Rinberg's Portfolio Website
+# Roy's Portfolio Website
 
-A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
+A modern React portfolio website built with Vite and Tailwind CSS.
 
-## Features
+## Running Locally
 
-- ✨ Modern, clean design with smooth animations
-- 📱 Fully responsive for all devices
-- 🚀 Fast performance with Vite
-- 🎨 Styled with Tailwind CSS
-- 🔄 Smooth page transitions with Framer Motion
-- 📄 Academic papers and projects showcase
-- 🔗 External blog integration
+1. Navigate to the portfolio directory:
+   ```bash
+   cd roy-portfolio
+   ```
 
-## Getting Started
-
-1. Install dependencies:
+2. Install dependencies (first time only):
    ```bash
    npm install
    ```
 
-2. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
 
-3. Build for production:
-   ```bash
-   npm run build
-   ```
+4. Open your browser to the URL shown in the terminal (usually http://localhost:5173 or http://localhost:5174)
 
-## Structure
+## Available Scripts
 
-- `/src/components` - Reusable React components
-- `/src/pages` - Page components
-- `/public/assets` - Static assets (images, PDFs)
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
 
-## Pages
+## Technology Stack
 
-- **Home** - Introduction, maintained resources, communities, and hobbies
-- **Professional** - Academic papers, software projects, and course work
-- **Blog** - Links to Substack and Medium writings
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Lucide React (icons)

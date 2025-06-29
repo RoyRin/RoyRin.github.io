@@ -48,6 +48,7 @@ const Professional = () => {
       year: "2024",
       type: "workshop",
       firstAuthor: true,
+      abstract: "Differential Privacy (DP) is a mathematical definition that enshrines a formal guarantee that the output of a query does not depend greatly on any individual in the dataset. DP does not formalize a notion of \"background information\" and does not provide a guarantee about how much an output can be identifying to someone who has background information about an individual. In this paper, we argue that privately fine-tuning a pre-trained machine learning model on a private dataset using differential privacy does not always yield meaningful notions of privacy. Simply offering differential privacy guarantees in terms of (ε, δ) is insufficient to ensure human notions privacy, when the original training data is correlated with the fine-tuning dataset. We emphasize that, alongside differential privacy assurances, it is essential to report measures of dataset similarity and model attackability (for which model-size can be a proxy). This is a work in progress; this work is primarily a position piece, arguing for how DP should be used in practice, and what future research needs to be conducted in order to better answer those questions.",
       pdf: "/assets/projects/papers/when_is_dp_dp.pdf",
       links: [
         { label: "Blog", url: "https://technicallyprivate.substack.com/p/when-is-differentially-private-finetuning" },
@@ -63,7 +64,7 @@ const Professional = () => {
       type: "preprint",
       firstAuthor: true,
       description: "Investigating the Generalized Gaussian mechanism for differential privacy, expanding beyond Laplace and Gaussian noise.",
-      abstract: "Differential privacy (DP) is obtained by randomizing a data analysis algorithm, which necessarily introduces a tradeoff between its utility and privacy. Many DP mechanisms are built upon one of two underlying tools: Laplace and Gaussian additive noise mechanisms. We expand the search space of algorithms by investigating the Generalized Gaussian mechanism, which samples the additive noise term x with probability proportional to e<sup>−|x|<sup>β</sup>/σ<sup>β</sup></sup> for some β≥1. The Laplace and Gaussian mechanisms are special cases of GG for β=1 and β=2, respectively. In this work, we prove that all members of the GG family satisfy differential privacy, and provide an extension of an existing numerical accountant (the PRV accountant) for these mechanisms. We show that privacy accounting for the GG Mechanism and its variants is dimension independent, which substantially improves computational costs of privacy accounting. We apply the GG mechanism to two canonical tools for private machine learning, PATE and DP-SGD; we show empirically that β has a weak relationship with test-accuracy, and that generally β=2 (Gaussian) is nearly optimal. This provides justification for the widespread adoption of the Gaussian mechanism in DP learning, and can be interpreted as a negative result, that optimizing over β does not lead to meaningful improvements in performance.",
+      abstract: "Differential privacy (DP) is obtained by randomizing a data analysis algorithm, which necessarily introduces a tradeoff between its utility and privacy. Many DP mechanisms are built upon one of two underlying tools: Laplace and Gaussian additive noise mechanisms. We expand the search space of algorithms by investigating the Generalized Gaussian mechanism, which samples the additive noise term x with probability proportional to e^(-|x|^β/σ^β) for some β≥1. The Laplace and Gaussian mechanisms are special cases of GG for β=1 and β=2, respectively. In this work, we prove that all members of the GG family satisfy differential privacy, and provide an extension of an existing numerical accountant (the PRV accountant) for these mechanisms. We show that privacy accounting for the GG Mechanism and its variants is dimension independent, which substantially improves computational costs of privacy accounting. We apply the GG mechanism to two canonical tools for private machine learning, PATE and DP-SGD; we show empirically that β has a weak relationship with test-accuracy, and that generally β=2 (Gaussian) is nearly optimal. This provides justification for the widespread adoption of the Gaussian mechanism in DP learning, and can be interpreted as a negative result, that optimizing over β does not lead to meaningful improvements in performance.",
       arxiv: "https://arxiv.org/abs/2506.12553",
       links: []
     },
@@ -99,6 +100,7 @@ const Professional = () => {
       year: "2022",
       type: "preprint",
       firstAuthor: true,
+      abstract: "Blockchain technologies rely on a public ledger, where typically all transactions are pseudoanonymous and fully traceable. This poses a major flaw in its large scale adoption of cryptocurrencies, the primary application of blockchain technologies, as most individuals do not want to disclose their finances to the public. Motivated by the explosive growth in private-Blockchain research, this Statement-of-Knowledge (SOK) explores the ways to obtain privacy in this public ledger ecosystem. The authors first look at the underlying technology underling all zero-knowledge applications on the blockchain: zk-SNARKs (zero-knowledge Succinct Non-interactive ARguments of Knowledge). We then explore the two largest privacy coins as of today, ZCash and Monero, as well as TornadoCash, a popular Ethereum Tumbler solution. Finally, we look at the opposing incentives behind privacy solutions and de-anonymization techniques, and the future of privacy on the blockchain.",
       eprint: "https://eprint.iacr.org/2022/985",
       links: []
     },
@@ -173,7 +175,7 @@ const Professional = () => {
   const allProjects = [
     {
       title: "WikiRAG",
-      description: "An open-source RAG system built on Wikipedia for fast lookup",
+      description: "RAG (retrieval augemented generation) code gives you a RAG that directly gives you the relevant wikipedia article. It's entirely offline, so saves on requests to Wikipedia. Once a title is returned by the RAG, a request can be made to an offline store of Wikipedia, or to wikipedia directly.",
       type: "software",
       links: [
         { label: "GitHub", url: "https://github.com/RoyRin/wiki-rag/tree/main" },
@@ -440,6 +442,16 @@ const Professional = () => {
                         </div>
                       )}
                     </div>
+                    {paper.image && (
+                      <div className="ml-6 flex-shrink-0">
+                        <img
+                          src={paper.image}
+                          alt={`${paper.title} diagram`}
+                          className="object-contain rounded-lg border border-gray-200"
+                          style={{ width: '30px', height: '30px' }}
+                        />
+                      </div>
+                    )}
                   </div>
                   <div className="flex flex-wrap gap-4">
                     {paper.pdf && (
