@@ -25,7 +25,7 @@ I maintain:
 * [This google sheet of Academic Privacy researchers in North America](https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0)
 * [This Resource List for Working in Public-Interest Technology](https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712)
 * [Here's a guide on using Slurm](https://fascinated-zircon-5bc.notion.site/FASRC-Computing-1c14c3845c4c8046bbd6f2bac85fc067) with an associated [youtube video](https://www.youtube.com/watch?v=Pak8OOLDNkQ)
-
+* [Here are (aggressive) steps I've taken to be less addicted to the internet](https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p)
 
 
 
