@@ -8,40 +8,40 @@ const DronePhotos = () => {
 
   const photos = [
     // North Carolina Beach Photos
-    { src: '/assets/drone_photos/NC_beach.JPG', location: 'North Carolina', category: 'Beach', title: 'NC Beach Aerial View' },
-    { src: '/assets/drone_photos/NC_dolphin_couple.JPG', location: 'North Carolina', category: 'Wildlife', title: 'Dolphin Couple' },
-    { src: '/assets/drone_photos/NC_dolphin_pod.JPG', location: 'North Carolina', category: 'Wildlife', title: 'Dolphin Pod' },
+    { src: '/assets/drone_photos_optimized/NC_beach.jpg', location: 'North Carolina', category: 'Beach', title: 'NC Beach Aerial View' },
+    { src: '/assets/drone_photos_optimized/NC_dolphin_couple.jpg', location: 'North Carolina', category: 'Wildlife', title: 'Dolphin Couple' },
+    { src: '/assets/drone_photos_optimized/NC_dolphin_pod.jpg', location: 'North Carolina', category: 'Wildlife', title: 'Dolphin Pod' },
     
     // Seattle Photos
-    { src: '/assets/drone_photos/seattle_boat.JPG', location: 'Seattle', category: 'Maritime', title: 'Seattle Boat' },
-    { src: '/assets/drone_photos/seattle_boats_kayak.JPG', location: 'Seattle', category: 'Maritime', title: 'Boats and Kayak' },
-    { src: '/assets/drone_photos/seattle_bridge.JPG', location: 'Seattle', category: 'Infrastructure', title: 'Seattle Bridge' },
-    { src: '/assets/drone_photos/seattle_crane.JPG', location: 'Seattle', category: 'Industrial', title: 'Seattle Crane' },
-    { src: '/assets/drone_photos/seattle_cranes.JPG', location: 'Seattle', category: 'Industrial', title: 'Seattle Cranes' },
-    { src: '/assets/drone_photos/seattle_dock.JPG', location: 'Seattle', category: 'Maritime', title: 'Seattle Dock' },
-    { src: '/assets/drone_photos/seattle_dock2.JPG', location: 'Seattle', category: 'Maritime', title: 'Seattle Dock 2' },
-    { src: '/assets/drone_photos/seattle_kayak.JPG', location: 'Seattle', category: 'Maritime', title: 'Seattle Kayak' },
-    { src: '/assets/drone_photos/seattle_locks.JPG', location: 'Seattle', category: 'Infrastructure', title: 'Seattle Locks' },
-    { src: '/assets/drone_photos/seattle_locks2.JPG', location: 'Seattle', category: 'Infrastructure', title: 'Seattle Locks 2' },
-    { src: '/assets/drone_photos/seattle_onlookers.JPG', location: 'Seattle', category: 'People', title: 'Seattle Onlookers' },
+    { src: '/assets/drone_photos_optimized/seattle_boat.jpg', location: 'Seattle', category: 'Maritime', title: 'Seattle Boat' },
+    { src: '/assets/drone_photos_optimized/seattle_boats_kayak.jpg', location: 'Seattle', category: 'Maritime', title: 'Boats and Kayak' },
+    { src: '/assets/drone_photos_optimized/seattle_bridge.jpg', location: 'Seattle', category: 'Infrastructure', title: 'Seattle Bridge' },
+    { src: '/assets/drone_photos_optimized/seattle_crane.jpg', location: 'Seattle', category: 'Industrial', title: 'Seattle Crane' },
+    { src: '/assets/drone_photos_optimized/seattle_cranes.jpg', location: 'Seattle', category: 'Industrial', title: 'Seattle Cranes' },
+    { src: '/assets/drone_photos_optimized/seattle_dock.jpg', location: 'Seattle', category: 'Maritime', title: 'Seattle Dock' },
+    { src: '/assets/drone_photos_optimized/seattle_dock2.jpg', location: 'Seattle', category: 'Maritime', title: 'Seattle Dock 2' },
+    { src: '/assets/drone_photos_optimized/seattle_kayak.jpg', location: 'Seattle', category: 'Maritime', title: 'Seattle Kayak' },
+    { src: '/assets/drone_photos_optimized/seattle_locks.jpg', location: 'Seattle', category: 'Infrastructure', title: 'Seattle Locks' },
+    { src: '/assets/drone_photos_optimized/seattle_locks2.jpg', location: 'Seattle', category: 'Infrastructure', title: 'Seattle Locks 2' },
+    { src: '/assets/drone_photos_optimized/seattle_onlookers.jpg', location: 'Seattle', category: 'People', title: 'Seattle Onlookers' },
     
     // Toronto Photos
-    { src: '/assets/drone_photos/toronto_construction.JPG', location: 'Toronto', category: 'Urban', title: 'Toronto Construction' },
-    { src: '/assets/drone_photos/toronto_culdesac.JPG', location: 'Toronto', category: 'Urban', title: 'Toronto Cul-de-sac' },
-    { src: '/assets/drone_photos/toronto_downtown.JPG', location: 'Toronto', category: 'Urban', title: 'Toronto Downtown' },
-    { src: '/assets/drone_photos/toronto_ducks.JPG', location: 'Toronto', category: 'Wildlife', title: 'Toronto Ducks' },
-    { src: '/assets/drone_photos/toronto_garden_top.JPG', location: 'Toronto', category: 'Urban', title: 'Toronto Garden Top View' },
-    { src: '/assets/drone_photos/toronto_snow_construction.JPG', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Construction' },
-    { src: '/assets/drone_photos/toronto_snow_covered_dome.JPG', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Covered Dome' },
-    { src: '/assets/drone_photos/toronto_snow_path.JPG', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Path' },
-    { src: '/assets/drone_photos/toronto_snow_path_river.JPG', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Path River' },
-    { src: '/assets/drone_photos/toronto_snowwy_tracks.JPG', location: 'Toronto', category: 'Winter', title: 'Toronto Snowy Tracks' },
-    { src: '/assets/drone_photos/toronto_snowy_tractors.JPG', location: 'Toronto', category: 'Winter', title: 'Toronto Snowy Tractors' },
-    { src: '/assets/drone_photos/toronto_train_angled.JPG', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Angled' },
-    { src: '/assets/drone_photos/toronto_train_tracks.JPG', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Tracks' },
+    { src: '/assets/drone_photos_optimized/toronto_construction.jpg', location: 'Toronto', category: 'Urban', title: 'Toronto Construction' },
+    { src: '/assets/drone_photos_optimized/toronto_culdesac.jpg', location: 'Toronto', category: 'Urban', title: 'Toronto Cul-de-sac' },
+    { src: '/assets/drone_photos_optimized/toronto_downtown.jpg', location: 'Toronto', category: 'Urban', title: 'Toronto Downtown' },
+    { src: '/assets/drone_photos_optimized/toronto_ducks.jpg', location: 'Toronto', category: 'Wildlife', title: 'Toronto Ducks' },
+    { src: '/assets/drone_photos_optimized/toronto_garden_top.jpg', location: 'Toronto', category: 'Urban', title: 'Toronto Garden Top View' },
+    { src: '/assets/drone_photos_optimized/toronto_snow_construction.jpg', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Construction' },
+    { src: '/assets/drone_photos_optimized/toronto_snow_covered_dome.jpg', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Covered Dome' },
+    { src: '/assets/drone_photos_optimized/toronto_snow_path.jpg', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Path' },
+    { src: '/assets/drone_photos_optimized/toronto_snow_path_river.jpg', location: 'Toronto', category: 'Winter', title: 'Toronto Snow Path River' },
+    { src: '/assets/drone_photos_optimized/toronto_snowwy_tracks.jpg', location: 'Toronto', category: 'Winter', title: 'Toronto Snowy Tracks' },
+    { src: '/assets/drone_photos_optimized/toronto_snowy_tractors.jpg', location: 'Toronto', category: 'Winter', title: 'Toronto Snowy Tractors' },
+    { src: '/assets/drone_photos_optimized/toronto_train_angled.jpg', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Angled' },
+    { src: '/assets/drone_photos_optimized/toronto_train_tracks.jpg', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Tracks' },
     
     // Other
-    { src: '/assets/drone_photos/tobermory.jpeg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
+    { src: '/assets/drone_photos_optimized/tobermory.jpg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
   ];
 
   const [selectedLocation, setSelectedLocation] = useState('all');
