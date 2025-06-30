@@ -36,10 +36,8 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center text-gray-600 text-sm">
             <p>© {currentYear} Roy Rinberg. All rights reserved.</p>
-            <p className="mt-2 flex items-center justify-center space-x-1">
-              <span>Made with</span>
-              <Heart className="w-4 h-4 text-red-500 fill-current" />
-              <span>using React and Tailwind CSS</span>
+            <p className="mt-2">
+              Made using React and Tailwind CSS
             </p>
           </div>
         </div>
