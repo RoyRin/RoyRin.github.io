@@ -111,6 +111,17 @@ const DronePhotos = () => {
               Drone Photography
             </h1>
             <p className="text-xl text-gray-600">Aerial perspectives from various locations</p>
+            <p className="text-sm text-gray-500 mt-4">
+              Higher resolution versions available upon request.{' '}
+              <a 
+                href="https://github.com/RoyRin/RoyRin.github.io/tree/master/original_website/assets/drone_photos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-600 hover:text-primary-700 underline"
+              >
+                View originals on GitHub
+              </a>
+            </p>
           </motion.div>
         </div>
       </section>
