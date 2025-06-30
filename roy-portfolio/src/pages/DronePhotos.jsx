@@ -63,7 +63,7 @@ const DronePhotos = () => {
     
     { src: '/assets/drone_photos_optimized/0895.jpg', location: 'Norway', category: 'Nature', title: 'Another beach of Senja' },
     
-    { src: '/assets/drone_photos_optimized/0868.jpg', location: 'Norway', category: 'Nature', title: 'Husfjellet' },
+    { src: '/assets/drone_photos_optimized/0868.jpg', location: 'Norway', category: 'Nature', title: 'Segla' },
     
     // Other
     { src: '/assets/drone_photos_optimized/tobermory.jpg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
