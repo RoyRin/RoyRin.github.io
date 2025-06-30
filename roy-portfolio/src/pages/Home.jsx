@@ -284,7 +284,12 @@ const Home = () => {
                   </a>!
                 </li>
                 <li>
-                  Drone Photography, but uploading the photos is such a pain
+                  <Link 
+                    to="/drone-photos"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Drone Photography
+                  </Link>, but uploading photos can be such a pain
                 </li>
                 <li>
                   <span className="line-through text-gray-500">Frisbee</span> <span className="line-through text-gray-500">Climbing</span> <span className="line-through text-gray-500">Triathloning</span>{' '}
