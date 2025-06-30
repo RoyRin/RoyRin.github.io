@@ -67,21 +67,25 @@ const DronePhotos = () => {
 
   const closeLightbox = () => {
     setSelectedImage(null);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = '';
   };
 
   const navigateLightbox = (direction) => {
-    if (!selectedImage) return;
+    if (!selectedImage || filteredPhotos.length === 0) return;
     const currentIndex = filteredPhotos.findIndex(p => p.src === selectedImage.src);
-    let newIndex;
+    if (currentIndex === -1) return; // Safety check
     
+    let newIndex;
     if (direction === 'next') {
       newIndex = (currentIndex + 1) % filteredPhotos.length;
     } else {
       newIndex = currentIndex === 0 ? filteredPhotos.length - 1 : currentIndex - 1;
     }
     
-    setSelectedImage(filteredPhotos[newIndex]);
+    const nextPhoto = filteredPhotos[newIndex];
+    if (nextPhoto) {
+      setSelectedImage(nextPhoto);
+    }
   };
 
   useEffect(() => {
@@ -92,9 +96,18 @@ const DronePhotos = () => {
       if (e.key === 'Escape') closeLightbox();
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedImage]);
+    if (selectedImage) {
+      window.addEventListener('keydown', handleKeyDown);
+      return () => window.removeEventListener('keydown', handleKeyDown);
+    }
+  }, [selectedImage, filteredPhotos]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">
