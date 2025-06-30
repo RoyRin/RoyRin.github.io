@@ -10,7 +10,7 @@ const Professional = () => {
   const allPapers = [
     {
       title: "Easy Data Unlearning Bench",
-      authors: "<u><strong>Roy Rinberg</strong></u>, Pol Pugidemont, Matin Pawelczyk, Volkan Cevher",
+      authors: "<u><strong>Roy Rinberg</strong></u>*, Pol Pugidemont*, Matin Pawelczyk, Volkan Cevher",
       venue: "ICML 2025 Workshop on Machine Unlearning for Generative AI (Workshop)",
       year: "2025",
       type: "workshop",
@@ -26,7 +26,7 @@ const Professional = () => {
     },
     {
       title: "Attribute-to-Delete: Machine Unlearning via Datamodel Matching",
-      authors: "<u><strong>R. Rinberg</strong></u>, K. Georgiev, S. Park, S. Garg, A. Ilyas, S. Neel, A. Madry",
+      authors: "<u><strong>R. Rinberg</strong></u>*, K. Georgiev*, S. Park*, S. Garg, A. Ilyas, S. Neel, A. Madry",
       venue: "ICML 2025 (Conference)",
       venueFull: "ICML 2025",
       year: "2025",
@@ -57,7 +57,7 @@ const Professional = () => {
     },
     {
       title: "Beyond Laplace and Gaussian: Exploring the Generalized Gaussian Mechanism for Private Machine Learning",
-      authors: "<u><strong>R. Rinberg</strong></u>, I. Shumailov, R. Cummings, N. Papernot",
+      authors: "<u><strong>R. Rinberg</strong></u>*, I. Shumailov, V. Singhal, R. Cummings, N. Papernot",
       venue: "arXiv (Preprint)",
       venueFull: "arXiv preprint",
       year: "2024",
@@ -94,7 +94,7 @@ const Professional = () => {
     },
     {
       title: "Privacy when Everyone is Watching: An SOK on Anonymity on the Blockchain",
-      authors: "<u><strong>R. Rinberg</strong></u>, N. Agarwal",
+      authors: "<u><strong>R. Rinberg</strong></u>*, N. Agarwal*",
       venue: "IACR ePrint (Preprint)",
       venueFull: "IACR Cryptology ePrint Archive",
       year: "2022",
