@@ -39,6 +39,8 @@ const DronePhotos = () => {
     { src: '/assets/drone_photos_optimized/toronto_train_angled.jpg', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Angled' },
     { src: '/assets/drone_photos_optimized/toronto_train_tracks.jpg', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Tracks' },
     
+    { src: '/assets/drone_photos_optimized/dji_0447.jpg', location: 'Boston', category: 'Sports', title: 'Bike Polo Aerial' },
+    
     // Other
     { src: '/assets/drone_photos_optimized/tobermory.jpg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
   ];
@@ -164,10 +166,10 @@ const DronePhotos = () => {
                       loadedImages[photo.src] ? 'opacity-100' : 'opacity-0'
                     }`}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                    <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                  <div className="absolute inset-0 bg-gradient-to-t from-white/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-0 left-0 right-0 p-4 text-black">
                       <h3 className="font-semibold">{photo.title}</h3>
-                      <p className="text-sm opacity-90">{photo.location}</p>
+                      <p className="text-sm opacity-75">{photo.location}</p>
                     </div>
                   </div>
                 </div>

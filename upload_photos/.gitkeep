@@ -1,0 +1,2 @@
+# This file keeps the upload_photos directory in git
+# Drop your new drone photos here, then run: ./upload_drone_photos.sh
