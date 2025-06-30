@@ -31,6 +31,12 @@ const Home = () => {
       description: "Aggressive steps to be less addicted to the internet",
       link: "https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p",
       icon: Shield
+    },
+    {
+      title: "Knee-based trivia",
+      description: "Collection of knee-related trivia and facts",
+      link: "https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p",
+      icon: FileText
     }
   ];
 
@@ -266,6 +272,16 @@ const Home = () => {
                   >
                     List of how organizations advertise privacy
                   </a> (if you have more, please send them to me!)
+                </li>
+                <li>
+                  <a 
+                    href="https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Knee-based trivia
+                  </a>
                 </li>
               </ul>
 
