@@ -22,7 +22,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Name */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src="/hello.svg" alt="Hello" className="w-8 h-8" />
+            <img src="/stick_figure_wave_clean.gif" alt="Waving stick figure" className="w-8 h-8" />
             <span className="text-2xl font-bold text-gray-900">What's the Matter with Roy?</span>
           </Link>
 
