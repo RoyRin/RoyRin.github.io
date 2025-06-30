@@ -39,7 +39,31 @@ const DronePhotos = () => {
     { src: '/assets/drone_photos_optimized/toronto_train_angled.jpg', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Angled' },
     { src: '/assets/drone_photos_optimized/toronto_train_tracks.jpg', location: 'Toronto', category: 'Transportation', title: 'Toronto Train Tracks' },
     
-    { src: '/assets/drone_photos_optimized/dji_0447.jpg', location: 'Boston', category: 'Sports', title: 'Bike Polo Aerial' },
+    { src: '/assets/drone_photos_optimized/0447.jpg', location: 'Boston', category: 'Sports', title: 'Bike Polo Aerial' },
+    
+    { src: '/assets/drone_photos_optimized/0907.jpg', location: 'Norway', category: 'Nature', title: 'Waters of Senja' },
+    
+    { src: '/assets/drone_photos_optimized/0913.jpg', location: 'Norway', category: 'Nature', title: 'Waters of Senja' },
+    
+    { src: '/assets/drone_photos_optimized/0864.jpg', location: 'Norway', category: 'Nature', title: 'Segla' },
+    
+    { src: '/assets/drone_photos_optimized/0741.jpg', location: 'Norway', category: 'Nature', title: 'Beaches of Tromso' },
+    
+    { src: '/assets/drone_photos_optimized/0988.jpg', location: 'Norway', category: 'Nature', title: 'Husfjellet from afar' },
+    
+    { src: '/assets/drone_photos_optimized/0748.jpg', location: 'Norway', category: 'Nature', title: 'Seabirds of Norway' },
+    
+    { src: '/assets/drone_photos_optimized/0003_rotated.jpg', location: 'Norway', category: 'Nature', title: 'A waterfall somewhere in Northern Norway' },
+    
+    { src: '/assets/drone_photos_optimized/0896.jpg', location: 'Norway', category: 'Nature', title: 'Another view of a beach in Senja' },
+    
+    { src: '/assets/drone_photos_optimized/0894.jpg', location: 'Norway', category: 'Nature', title: 'A beach in Senja' },
+    
+    { src: '/assets/drone_photos_optimized/0881.jpg', location: 'Norway', category: 'Nature', title: 'A green path down Segla' },
+    
+    { src: '/assets/drone_photos_optimized/0895.jpg', location: 'Norway', category: 'Nature', title: 'Another beach of Senja' },
+    
+    { src: '/assets/drone_photos_optimized/0868.jpg', location: 'Norway', category: 'Nature', title: 'Husfjellet' },
     
     // Other
     { src: '/assets/drone_photos_optimized/tobermory.jpg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
