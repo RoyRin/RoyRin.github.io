@@ -128,8 +128,8 @@ for photo in "${photos[@]}"; do
     echo "DEBUG: Received title: '$title'"
     
     if [ -z "$title" ]; then
-        # Auto-generate title from filename
-        title=$(basename "$filename" | sed 's/\.[^.]*$//' | sed 's/_/ /g' | sed 's/\b\w/\U&/g')
+        # Auto-generate title from filename (remove dji prefix if present)
+        title=$(basename "$filename" | sed 's/\.[^.]*$//' | sed 's/^[Dd][Jj][Ii]_//' | sed 's/_/ /g' | sed 's/\b\w/\U&/g')
         echo "DEBUG: Auto-generated title: '$title'"
     fi
     
@@ -143,8 +143,10 @@ for photo in "${photos[@]}"; do
     category="$selected_value"
     echo "DEBUG: Selected category: '$category'"
     
-    # Generate safe filename (lowercase, underscores)
+    # Generate safe filename (lowercase, underscores, remove dji_ prefix)
     safe_filename=$(echo "$filename" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9.]/_/g' | sed 's/__*/_/g')
+    # Remove dji_ prefix if present
+    safe_filename=$(echo "$safe_filename" | sed 's/^dji_//')
     safe_name="${safe_filename%.*}"
     
     echo ""

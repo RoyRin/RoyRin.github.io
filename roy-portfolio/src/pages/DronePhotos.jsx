@@ -65,6 +65,15 @@ const DronePhotos = () => {
     
     { src: '/assets/drone_photos_optimized/0868.jpg', location: 'Norway', category: 'Nature', title: 'Segla' },
     
+    { src: '/assets/drone_photos_optimized/0650.jpg', location: 'Virginia', category: 'Industrial', title: 'Abandoned Structure' },
+    
+    { src: '/assets/drone_photos_optimized/0178.jpg', location: 'North Carolina', category: 'Beach', title: 'Beach Houses' },
+    
+    { src: '/assets/drone_photos_optimized/0604.jpg', location: 'Other', category: 'Forest', title: 'Foggy Forest' },
+    
+    { src: '/assets/drone_photos_optimized/0612.jpg', location: 'Virginia', category: 'Forest', title: 'Forest from above' },
+    
+    
     // Other
     { src: '/assets/drone_photos_optimized/tobermory.jpg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
   ];
