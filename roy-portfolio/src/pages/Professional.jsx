@@ -184,21 +184,19 @@ const Professional = () => {
       ]
     },
     {
+      title: "Laptop App Blocker",
+      description: "Simple macOS application blocker to help reduce distractions and improve productivity by blocking specified applications",
+      type: "software",
+      links: [
+        { label: "GitHub", url: "https://github.com/RoyRin/Laptop-App-Blocker" }
+      ]
+    },
+    {
       title: "ArXiv Scraper & Visualization",
       description: "Interactive graph visualization of academic paper relationships",
       type: "software",
       links: [
         { label: "GitHub", url: "#" }
-      ]
-    },
-    {
-      title: "Under the Tree",
-      year: "2019",
-      description: "2nd Assistant Camera",
-      type: "silverscreen",
-      links: [
-        { label: "Website", url: "https://underthetreeshort.com/" },
-        { label: "IMDB", url: "https://www.imdb.com/name/nm10516715/" }
       ]
     },
     {
@@ -222,6 +220,16 @@ const Professional = () => {
       pdfs: [
         { name: "MPC Explainer", url: "/assets/projects/courses/privacy_policy_2021/MPC_explainer_share.pdf" },
         { name: "Final Report", url: "/assets/projects/courses/privacy_policy_2021/privacy_policy_final.pdf" }
+      ]
+    },
+    {
+      title: "Under the Tree",
+      year: "2019",
+      description: "2nd Assistant Camera",
+      type: "silverscreen",
+      links: [
+        { label: "Website", url: "https://underthetreeshort.com/" },
+        { label: "IMDB", url: "https://www.imdb.com/name/nm10516715/" }
       ]
     }
   ];
@@ -580,7 +588,7 @@ const Professional = () => {
                       : 'bg-red-100 text-red-700 hover:bg-red-200'
                   }`}
                 >
-                  Silver Screen (Movies)
+                  Movies
                 </button>
               </div>
             </div>
