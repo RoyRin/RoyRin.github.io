@@ -7,12 +7,7 @@ const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
   
   const maintainedResources = [
-    {
-      title: "Academic Privacy Researchers in North America",
-      description: "Google sheet tracking privacy researchers",
-      link: "https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0",
-      icon: Shield
-    },
+
     {
       title: "Public-Interest Technology Resources",
       description: "Comprehensive resource list for working in public-interest tech",
@@ -33,10 +28,23 @@ const Home = () => {
       icon: Shield
     },
     {
+      title: "Internet Addiction Reduction",
+      description: "Simple App to block apps on your laptop (on Macbook)",
+      link: "https://github.com/RoyRin/Laptop-App-Blocker",
+      icon: Shield
+
+    }, 
+    {
       title: "Knee-based trivia",
       description: "Collection of knee-related trivia and facts",
       link: "https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p",
       icon: FileText
+    },
+    {
+      title: "Academic Privacy Researchers in North America",
+      description: "Google sheet tracking privacy researchers",
+      link: "https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0",
+      icon: Shield
     }
   ];
 
