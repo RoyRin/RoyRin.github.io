@@ -28,11 +28,10 @@ const Home = () => {
       icon: Shield
     },
     {
-      title: "Internet Addiction Reduction",
+      title: "Laptop App Blocker",
       description: "Simple App to block apps on your laptop (on Macbook)",
       link: "https://github.com/RoyRin/Laptop-App-Blocker",
       icon: Shield
-
     }, 
     {
       title: "Knee-based trivia",
@@ -270,6 +269,16 @@ const Home = () => {
                   >
                     (Aggressive) steps I've taken to be less addicted to the internet
                   </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://github.com/RoyRin/Laptop-App-Blocker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Laptop App Blocker
+                  </a> - Simple macOS app to block distracting applications
                 </li>
                 <li>
                   <a 
