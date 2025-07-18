@@ -267,7 +267,15 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 font-medium"
                   >
-                    A 5-minute quick start on how to use Overleaf (slides + associated youtube video)
+                    Quick start on how to use Overleaf
+                  </a> with an associated{' '}
+                  <a 
+                    href="https://youtu.be/6qHxnAOr_00"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    YouTube video
                   </a>
                 </li>
                 <li>
