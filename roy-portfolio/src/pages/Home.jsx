@@ -262,6 +262,16 @@ const Home = () => {
                 </li>
                 <li>
                   <a 
+                    href="https://docs.google.com/presentation/d/1bk4ffEKVvkgVSYf2Et1BAkSmAffH3m8w5m1wcpHkTVY/edit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    A 5-minute quick start on how to use Overleaf (slides + associated youtube video)
+                  </a>
+                </li>
+                <li>
+                  <a 
                     href="https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p"
                     target="_blank"
                     rel="noopener noreferrer"
