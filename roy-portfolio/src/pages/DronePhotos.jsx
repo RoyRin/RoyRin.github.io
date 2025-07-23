@@ -112,7 +112,7 @@ const DronePhotos = () => {
             <p className="text-sm text-gray-500 mt-4">
               Higher resolution versions available upon request.{' '}
               <a 
-                href="https://github.com/RoyRin/RoyRin.github.io/tree/master/original_website/assets/drone_photos"
+                href="https://github.com/RoyRin/RoyRin.github.io/tree/master/drone_photos"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-600 hover:text-primary-700 underline"

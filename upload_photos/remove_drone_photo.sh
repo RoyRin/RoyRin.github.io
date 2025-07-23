@@ -14,7 +14,7 @@ PHOTO_NAME="$1"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Define paths (script is now in upload_photos directory)
-ORIGINAL_PATH="$SCRIPT_DIR/../original_website/assets/drone_photos/$PHOTO_NAME"
+ORIGINAL_PATH="$SCRIPT_DIR/../drone_photos/$PHOTO_NAME"
 OPTIMIZED_PATH="$SCRIPT_DIR/../roy-portfolio/public/assets/drone_photos_optimized/$PHOTO_NAME"
 JSX_FILE="$SCRIPT_DIR/../roy-portfolio/src/pages/DronePhotos.jsx"
 
@@ -31,10 +31,10 @@ echo ""
 found_files=false
 
 if [ -f "$ORIGINAL_PATH" ]; then
-    echo "✓ Found in original_website/assets/drone_photos/"
+    echo "✓ Found in drone_photos/"
     found_files=true
 else
-    echo "✗ Not found in original_website/assets/drone_photos/"
+    echo "✗ Not found in drone_photos/"
 fi
 
 if [ -f "$OPTIMIZED_PATH" ]; then
@@ -85,9 +85,9 @@ echo ""
 if [ -f "$ORIGINAL_PATH" ]; then
     rm "$ORIGINAL_PATH"
     if [ $? -eq 0 ]; then
-        echo "✓ Removed from original_website/assets/drone_photos/"
+        echo "✓ Removed from drone_photos/"
     else
-        echo "✗ Failed to remove from original_website/assets/drone_photos/"
+        echo "✗ Failed to remove from drone_photos/"
     fi
 fi
 

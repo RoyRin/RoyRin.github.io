@@ -14,7 +14,7 @@ NC='\033[0m' # No Color
 
 # Directories
 UPLOAD_DIR="."
-ORIGINAL_DIR="../original_website/assets/drone_photos"
+ORIGINAL_DIR="../drone_photos"
 OPTIMIZED_DIR="../roy-portfolio/public/assets/drone_photos_optimized"
 COMPONENT_FILE="../roy-portfolio/src/pages/DronePhotos.jsx"
 
