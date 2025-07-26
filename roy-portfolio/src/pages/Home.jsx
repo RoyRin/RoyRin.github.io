@@ -318,6 +318,16 @@ const Home = () => {
                     Knee-based trivia
                   </a>
                 </li>
+                <li>
+                  <a 
+                    href="https://docs.google.com/document/d/1llfi530nyTob-zdJQAuNin5rYTuxWJHmoXTmkWIhoSs/edit?tab=t.0#heading=h.1wrw3d8lf0h"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    "A security organization within the AI safety space"
+                  </a> - A Google doc that I have circulated around
+                </li>
               </ul>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-6">
