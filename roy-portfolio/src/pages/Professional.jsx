@@ -174,6 +174,16 @@ const Professional = () => {
 
   const allProjects = [
     {
+      title: "Easy Dataset Share",
+      description: "Openly sharing datasets accelerates research, but it can also enable misuse that undermines safe AI development. Easy Dataset Protection makes sharing easy while adding safeguards—like account verification and usage agreements—to reduce risks and support responsible AI progress.",
+      type: "software",
+      links: [
+        { label: "GitHub", url: "https://github.com/Responsible-Dataset-Sharing/easy-dataset-share/" },
+        { label: "Blog", url: "https://turntrout.com/dataset-protection" },
+        { label: "Twitter", url: "https://x.com/Turn_Trout/status/1948628102814597605" }
+      ]
+    },
+    {
       title: "WikiRAG",
       description: "RAG (retrieval augemented generation) code gives you a RAG that directly gives you the relevant wikipedia article. It's entirely offline, so saves on requests to Wikipedia. Once a title is returned by the RAG, a request can be made to an offline store of Wikipedia, or to wikipedia directly.",
       type: "software",
