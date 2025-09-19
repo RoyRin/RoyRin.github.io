@@ -37,7 +37,8 @@ const Professional = () => {
       arxiv: "https://arxiv.org/abs/2410.23232",
       links: [
         { label: "Blog", url: "http://bit.ly/unlearning-via-datamodels" },
-        { label: "Twitter", url: "https://x.com/RoyRinberg/status/1856437062876180759" }
+        { label: "Twitter", url: "https://x.com/RoyRinberg/status/1856437062876180759" },
+        { label: "YouTube", url: "https://www.youtube.com/watch?v=R9b4pDgtVwY&ab_channel=NDIFTeam" }
       ]
     },
     {
