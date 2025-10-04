@@ -9,6 +9,19 @@ const Professional = () => {
 
   const allPapers = [
     {
+      title: "RippleBench: Capturing Ripple Effects by Leveraging Existing Knowledge Repositories (Spotlight)",
+      authors: "<u><strong>Roy Rinberg</strong></u>, Usha Bhalla, Igor Shilov, Rohit Gandikota",
+      venue: "NeurIPS 2025 Workshop on Mechanistic Interpretability (Spotlight)",
+      year: "2025",
+      type: "workshop",
+      firstAuthor: true,
+      description: "We introduce RippleBench, a benchmark for systematically measuring how interventions affect semantically related knowledge. Using RippleBench, built on top of a Wikipedia-RAG pipeline for generating multiple-choice questions, we evaluate eight state-of-the-art unlearning methods. We find that all methods exhibit non-trivial accuracy drops on topics increasingly distant from the unlearned knowledge, each with distinct propagation profiles.",
+      links: [
+        { label: "OpenReview", url: "https://openreview.net/forum?id=JTnYGSxN5k" },
+        { label: "Workshop", url: "https://mechinterpworkshop.com/" }
+      ]
+    },
+    {
       title: "Easy Data Unlearning Bench",
       authors: "<u><strong>Roy Rinberg</strong></u>*, Pol Pugidemont*, Matin Pawelczyk, Volkan Cevher",
       venue: "ICML 2025 Workshop on Machine Unlearning for Generative AI (Workshop)",
