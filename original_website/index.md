@@ -12,7 +12,7 @@ permalink: /
 
 ![Me_circa_2019]({{site.url}}/assets/profile_pic.jpg){: width="150" }{:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
-I'm Roy Rinberg. I'm a CS PhD student at Harvard, and I work on <span class="spoiler"> privacy</span> technology and *trustworthy* machine learning. I'm advised by Professor [Salil Vadhan](https://salil.seas.harvard.edu) and Seth Neel. And I'm broadly interested in [public-interest technology](https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712).
+I'm Roy Rinberg. I'm a CS PhD student at Harvard, and I work on <span class="spoiler"> privacy</span> and security in AI and *trustworthy* machine learning. I'm advised by Professor [Salil Vadhan](https://salil.seas.harvard.edu) and Professor [Boaz Barak](https://www.boazbarak.org/). 
 
 
 I maintain:
