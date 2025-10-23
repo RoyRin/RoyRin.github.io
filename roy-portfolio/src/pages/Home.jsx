@@ -70,7 +70,7 @@ const Home = () => {
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 I'm a CS PhD student at Harvard, and I work on{' '}
-                <span className="spoiler">privacy</span> technology and <em>trustworthy</em> machine learning.
+                <span className="spoiler">privacy</span> and security in AI, as well as <em>trustworthy</em> machine learning.
                 I'm advised by Professor{' '}
                 <a 
                   href="https://salil.seas.harvard.edu"
@@ -79,15 +79,16 @@ const Home = () => {
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
                   Salil Vadhan
-                </a> and Seth Neel. And I'm broadly interested in{' '}
+                </a>  and Professor{' '}
                 <a 
-                  href="https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712"
+                  href="https://www.boazbarak.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
-                  public-interest technology
-                </a>.
+                  Boaz Barak
+                </a> 
+                and Seth Neel.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
