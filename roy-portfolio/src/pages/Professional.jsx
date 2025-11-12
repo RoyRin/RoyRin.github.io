@@ -9,6 +9,19 @@ const Professional = () => {
 
   const allPapers = [
     {
+      title: "Verifying LLM Inference to Detect Model Weight Exfiltration",
+      authors: "<u><strong>Roy Rinberg</strong></u>, Adam Karvonen, Alex Hoover, Daniel Reuter, Keri Warr",
+      venue: "arXiv (Preprint)",
+      venueFull: "arXiv preprint",
+      year: "2025",
+      type: "preprint",
+      firstAuthor: true,
+      description: "A verification framework to defend against model weight exfiltration via steganography during inference.",
+      abstract: "An attacker controlling an inference server may exfiltrate model weights by hiding them within ordinary model outputs, a strategy known as steganography. This work investigates how to verify model responses to defend against such attacks and, more broadly, to detect anomalous or buggy behavior during inference. We formalize model exfiltration as a security game, propose a verification framework that can provably mitigate steganographic exfiltration, and specify its minimal trust assumptions. To enable verification, we characterize valid sources of non-determinism in large language model inference and introduce two practical estimators for them.",
+      arxiv: "https://arxiv.org/abs/2511.02620",
+      links: []
+    },
+    {
       title: "RippleBench: Capturing Ripple Effects by Leveraging Existing Knowledge Repositories (Spotlight)",
       authors: "<u><strong>Roy Rinberg</strong></u>, Usha Bhalla, Igor Shilov, Rohit Gandikota",
       venue: "NeurIPS 2025 Workshop on Mechanistic Interpretability (Spotlight)",
@@ -30,8 +43,8 @@ const Professional = () => {
       firstAuthor: true,
       description: "A comprehensive benchmark for evaluating machine unlearning methods across diverse datasets and model architectures.",
       abstract: "Evaluating machine unlearning methods remains technically challenging, with recent benchmarks requiring complex setups and significant engineering overhead. We introduce a unified and extensible benchmarking suite that simplifies the evaluation of unlearning algorithms using the KLoM (KL divergence of Margins) metric (GRP+24). Our framework provides precomputed model ensembles, oracle outputs, and streamlined infrastructure for running evaluations out of the box. By standardizing setup and metrics, it enables reproducible, scalable, and fair comparison across unlearning methods. We aim for this benchmark to serve as a practical foundation for accelerating research and promoting best practices in machine unlearning. Our code and data are publicly available.",
-      pdf: "/assets/projects/papers/data_unlearning_bench.pdf",
       links: [
+        { label: "OpenReview", url: "https://openreview.net/pdf?id=wfOzcdRtY6" },
         { label: "GitHub", url: "https://github.com/RoyRin/data-unlearning-bench/" },
         { label: "Hugging Face", url: "https://huggingface.co/datasets/royrin/KLOM-models/tree/main" },
         { label: "Workshop", url: "https://mugenworkshop.github.io/" }
