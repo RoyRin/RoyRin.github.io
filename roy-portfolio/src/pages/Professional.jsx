@@ -17,9 +17,12 @@ const Professional = () => {
       type: "preprint",
       firstAuthor: true,
       description: "A verification framework to defend against model weight exfiltration via steganography during inference.",
-      abstract: "An attacker controlling an inference server may exfiltrate model weights by hiding them within ordinary model outputs, a strategy known as steganography. This work investigates how to verify model responses to defend against such attacks and, more broadly, to detect anomalous or buggy behavior during inference. We formalize model exfiltration as a security game, propose a verification framework that can provably mitigate steganographic exfiltration, and specify its minimal trust assumptions. To enable verification, we characterize valid sources of non-determinism in large language model inference and introduce two practical estimators for them.",
+      abstract: "As large AI models become increasingly valuable assets, the risk of model weight exfiltration from inference servers grows accordingly. An attacker controlling an inference server may exfiltrate model weights by hiding them within ordinary model outputs, a strategy known as steganography. This work investigates how to verify model responses to defend against such attacks and, more broadly, to detect anomalous or buggy behavior during inference. We formalize model exfiltration as a security game, propose a verification framework that can provably mitigate steganographic exfiltration, and specify the trust assumptions associated with our scheme. To enable verification, we characterize valid sources of non-determinism in large language model inference and introduce two practical estimators for them. We evaluate our detection framework on several open-weight models ranging from 3B to 30B parameters. On MOE-Qwen-30B, our detector reduces exfiltratable information to <0.5% with false-positive rate of 0.01%, corresponding to a >200x slowdown for adversaries. Overall, this work further establishes a foundation for defending against model weight exfiltration and demonstrates that strong protection can be achieved with minimal additional cost to inference providers.",
       arxiv: "https://arxiv.org/abs/2511.02620",
-      links: []
+      links: [
+        { label: "GitHub", url: "https://github.com/RoyRin/inference_verification_for_model_weight_exfiltration" },
+        { label: "YouTube", url: "https://youtu.be/Gv0vrUiyEsU" }
+      ]
     },
     {
       title: "RippleBench: Capturing Ripple Effects by Leveraging Existing Knowledge Repositories (Spotlight)",
