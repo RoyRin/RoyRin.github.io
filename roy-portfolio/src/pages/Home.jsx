@@ -94,7 +94,7 @@ const Home = () => {
                   to="/professional"
                   className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
                 >
-                  View My Work
+                  View My Research
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </div>
