@@ -191,7 +191,7 @@ const Home = () => {
                 >
                   Technically Private
                 </a>
-                : a group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link. CS Research Master's at Columbia: I conducted research with{' '}
+                : a group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link. I did a CS Research Master's at Columbia where I conducted research with{' '}
                 <a 
                   href="https://www.rachelcummings.com"
                   target="_blank"
@@ -221,9 +221,13 @@ const Home = () => {
               <p className="text-gray-700 leading-relaxed mb-2">
                 <strong>Resources I Maintain:</strong>
               </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4 ml-2">
+                <strong>Career Guides I maintain:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-6">
                 <li>
-                  <a 
+                  <a
                     href="https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -233,7 +237,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a 
+                  <a
                     href="https://royrinberg.medium.com/resources-for-working-in-public-interest-technology-78a74e7fd712"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -242,8 +246,14 @@ const Home = () => {
                     Resource List for Working in Public-Interest Technology
                   </a>
                 </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4 ml-2">
+                <strong>Random Pedagogical things I've done:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-6">
                 <li>
-                  <a 
+                  <a
                     href="https://fascinated-zircon-5bc.notion.site/FASRC-Computing-1c14c3845c4c8046bbd6f2bac85fc067"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -251,7 +261,7 @@ const Home = () => {
                   >
                     Guide on using Slurm
                   </a> with an associated{' '}
-                  <a 
+                  <a
                     href="https://www.youtube.com/watch?v=Pak8OOLDNkQ"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -261,7 +271,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a 
+                  <a
                     href="https://docs.google.com/presentation/d/1bk4ffEKVvkgVSYf2Et1BAkSmAffH3m8w5m1wcpHkTVY/edit"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -269,7 +279,7 @@ const Home = () => {
                   >
                     Quick start on how to use Overleaf
                   </a> with an associated{' '}
-                  <a 
+                  <a
                     href="https://youtu.be/6qHxnAOr_00"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -278,8 +288,14 @@ const Home = () => {
                     YouTube video
                   </a>
                 </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4 ml-2">
+                <strong>Miscellaneous things I've made:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-6">
                 <li>
-                  <a 
+                  <a
                     href="https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -289,7 +305,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a 
+                  <a
                     href="https://github.com/RoyRin/Laptop-App-Blocker"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -299,7 +315,7 @@ const Home = () => {
                   </a> - Simple macOS app to block distracting applications
                 </li>
                 <li>
-                  <a 
+                  <a
                     href="https://docs.google.com/presentation/d/1wArCxGAAvkJcy0inWeKua3Ra7LkJDhApcso8cJ1Aon8/edit#slide=id.g1223166de6e_0_7"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -309,7 +325,7 @@ const Home = () => {
                   </a> (if you have more, please send them to me!)
                 </li>
                 <li>
-                  <a 
+                  <a
                     href="https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -319,7 +335,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a 
+                  <a
                     href="https://docs.google.com/document/d/1llfi530nyTob-zdJQAuNin5rYTuxWJHmoXTmkWIhoSs/edit?tab=t.0#heading=h.1wrw3d8lf0h"
                     target="_blank"
                     rel="noopener noreferrer"
