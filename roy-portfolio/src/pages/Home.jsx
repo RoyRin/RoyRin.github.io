@@ -222,10 +222,10 @@ const Home = () => {
                 <strong>Resources I Maintain:</strong>
               </p>
 
-              <p className="text-gray-700 leading-relaxed mb-2 mt-4 ml-2">
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
                 <strong>Career Guides I maintain:</strong>
               </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-6">
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
                 <li>
                   <a
                     href="https://docs.google.com/spreadsheets/d/1-M6Tv94S9Oa07D3ehzVkeRIAsktuIpC4hDO7gGf1ous/edit?gid=0#gid=0"
@@ -248,10 +248,10 @@ const Home = () => {
                 </li>
               </ul>
 
-              <p className="text-gray-700 leading-relaxed mb-2 mt-4 ml-2">
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
                 <strong>Random Pedagogical things I've done:</strong>
               </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-6">
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
                 <li>
                   <a
                     href="https://fascinated-zircon-5bc.notion.site/FASRC-Computing-1c14c3845c4c8046bbd6f2bac85fc067"
@@ -290,10 +290,10 @@ const Home = () => {
                 </li>
               </ul>
 
-              <p className="text-gray-700 leading-relaxed mb-2 mt-4 ml-2">
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
                 <strong>Miscellaneous things I've made:</strong>
               </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-6">
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
                 <li>
                   <a
                     href="https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p"

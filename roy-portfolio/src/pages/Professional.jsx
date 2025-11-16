@@ -307,6 +307,13 @@ const Professional = () => {
                   Download CV
                 </a>
                 <a
+                  href="/assets/resume/cv_1pager.pdf"
+                  className="inline-flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Download 1-Page CV
+                </a>
+                <a
                   href="https://www.linkedin.com/in/roy-rinberg/"
                   target="_blank"
                   rel="noopener noreferrer"
