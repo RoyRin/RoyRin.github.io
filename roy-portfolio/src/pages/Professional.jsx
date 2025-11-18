@@ -300,18 +300,11 @@ const Professional = () => {
               <p className="text-xl text-gray-600 mb-6">Research, projects, and academic contributions</p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="/assets/resume/CV.pdf"
-                  className="inline-flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
-                >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download CV
-                </a>
-                <a
                   href="/assets/resume/cv_1pager.pdf"
                   className="inline-flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
                 >
                   <Download className="w-4 h-4 mr-2" />
-                  Download 1-Page CV
+                  Download CV
                 </a>
                 <a
                   href="https://www.linkedin.com/in/roy-rinberg/"
