@@ -25,6 +25,21 @@ const Professional = () => {
       ]
     },
     {
+      title: "DiFR: Inference Verification Despite Nondeterminism",
+      authors: "Adam Karvonen, Daniel Reuter, <u><strong>Roy Rinberg</strong></u>, Luke Marks, Adrià Garriga-Alonso, Keri Warr",
+      venue: "arXiv (Preprint)",
+      venueFull: "arXiv preprint",
+      year: "2025",
+      type: "preprint",
+      firstAuthor: false,
+      description: "Token-DiFR verifies LLM inference outputs by comparing generated tokens against a trusted reference implementation.",
+      abstract: "As demand for LLM inference grows, it is becoming increasingly important that providers and their customers can verify that inference processes are performed correctly, without errors or tampering. However, re-running the same inference process twice often leads to different results due to benign numerical noise, making it difficult to distinguish legitimate variation from actual problems. To address this problem, we introduce Token-DiFR (Token-Divergence-From-Reference), a method for verifying inference outputs by comparing generated tokens against predictions made by a trusted reference implementation conditioned on the same random seed. Sampling seed synchronization tightly constrains valid outputs, leaving providers minimal room to deviate from correct inference, which allows output tokens themselves to serve as auditable evidence of correctness at zero additional cost to the provider. Token-DiFR reliably identifies sampling errors, simulated bugs, and model quantization, detecting 4-bit quantization with AUC > 0.999 within 300 output tokens. For applications requiring sample-efficient forward-pass verification, we additionally introduce Activation-DiFR, a scheme that uses random orthogonal projections to compress activations into compact fingerprints for subsequent verification. Activation-DiFR detects 4-bit quantization with AUC > 0.999 using just 2 output tokens, while reducing communication overhead by 25-75% relative to existing methods. We release an open-source integration with vLLM to accelerate practical deployment of verifiable inference.",
+      arxiv: "https://arxiv.org/abs/2511.20621",
+      links: [
+        { label: "Blog", url: "https://technicallyprivate.substack.com/p/token-difr-llm-inference-verification" }
+      ]
+    },
+    {
       title: "RippleBench: Capturing Ripple Effects by Leveraging Existing Knowledge Repositories (Spotlight)",
       authors: "<u><strong>Roy Rinberg</strong></u>, Usha Bhalla, Igor Shilov, Rohit Gandikota",
       venue: "NeurIPS 2025 Workshop on Mechanistic Interpretability (Spotlight)",
