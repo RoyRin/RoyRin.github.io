@@ -129,6 +129,21 @@ const Home = () => {
             </h2>
             
             <div className="bg-gray-50 rounded-xl p-8 mb-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">My academic research:</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Check out my{' '}
+                <Link
+                  to="/professional"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  professional page
+                </Link>{' '}
+                for my research publications and projects.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                I am grateful to be supported by a grant from Coefficient Giving/Open Philanthropy to work on robust unlearning evaluations and AI Security.
+              </p>
+
               <h3 className="text-xl font-bold text-gray-900 mb-4">Writing:</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 I'm a big proponent of{' '}
