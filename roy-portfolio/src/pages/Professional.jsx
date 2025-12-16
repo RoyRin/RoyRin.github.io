@@ -21,7 +21,8 @@ const Professional = () => {
       arxiv: "https://arxiv.org/abs/2511.02620",
       links: [
         { label: "GitHub", url: "https://github.com/RoyRin/inference_verification_for_model_weight_exfiltration" },
-        { label: "YouTube", url: "https://youtu.be/Gv0vrUiyEsU" }
+        { label: "YouTube", url: "https://youtu.be/Gv0vrUiyEsU" },
+        { label: "Blog", url: "https://www.lesswrong.com/posts/7i33FDCfcRLJbPs6u/defending-against-model-weight-exfiltration-through-1" }
       ]
     },
     {
