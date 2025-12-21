@@ -8,7 +8,7 @@ const Header = () => {
 
   const navLinks = [
     { path: '/', label: 'Home' },
-    { path: '/professional', label: 'Professional' },
+    { path: '/professional', label: 'Research' },
     { path: '/drone-photos', label: 'Drone Photos' },
     { href: 'https://technicallyprivate.substack.com/', label: 'Blog', external: true },
   ];

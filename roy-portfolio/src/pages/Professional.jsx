@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FileText, ExternalLink, Download, Github, Book, ChevronDown, ChevronUp } from 'lucide-react';
+import { FileText, ExternalLink, Download, Book, ChevronDown, ChevronUp } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const Professional = () => {
@@ -218,90 +218,6 @@ const Professional = () => {
     }
   };
 
-  const [selectedProjectFilter, setSelectedProjectFilter] = useState('all');
-
-  const allProjects = [
-    {
-      title: "Easy Dataset Share",
-      description: "Openly sharing datasets accelerates research, but it can also enable misuse that undermines safe AI development. Easy Dataset Protection makes sharing easy while adding safeguards—like account verification and usage agreements—to reduce risks and support responsible AI progress.",
-      type: "software",
-      links: [
-        { label: "GitHub", url: "https://github.com/Responsible-Dataset-Sharing/easy-dataset-share/" },
-        { label: "Blog", url: "https://turntrout.com/dataset-protection" },
-        { label: "Twitter", url: "https://x.com/Turn_Trout/status/1948628102814597605" }
-      ]
-    },
-    {
-      title: "WikiRAG",
-      description: "RAG (retrieval augemented generation) code gives you a RAG that directly gives you the relevant wikipedia article. It's entirely offline, so saves on requests to Wikipedia. Once a title is returned by the RAG, a request can be made to an offline store of Wikipedia, or to wikipedia directly.",
-      type: "software",
-      links: [
-        { label: "GitHub", url: "https://github.com/RoyRin/wiki-rag/tree/main" },
-        { label: "Hugging Face", url: "https://huggingface.co/royrin/wiki-rag" },
-        { label: "Twitter", url: "https://x.com/RoyRinsberg/status/1932163645703942342" }
-      ]
-    },
-    {
-      title: "Laptop App Blocker",
-      description: "Simple macOS application blocker to help reduce distractions and improve productivity by blocking specified applications",
-      type: "software",
-      links: [
-        { label: "GitHub", url: "https://github.com/RoyRin/Laptop-App-Blocker" }
-      ]
-    },
-    {
-      title: "ArXiv Scraper & Visualization",
-      description: "Interactive graph visualization of academic paper relationships",
-      type: "software",
-      links: [
-        { label: "GitHub", url: "#" }
-      ]
-    },
-    {
-      title: "Implementing Private RAG through a Trusted Execution Environment and Dafny-verified PathORAM system",
-      description: "Private RAG implementation using TEE and formally verified PathORAM",
-      type: "report",
-      pdf: "/assets/projects/papers/class_private_RAG.pdf"
-    },
-    {
-      title: "Blockchain Course Project",
-      year: "2021",
-      description: "Final project on decentralized systems",
-      type: "report",
-      pdf: "/assets/projects/courses/blockchains_course_2021/FOB_Project_Report.pdf"
-    },
-    {
-      title: "Privacy Policy Analysis",
-      year: "2021",
-      description: "MPC explainer and privacy policy analysis",
-      type: "report",
-      pdfs: [
-        { name: "MPC Explainer", url: "/assets/projects/courses/privacy_policy_2021/MPC_explainer_share.pdf" },
-        { name: "Final Report", url: "/assets/projects/courses/privacy_policy_2021/privacy_policy_final.pdf" }
-      ]
-    },
-    {
-      title: "Under the Tree",
-      year: "2019",
-      description: "2nd Assistant Camera",
-      type: "silverscreen",
-      links: [
-        { label: "Website", url: "https://underthetreeshort.com/" },
-        { label: "IMDB", url: "https://www.imdb.com/name/nm10516715/" }
-      ]
-    }
-  ];
-
-  const filteredProjects = selectedProjectFilter === 'all' 
-    ? allProjects 
-    : selectedProjectFilter === 'report'
-    ? allProjects.filter(project => project.type === 'report')
-    : selectedProjectFilter === 'software'
-    ? allProjects.filter(project => project.type === 'software')
-    : selectedProjectFilter === 'silverscreen'
-    ? allProjects.filter(project => project.type === 'silverscreen')
-    : allProjects.filter(project => project.type === selectedProjectFilter);
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -314,8 +230,8 @@ const Professional = () => {
             className="flex flex-col lg:flex-row lg:items-start gap-8"
           >
             <div className="flex-1">
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">Professional Work</h1>
-              <p className="text-xl text-gray-600 mb-6">Research, projects, and academic contributions</p>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">Research</h1>
+              <p className="text-xl text-gray-600 mb-6">Academic papers and contributions</p>
               <div className="flex flex-wrap gap-4">
                 <a
                   href="/assets/resume/cv_1pager.pdf"
@@ -351,13 +267,6 @@ const Professional = () => {
                 >
                   <FileText className="w-4 h-4 mr-3" />
                   Academic Papers
-                </a>
-                <a
-                  href="#projects"
-                  className="flex items-center px-3 py-2 text-primary-700 hover:bg-primary-50 rounded-lg transition-colors font-medium"
-                >
-                  <Github className="w-4 h-4 mr-3" />
-                  Projects
                 </a>
               </div>
             </motion.div>
@@ -587,162 +496,6 @@ const Professional = () => {
               ))}
               </div>
             )}
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Projects Section */}
-      <section id="projects" className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center">
-              <Github className="w-8 h-8 mr-3 text-primary-600" />
-              Projects
-            </h2>
-
-            {/* Filter Buttons */}
-            <div className="mb-8">
-              <div className="flex flex-wrap gap-2">
-                <button
-                  onClick={() => setSelectedProjectFilter('all')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                    selectedProjectFilter === 'all'
-                      ? 'bg-primary-600 text-white'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
-                >
-                  All Projects
-                </button>
-                <button
-                  onClick={() => setSelectedProjectFilter('software')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                    selectedProjectFilter === 'software'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-purple-100 text-purple-700 hover:bg-purple-200'
-                  }`}
-                >
-                  Software
-                </button>
-                <button
-                  onClick={() => setSelectedProjectFilter('report')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                    selectedProjectFilter === 'report'
-                      ? 'bg-green-600 text-white'
-                      : 'bg-green-100 text-green-700 hover:bg-green-200'
-                  }`}
-                >
-                  Reports
-                </button>
-                <button
-                  onClick={() => setSelectedProjectFilter('silverscreen')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                    selectedProjectFilter === 'silverscreen'
-                      ? 'bg-red-600 text-white'
-                      : 'bg-red-100 text-red-700 hover:bg-red-200'
-                  }`}
-                >
-                  Movies
-                </button>
-              </div>
-            </div>
-
-            {/* Projects List */}
-            <div className="space-y-6">
-              {filteredProjects.map((project, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-gray-50 rounded-lg p-6"
-                >
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold ${
-                          project.type === 'software' 
-                            ? 'bg-purple-100 text-purple-800' 
-                            : project.type === 'silverscreen'
-                            ? 'bg-red-100 text-red-800'
-                            : 'bg-green-100 text-green-800'
-                        }`}>
-                          {project.type === 'software' ? 'Software' : project.type === 'silverscreen' ? 'Silver Screen' : 'Report'}
-                        </span>
-                        {project.year && (
-                          <span className="text-gray-500 text-sm">({project.year})</span>
-                        )}
-                      </div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-3">{project.title}</h3>
-                      <p className="text-gray-600 mb-4">{project.description}</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-4">
-                    {project.pdf && (
-                      <a
-                        href={project.pdf}
-                        className="inline-flex items-center px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors font-medium"
-                      >
-                        <FileText className="w-4 h-4 mr-2" />
-                        PDF
-                      </a>
-                    )}
-                    {project.pdfs && project.pdfs.map((pdf, i) => (
-                      <a
-                        key={i}
-                        href={pdf.url}
-                        className="inline-flex items-center px-4 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors font-medium"
-                      >
-                        <FileText className="w-4 h-4 mr-2" />
-                        {pdf.name}
-                      </a>
-                    ))}
-                    {project.links && project.links.map((link, i) => {
-                      const getLinkStyle = (label) => {
-                        switch (label.toLowerCase()) {
-                          case 'blog':
-                            return 'bg-teal-100 text-teal-700 hover:bg-teal-200';
-                          case 'twitter':
-                            return 'bg-blue-100 text-blue-700 hover:bg-blue-200';
-                          case 'github':
-                            return 'bg-gray-800 text-white hover:bg-gray-900';
-                          case 'hugging face':
-                            return 'bg-yellow-100 text-yellow-700 hover:bg-yellow-200';
-                          case 'workshop':
-                            return 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200';
-                          case 'demo':
-                            return 'bg-pink-100 text-pink-700 hover:bg-pink-200';
-                          case 'imdb':
-                            return 'bg-yellow-900 text-white hover:bg-yellow-800';
-                          case 'website':
-                            return 'bg-blue-100 text-blue-700 hover:bg-blue-200';
-                          default:
-                            return 'bg-gray-100 text-gray-700 hover:bg-gray-200';
-                        }
-                      };
-                      
-                      return (
-                        <a
-                          key={i}
-                          href={link.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={`inline-flex items-center px-4 py-2 rounded-lg transition-colors font-medium ${getLinkStyle(link.label)}`}
-                        >
-                          {link.label}
-                          <ExternalLink className="w-4 h-4 ml-2" />
-                        </a>
-                      );
-                    })}
-                  </div>
-                </motion.div>
-              ))}
-            </div>
           </motion.div>
         </div>
       </section>

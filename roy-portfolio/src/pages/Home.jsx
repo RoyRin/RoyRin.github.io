@@ -68,11 +68,11 @@ const Home = () => {
               <h1 className="text-5xl font-bold text-gray-900 mb-6">
                 Hi, I'm Roy Rinberg
               </h1>
-              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+              <p className="text-xl text-gray-700 mb-4 leading-relaxed">
                 I'm a CS PhD student at Harvard, and I work on{' '}
                 <span className="spoiler">privacy</span> and security in machine learning.
                 I'm advised by Professor{' '}
-                <a 
+                <a
                   href="https://salil.seas.harvard.edu"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -80,7 +80,7 @@ const Home = () => {
                 >
                   Salil Vadhan
                 </a>  and Professor{' '}
-                <a 
+                <a
                   href="https://www.boazbarak.org/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -88,6 +88,9 @@ const Home = () => {
                 >
                   Boaz Barak
                 </a>.
+              </p>
+              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+                I am supported by a grant from Coefficient Giving (previously Open Philanthropy).
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -136,12 +139,9 @@ const Home = () => {
                   to="/professional"
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
-                  professional page
+                  research page
                 </Link>{' '}
-                for my research publications and projects.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                I am grateful to be supported by a grant from Coefficient Giving/Open Philanthropy to work on robust unlearning evaluations and AI Security.
+                for my research publications.
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 mb-4">Writing:</h3>
@@ -362,11 +362,57 @@ const Home = () => {
               </ul>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-6">
+                <strong>Projects I've done:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a
+                    href="https://github.com/Responsible-Dataset-Sharing/easy-dataset-share/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Easy Dataset Share
+                  </a> - Sharing datasets with safeguards for responsible AI progress
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/RoyRin/wiki-rag/tree/main"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    WikiRAG
+                  </a> - Offline RAG that returns relevant Wikipedia articles
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/RoyRin/Laptop-App-Blocker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Laptop App Blocker
+                  </a> - Simple macOS app to block distracting applications
+                </li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/name/nm10516715/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Under the Tree
+                  </a> - 2nd Assistant Camera (short film)
+                </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-6">
                 <strong>My hobbies:</strong>
               </p>
               <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
                 <li>
-                  <a 
+                  <a
                     href="https://technicallyprivate.substack.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -376,7 +422,7 @@ const Home = () => {
                   </a>!
                 </li>
                 <li>
-                  <Link 
+                  <Link
                     to="/drone-photos"
                     className="text-primary-600 hover:text-primary-700 font-medium"
                   >
@@ -385,7 +431,7 @@ const Home = () => {
                 </li>
                 <li>
                   <span className="line-through text-gray-500">Frisbee</span> <span className="line-through text-gray-500">Climbing</span> <span className="line-through text-gray-500">Triathloning</span>{' '}
-                  <a 
+                  <a
                     href="https://en.wikipedia.org/wiki/Hardcourt_Bike_Polo"
                     target="_blank"
                     rel="noopener noreferrer"
