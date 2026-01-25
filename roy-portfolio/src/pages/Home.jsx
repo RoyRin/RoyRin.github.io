@@ -90,7 +90,15 @@ const Home = () => {
                 </a>.
               </p>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                I am supported by a grant from Coefficient Giving (previously Open Philanthropy).
+                I lost my PhD funding in the{' '}
+                <a
+                  href="https://www.thecrimson.com/article/2025/4/15/funding-freeze-april-trump/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Harvard funding cuts
+                </a>. I am now supported by a grant from Coefficient Giving (previously Open Philanthropy).
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -195,18 +203,9 @@ const Home = () => {
                 . I strongly recommend this organization.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Communities/groups I have been a part of</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Past  Communities</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                I created and organize the group{' '}
-                <a 
-                  href="https://www.technicallyprivate.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  Technically Private
-                </a>
-                : a group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link. I did a CS Research Master's at Columbia where I conducted research with{' '}
+                I did a CS Research Master's at Columbia where I conducted research with{' '}
                 <a 
                   href="https://www.rachelcummings.com"
                   target="_blank"
@@ -230,12 +229,129 @@ const Home = () => {
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
                   Ouster
-                </a>, a lidar company.
+                </a>, a lidar company.  I created and organize the group{' '}
+                <a 
+                  href="https://www.technicallyprivate.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Technically Private
+                </a>
+                : a group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link. 
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-2">
-                <strong>Resources I Maintain:</strong>
+                <strong>Things I've done:</strong>
               </p>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
+                <strong>Teaching:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a
+                    href="https://www.lesswrong.com/posts/gcFB2RT5vpKHbH4ic/reflections-on-ta-ing-harvard-s-first-ai-safety-course"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Reflections on TA-ing Harvard's first AI Safety course
+                  </a>
+                </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
+                <strong>Projects I've done:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a
+                    href="https://github.com/Responsible-Dataset-Sharing/easy-dataset-share/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Easy Dataset Share
+                  </a> - Sharing datasets with safeguards for responsible AI progress
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/RoyRin/wiki-rag/tree/main"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    WikiRAG
+                  </a> - Offline RAG that returns relevant Wikipedia articles
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/RoyRin/Laptop-App-Blocker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Laptop App Blocker
+                  </a> - Simple macOS app to block distracting applications
+                </li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/name/nm10516715/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Under the Tree
+                  </a> - 2nd Assistant Camera (short film)
+                </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
+                <strong>Miscellaneous things I've made:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a
+                    href="https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    (Aggressive) steps I've taken to be less addicted to the internet
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.google.com/presentation/d/1wArCxGAAvkJcy0inWeKua3Ra7LkJDhApcso8cJ1Aon8/edit#slide=id.g1223166de6e_0_7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    List of how organizations advertise privacy
+                  </a> (if you have more, please send them to me!)
+                </li>
+                <li>
+                  <a
+                    href="https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Knee-based trivia
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.google.com/document/d/1llfi530nyTob-zdJQAuNin5rYTuxWJHmoXTmkWIhoSs/edit?tab=t.0#heading=h.1wrw3d8lf0h"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    "A security organization within the AI safety space"
+                  </a> - A Google doc that I have circulated around
+                </li>
+              </ul>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-4">
                 <strong>Career Guides I maintain:</strong>
@@ -302,108 +418,6 @@ const Home = () => {
                   >
                     YouTube video
                   </a>
-                </li>
-              </ul>
-
-              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
-                <strong>Miscellaneous things I've made:</strong>
-              </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>
-                  <a
-                    href="https://docs.google.com/presentation/d/11ZJdjvSWC22nw8pm7j8gEiv8ZjuhaDv9klX1x3hzmC0/edit?slide=id.p#slide=id.p"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    (Aggressive) steps I've taken to be less addicted to the internet
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/RoyRin/Laptop-App-Blocker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Laptop App Blocker
-                  </a> - Simple macOS app to block distracting applications
-                </li>
-                <li>
-                  <a
-                    href="https://docs.google.com/presentation/d/1wArCxGAAvkJcy0inWeKua3Ra7LkJDhApcso8cJ1Aon8/edit#slide=id.g1223166de6e_0_7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    List of how organizations advertise privacy
-                  </a> (if you have more, please send them to me!)
-                </li>
-                <li>
-                  <a
-                    href="https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Knee-based trivia
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://docs.google.com/document/d/1llfi530nyTob-zdJQAuNin5rYTuxWJHmoXTmkWIhoSs/edit?tab=t.0#heading=h.1wrw3d8lf0h"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    "A security organization within the AI safety space"
-                  </a> - A Google doc that I have circulated around
-                </li>
-              </ul>
-
-              <p className="text-gray-700 leading-relaxed mb-2 mt-6">
-                <strong>Projects I've done:</strong>
-              </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>
-                  <a
-                    href="https://github.com/Responsible-Dataset-Sharing/easy-dataset-share/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Easy Dataset Share
-                  </a> - Sharing datasets with safeguards for responsible AI progress
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/RoyRin/wiki-rag/tree/main"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    WikiRAG
-                  </a> - Offline RAG that returns relevant Wikipedia articles
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/RoyRin/Laptop-App-Blocker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Laptop App Blocker
-                  </a> - Simple macOS app to block distracting applications
-                </li>
-                <li>
-                  <a
-                    href="https://www.imdb.com/name/nm10516715/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Under the Tree
-                  </a> - 2nd Assistant Camera (short film)
                 </li>
               </ul>
 
