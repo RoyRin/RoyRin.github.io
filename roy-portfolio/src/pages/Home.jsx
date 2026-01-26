@@ -129,7 +129,6 @@ const Home = () => {
             </h2>
             
             <div className="bg-gray-50 rounded-xl p-8 mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">My academic research:</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Check out my{' '}
                 <Link
@@ -139,8 +138,6 @@ const Home = () => {
                   research page
                 </Link>{' '}
                 for my research publications.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
                 I lost my PhD funding in the{' '}
                 <a
                   href="https://www.thecrimson.com/article/2025/4/15/funding-freeze-april-trump/"
@@ -150,30 +147,11 @@ const Home = () => {
                 >
                   Harvard funding cuts
                 </a>. I am now supported by a grant from Coefficient Giving (previously Open Philanthropy).
-              </p>
-
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Being helpful</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
                 I enjoy communicating my work and talking with individuals who want to learn more about computer science research and academia. As someone who pivoted from industry to academia, I'm particularly sympathetic to the difficulties in such a transition; so especially if you're in industry and trying to enter academia, please don't hesitate to reach out.
               </p>
-
-              <p className="text-gray-700 leading-relaxed mb-6">
-                I used to help young Ukrainian students applying to universities, with{' '}
-                <a 
-                  href="https://mentorukraine.bravegeneration.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  MentorUkraine
-                </a>
-                . I strongly recommend this organization.
-              </p>
-
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Past  Communities</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
                 I did a CS Research Master's at Columbia where I conducted research with{' '}
-                <a 
+                <a
                   href="https://www.rachelcummings.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -181,7 +159,7 @@ const Home = () => {
                 >
                   Professor Rachel Cummings
                 </a> and{' '}
-                <a 
+                <a
                   href="https://www.cs.columbia.edu/~smb/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -189,23 +167,14 @@ const Home = () => {
                 >
                   Professor Steven Bellovin
                 </a> on Private ML. I was an early-stage software engineer for 3 years at{' '}
-                <a 
+                <a
                   href="https://www.ouster.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
                   Ouster
-                </a>, a lidar company.  I created and organize the group{' '}
-                <a 
-                  href="https://www.technicallyprivate.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  Technically Private
-                </a>
-                : a group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining - send a request to the above link. 
+                </a>, a lidar company.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-2">
@@ -225,6 +194,32 @@ const Home = () => {
                   >
                     Reflections on TA-ing Harvard's first AI Safety course
                   </a>
+                </li>
+              </ul>
+
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
+                <strong>Volunteering:</strong>
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a
+                    href="https://www.technicallyprivate.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Technically Private
+                  </a> - A group of <em>mostly</em> graduate students across many universities, who talk about Privacy and Security. If you're interested in joining, send a request to the above link.
+                </li>
+                <li>
+                  <a
+                    href="https://mentorukraine.bravegeneration.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    MentorUkraine
+                  </a> - I used to help young Ukrainian students applying to universities. I strongly recommend this organization.
                 </li>
               </ul>
 
