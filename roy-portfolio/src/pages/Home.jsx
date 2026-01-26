@@ -68,7 +68,7 @@ const Home = () => {
               <h1 className="text-5xl font-bold text-gray-900 mb-6">
                 Hi, I'm Roy Rinberg
               </h1>
-              <p className="text-xl text-gray-700 mb-4 leading-relaxed">
+              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                 I'm a CS PhD student at Harvard, and I work on{' '}
                 <span className="spoiler">privacy</span> and security in machine learning.
                 I'm advised by Professor{' '}
@@ -88,17 +88,6 @@ const Home = () => {
                 >
                   Boaz Barak
                 </a>.
-              </p>
-              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                I lost my PhD funding in the{' '}
-                <a
-                  href="https://www.thecrimson.com/article/2025/4/15/funding-freeze-april-trump/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  Harvard funding cuts
-                </a>. I am now supported by a grant from Coefficient Giving (previously Open Philanthropy).
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
@@ -151,38 +140,16 @@ const Home = () => {
                 </Link>{' '}
                 for my research publications.
               </p>
-
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Writing:</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I'm a big proponent of{' '}
-                <a 
-                  href="https://www.swyx.io/learn-in-public/"
+                I lost my PhD funding in the{' '}
+                <a
+                  href="https://www.thecrimson.com/article/2025/4/15/funding-freeze-april-trump/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-600 hover:text-primary-700 font-medium"
                 >
-                  learning in public
-                </a>
-                . Writing helps me clarify my thoughts and share knowledge with the community.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                I sometimes write about public-interest tech and privacy on{' '}
-                <a 
-                  href="https://technicallyprivate.substack.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  substack
-                </a> or{' '}
-                <a 
-                  href="https://royrinberg.medium.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  Medium
-                </a>.
+                  Harvard funding cuts
+                </a>. I am now supported by a grant from Coefficient Giving (previously Open Philanthropy).
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 mb-4">Being helpful</h3>
@@ -420,6 +387,39 @@ const Home = () => {
                   </a>
                 </li>
               </ul>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4 mt-6">Writing:</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                I'm a big proponent of{' '}
+                <a
+                  href="https://www.swyx.io/learn-in-public/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  learning in public
+                </a>
+                . Writing helps me clarify my thoughts and share knowledge with the community.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                I sometimes write about public-interest tech and privacy on{' '}
+                <a
+                  href="https://technicallyprivate.substack.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  substack
+                </a> or{' '}
+                <a
+                  href="https://royrinberg.medium.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Medium
+                </a>.
+              </p>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-6">
                 <strong>My hobbies:</strong>
