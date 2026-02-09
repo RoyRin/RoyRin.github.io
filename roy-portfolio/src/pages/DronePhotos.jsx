@@ -74,6 +74,10 @@ const DronePhotos = () => {
     { src: '/assets/drone_photos_optimized/0612.jpg', location: 'Virginia', category: 'Forest', title: 'Forest from above' },
     
     
+    { src: '/assets/drone_photos_optimized/0477.jpg', location: 'Adirondacks (Lake Placid)', category: 'Winter', title: 'ADK_icy_river' },
+    
+    { src: '/assets/drone_photos_optimized/0476.jpg', location: 'Adirondacks (Lake Placid)', category: 'Winter', title: 'ADK Wooded House' },
+    
     // Other
     { src: '/assets/drone_photos_optimized/tobermory.jpg', location: 'Tobermory', category: 'Landscape', title: 'Tobermory Aerial' }
   ];
