@@ -130,26 +130,9 @@ const Home = () => {
             
             <div className="bg-gray-50 rounded-xl p-8 mb-8">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Check out my{' '}
-                <Link
-                  to="/professional"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  research page
-                </Link>{' '}
-                for my research publications.
-                I lost my PhD funding in the{' '}
-                <a
-                  href="https://www.thecrimson.com/article/2025/4/15/funding-freeze-april-trump/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  Harvard funding cuts
-                </a>. I am now supported by a grant from Coefficient Giving (previously Open Philanthropy).
                 I enjoy communicating my work and talking with individuals who want to learn more about computer science research and academia. As someone who pivoted from industry to academia, I'm particularly sympathetic to the difficulties in such a transition; so especially if you're in industry and trying to enter academia, please don't hesitate to reach out.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-4">
                 I did a CS Research Master's at Columbia where I conducted research with{' '}
                 <a
                   href="https://www.rachelcummings.com"
@@ -175,6 +158,26 @@ const Home = () => {
                 >
                   Ouster
                 </a>, a lidar company.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                For the sake of sharing difficulties with other PhDs and prospective students: I actually lost my PhD funding in the{' '}
+                <a
+                  href="https://www.thecrimson.com/article/2025/4/15/funding-freeze-april-trump/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  Harvard funding cuts
+                </a>.
+                 I'm supported by a grant from Coefficient Giving (previously Open Philanthropy).
+                Check out my{' '}
+                <Link
+                  to="/professional"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  research page
+                </Link>{' '}
+                for my research publications.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-2">
