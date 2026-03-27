@@ -65,29 +65,24 @@ const Projects = () => {
 
           <div className="space-y-6">
             {projects.map((project, index) => (
-              <motion.div
+              <motion.a
                 key={project.title}
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
-                className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow"
+                className="block bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow cursor-pointer"
               >
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
                     <p className="text-gray-600">{project.description}</p>
                   </div>
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 ml-4 flex-shrink-0"
-                    aria-label={`View ${project.title}`}
-                  >
-                    <ExternalLink className="w-5 h-5" />
-                  </a>
+                  <ExternalLink className="w-5 h-5 text-primary-600 ml-4 flex-shrink-0" />
                 </div>
-              </motion.div>
+              </motion.a>
             ))}
           </div>
         </motion.div>
