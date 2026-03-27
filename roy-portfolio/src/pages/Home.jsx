@@ -164,14 +164,6 @@ const Home = () => {
                   Harvard funding cuts
                 </a>.
                  I'm supported by a grant from Coefficient Giving (previously Open Philanthropy).
-                Check out my{' '}
-                <Link
-                  to="/professional"
-                  className="text-primary-600 hover:text-primary-700 font-medium"
-                >
-                  research page
-                </Link>{' '}
-                for my research publications.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-2">
