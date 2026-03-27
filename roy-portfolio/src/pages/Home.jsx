@@ -28,12 +28,6 @@ const Home = () => {
       icon: Shield
     },
     {
-      title: "Laptop App Blocker",
-      description: "Simple App to block apps on your laptop (on Macbook)",
-      link: "https://github.com/RoyRin/Laptop-App-Blocker",
-      icon: Shield
-    }, 
-    {
       title: "Knee-based trivia",
       description: "Collection of knee-related trivia and facts",
       link: "https://docs.google.com/presentation/d/1zW7Huh_dClm8sshkAHaHmejCTIiOBY5Lltb767cj2fc/edit?slide=id.p#slide=id.p",
@@ -198,6 +192,7 @@ const Home = () => {
                     Reflections on TA-ing Harvard's first AI Safety course
                   </a>
                 </li>
+                <li>Head TF for CS1200 (Intro to Algorithms)</li>
               </ul>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-4">
@@ -226,51 +221,6 @@ const Home = () => {
                 </li>
               </ul>
 
-              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
-                <strong>Projects I've done:</strong>
-              </p>
-              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
-                <li>
-                  <a
-                    href="https://github.com/Responsible-Dataset-Sharing/easy-dataset-share/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Easy Dataset Share
-                  </a> - Sharing datasets with safeguards for responsible AI progress
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/RoyRin/wiki-rag/tree/main"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    WikiRAG
-                  </a> - Offline RAG that returns relevant Wikipedia articles
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/RoyRin/Laptop-App-Blocker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Laptop App Blocker
-                  </a> - Simple macOS app to block distracting applications
-                </li>
-                <li>
-                  <a
-                    href="https://www.imdb.com/name/nm10516715/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 font-medium"
-                  >
-                    Under the Tree
-                  </a> - 2nd Assistant Camera (short film)
-                </li>
-              </ul>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-4">
                 <strong>Miscellaneous things I've made:</strong>
@@ -315,6 +265,16 @@ const Home = () => {
                   >
                     "A security organization within the AI safety space"
                   </a> - A Google doc that I have circulated around
+                </li>
+                <li>
+                  <a
+                    href="https://www.imdb.com/name/nm10516715/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Under the Tree
+                  </a> - 2nd Assistant Camera (short film)
                 </li>
               </ul>
 

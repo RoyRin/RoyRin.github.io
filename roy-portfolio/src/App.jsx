@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Professional from './pages/Professional';
 import DronePhotos from './pages/DronePhotos';
+import Projects from './pages/Projects';
 
 function Analytics() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="professional" element={<Professional />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="drone-photos" element={<DronePhotos />} />
         </Route>
       </Routes>
