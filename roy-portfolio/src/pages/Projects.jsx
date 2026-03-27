@@ -24,7 +24,7 @@ const Projects = () => {
       link: "https://steganography.royrinberg.com/"
     },
     {
-      title: "LaTeX Viewer",
+      title: "LaTeX Renderer",
       description: "Write LaTeX mathematical expressions and convert them into rendered PNG or SVG images",
       link: "https://latex.royrinberg.com/"
     },
