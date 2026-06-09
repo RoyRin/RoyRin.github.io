@@ -38,7 +38,8 @@ const Professional = () => {
       arxiv: "https://arxiv.org/abs/2511.02620",
       links: [
         { label: "GitHub", url: "https://github.com/RoyRin/inference_verification_for_model_weight_exfiltration" },
-        { label: "YouTube", url: "https://youtu.be/Gv0vrUiyEsU" },
+        { label: "YouTube (UK AISI Alignment Conference)", url: "https://youtu.be/Gv0vrUiyEsU" },
+        { label: "AViD workshop Conference", url: "https://www.youtube.com/watch?v=JOq1IbiBR58&list=PLpvkFqYJXcrdMuk0zgy0x6RWn8Ssq3R5v&index=5" },
         { label: "Blog", url: "https://www.lesswrong.com/posts/7i33FDCfcRLJbPs6u/defending-against-model-weight-exfiltration-through-1" }
       ]
     },
