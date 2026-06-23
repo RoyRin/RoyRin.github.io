@@ -189,6 +189,21 @@ const Professional = () => {
       type: "preprint",
       arxiv: "https://arxiv.org/abs/2102.12382",
       links: []
+    },
+    {
+      title: "Towards a Trusted Third Party (in a Box): Enabling Third-Party Auditing and Verifiably-Scoped Monitoring with an LLM in a Trusted Execution Environment",
+      authors: "<u><strong>Roy Rinberg</strong></u>",
+      venue: "Preprint",
+      venueFull: "Preprint",
+      year: "2025",
+      type: "preprint",
+      firstAuthor: true,
+      description: "A trusted-third-party-in-a-box: an open-source LLM in a trusted execution environment that runs mutually-agreed-upon commands over private data, enabling verifiably-scoped monitoring (ZDR-lite) and recurring third-party auditing.",
+      abstract: "We built a trusted-third-party-in-a-box: an open-source LLM, running inside a trusted execution environment (TEE), that executes commands two parties have agreed on over private data that not all of them can see. A monitor can prove it's checking for exactly what it claims, and nothing else. We develop two near-term applications: verifiably-scoped monitoring, a relaxation of zero-data-retention we call ZDR-lite; and recurring third-party auditing. We release an open-source implementation that runs in a real TEE, with a live demo.",
+      pdf: "/assets/papers/privacy_preserving_monitoring_blog.pdf",
+      links: [
+        { label: "Demo", url: "https://auditor-in-a-box.royrinberg.com/" }
+      ]
     }
   ];
 
