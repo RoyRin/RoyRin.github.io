@@ -211,6 +211,25 @@ const Home = () => {
                     MentorUkraine
                   </a> - I used to help young Ukrainian students applying to universities. I strongly recommend this organization.
                 </li>
+                <li>
+                  I was a mentor for{' '}
+                  <a
+                    href="https://www.lesswrong.com/posts/uWYk7MM9hAf9GEbGe/auditor-in-a-box-tools-for-third-party-auditing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    SPAR (Supervised Program for Alignment Research)
+                  </a>, working with mentees on tools for third-party auditing (
+                  <a
+                    href="https://openreview.net/pdf?id=AWZJq6O7Cj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    OpenReview paper
+                  </a>).
+                </li>
               </ul>
 
 
@@ -383,7 +402,15 @@ const Home = () => {
                     className="text-primary-600 hover:text-primary-700 font-medium"
                   >
                     Writing, ideally
-                  </a>!
+                  </a>! I also write about AI safety on{' '}
+                  <a
+                    href="https://www.lesswrong.com/users/roy-rinberg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    LessWrong
+                  </a>.
                 </li>
                 <li>
                   <Link

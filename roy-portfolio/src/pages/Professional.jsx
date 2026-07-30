@@ -7,6 +7,33 @@ const Professional = () => {
   const [expandedAbstracts, setExpandedAbstracts] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
+  const workInTheWild = [
+    {
+      org: "Amodo",
+      title: "Inference Verification Prototype",
+      description: "Amodo built and wrote up a prototype exploring inference verification, building on this work.",
+      links: [
+        { label: "Amodo Notes", url: "https://amododesign.com/notes/2026-06-29-inference-verification-prototype/" }
+      ]
+    },
+    {
+      org: "Singapore AI Safety Hub",
+      title: "Making AI Verification International",
+      description: "The Singapore AI Safety Hub wrote about international approaches to AI verification.",
+      links: [
+        { label: "Blog Post", url: "https://www.aisafety.sg/blog/making-ai-verification-international" }
+      ]
+    },
+    {
+      org: "Ulyssean",
+      title: "Securing AI Inference at Scale",
+      description: "Ulyssean produced a demo exploring securing AI inference at scale.",
+      links: [
+        { label: "Demo Video", url: "https://demo.ulyssean.com/video/securing-ai-inference-at-scale-0if1" }
+      ]
+    }
+  ];
+
   const allPapers = [
     {
       title: "Haiku to Opus in Just 10 bits: LLMs Unlock Massive Compression Gains",
@@ -301,8 +328,65 @@ const Professional = () => {
                   <FileText className="w-4 h-4 mr-3" />
                   Academic Papers
                 </a>
+                <a
+                  href="#work-in-the-wild"
+                  className="flex items-center px-3 py-2 text-primary-700 hover:bg-primary-50 rounded-lg transition-colors font-medium"
+                >
+                  <ExternalLink className="w-4 h-4 mr-3" />
+                  Work in the Wild
+                </a>
               </div>
             </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Work in the Wild Section */}
+      <section id="work-in-the-wild" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 flex items-center">
+              <ExternalLink className="w-8 h-8 mr-3 text-primary-600" />
+              Work in the Wild
+            </h2>
+            <p className="text-gray-600 mb-8">
+              My inference verification research has been independently picked up and explored by other groups:
+            </p>
+            <div className="space-y-6">
+              {workInTheWild.map((item, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+                >
+                  <p className="text-primary-700 font-semibold mb-1">{item.org}</p>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h4>
+                  <p className="text-gray-700 mb-4">{item.description}</p>
+                  <div className="flex flex-wrap gap-4">
+                    {item.links.map((link, linkIndex) => (
+                      <a
+                        key={linkIndex}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-4 py-2 bg-teal-100 text-teal-700 rounded-lg hover:bg-teal-200 transition-colors font-medium"
+                      >
+                        {link.label}
+                        <ExternalLink className="w-4 h-4 ml-2" />
+                      </a>
+                    ))}
+                  </div>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>
