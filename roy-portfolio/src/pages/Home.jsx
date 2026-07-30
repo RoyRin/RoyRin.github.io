@@ -232,6 +232,52 @@ const Home = () => {
                 </li>
               </ul>
 
+              <p className="text-gray-700 leading-relaxed mb-2 mt-4">
+                <strong>In the Wild:</strong>
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-2 ml-4">
+                My{' '}
+                <a
+                  href="https://arxiv.org/abs/2511.02620"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-600 hover:text-primary-700 font-medium"
+                >
+                  work
+                </a> on inference verification has been independently picked up and explored by:
+              </p>
+              <ul className="text-gray-700 leading-relaxed space-y-2 ml-4">
+                <li>
+                  <a
+                    href="https://amododesign.com/notes/2026-06-29-inference-verification-prototype/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Amodo
+                  </a> - built and wrote up a prototype exploring inference verification.
+                </li>
+                <li>
+                  <a
+                    href="https://www.aisafety.sg/blog/making-ai-verification-international"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Singapore AI Safety Hub
+                  </a> - wrote about international approaches to AI verification.
+                </li>
+                <li>
+                  <a
+                    href="https://demo.ulyssean.com/video/securing-ai-inference-at-scale-0if1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-700 font-medium"
+                  >
+                    Ulyssean
+                  </a> - produced a demo exploring securing AI inference at scale.
+                </li>
+              </ul>
 
               <p className="text-gray-700 leading-relaxed mb-2 mt-4">
                 <strong>Miscellaneous things I've made:</strong>
